@@ -8,8 +8,18 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Folre;FarRight",
-            "speak;Folre;A thousand years mastering the blade."
+            "add_portrait;{unit};FarRight",
+            "speak;{unit};A thousand years mastering the blade.",
+            "",
+            "",
+            "",
+            "C",
+            "",
+            "",
+            "",
+            "A",
+            "",
+            ""
         ],
         "nid": "Global WRANK_B_W"
     }

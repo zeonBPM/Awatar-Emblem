@@ -3,13 +3,21 @@
         "name": "WRANK_N_W",
         "trigger": "unit_weapon_rank_up",
         "level_nid": null,
-        "condition": "unit.nid == 'Folre' and weapon_type == 'Bow' and rank == 'A'",
+        "condition": "unit.nid == 'Nelad' and weapon_type == 'Bow' and rank == 'A'",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Folre;FarRight",
-            "speak;Folre;A thousand years mastering the blade."
+            "add_portrait;{unit};FarRight",
+            "speak;{unit};A thousand years mastering the blade.",
+            "",
+            "",
+            "C",
+            "",
+            "",
+            "A",
+            "",
+            ""
         ],
         "nid": "Global WRANK_N_W"
     }

@@ -8,8 +8,21 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Folre;FarRight",
-            "speak;Folre;A thousand years mastering the blade."
+            "add_portrait;{unit};FarRight",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "speak;{unit};A thousand years mastering the blade.",
+            "",
+            "C   I feel confident to try some of those meteoric blades the army comissioned",
+            "",
+            "A   The fang, i feel it calling me",
+            "",
+            "",
+            ""
         ],
         "nid": "Global WRANK_F_W"
     }
