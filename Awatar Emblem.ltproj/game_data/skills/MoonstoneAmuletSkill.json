@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "MoonstoneAmuletSkill",
+        "name": "Moonstone Amulet",
+        "desc": "Increases Resistance and Magic by +4",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        4
+                    ],
+                    [
+                        "RES",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Fire2",
+        "name": "Vaporizing Rebellion Fireblade",
+        "desc": "Adds MAG to unit's damage when initiating attacks.\nOnly works with melee weapons. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "condition",
+                "item_system.weapon_type(unit, item) == 'Sword' or 'Axe' or 'Lance'"
+            ],
+            [
+                "dynamic_damage",
+                "unit.get_stat('MAG') if (mode == 'attack' or mode == 'splash') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

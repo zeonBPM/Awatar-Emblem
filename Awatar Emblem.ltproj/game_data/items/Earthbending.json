@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Earthbending",
+        "name": "Earthbending",
+        "desc": "The millenary art of moving earth.\nTargets DEF",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "multi_item",
+                [
+                    "EarthE",
+                    "EarthD",
+                    "EarthC",
+                    "EarthB",
+                    "EarthA",
+                    "EarthS"
+                ]
+            ],
+            [
+                "multi_item_hides_unavailable",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Bramar"
+                ]
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    }
+]

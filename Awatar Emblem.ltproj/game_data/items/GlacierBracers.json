@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "GlacierBracers",
+        "name": "new_8",
+        "desc": "Ice-crafted armguards that strengthen the body. (Increases Defense and Resistance to magic.)",
+        "icon_nid": "Brave Knuckle {VelvetKitsune, LordGlenn}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "GlacierBracersSkill"
+            ]
+        ]
+    }
+]

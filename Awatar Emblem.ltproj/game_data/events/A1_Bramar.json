@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Bramar",
+        "trigger": "Visit",
+        "level_nid": "A1",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Bramar;Left;Nelad;Right",
+            "",
+            "speak;Bramar;An Airbender?{w}Well, aren't you all supposed to be...{w} y'know... gone?",
+            "",
+            "speak;Nelad;We are,{w} thanks to your guests over there.",
+            "",
+            "bop_portrait;Bramar",
+            "speak;Bramar;I will throw them out soon enough.{w} What about you, Airbender?{br}Thought your kind didn't fight.",
+            "",
+            "bop_portrait;Nelad",
+            "speak;Nelad;We didn't and because of{br}that my friends lie dead,{w} my home is ash.|{clear}What good is a vow of peace{w} when there's no one left to keep it?",
+            "",
+            "speak;Bramar;And are you now seeking revenge or something?",
+            "bop_portrait;Nelad",
+            "mirror_portrait;Nelad;3",
+            "mirror_portrait;Nelad;3",
+            "speak;Nelad;It's not about revenge.|I just won't let them take any more.",
+            "expression;Bramar;Smile",
+            "speak;Bramar; Good enough for me.{w} I'll hold the front.You take out their archers.",
+            "expression;Nelad;Smile",
+            "bop_portrait;Nelad",
+            "speak;Nelad;\u2028Then let's move.",
+            "multi_remove_portrait;Bramar;Nelad",
+            "add_unit;Bramar;Nelad;immediate;closest"
+        ],
+        "nid": "A1 Bramar"
+    }
+]

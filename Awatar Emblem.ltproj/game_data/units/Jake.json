@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Jake",
+        "name": "Jake",
+        "desc": "items: prf seige tome with lasting aoe any units inside the aoe on endstep get blazing stacks and take more fire damage, elfire, psychic skills: aura that gives enemies a stack of blazing on endstep",
+        "variant": null,
+        "level": 1,
+        "klass": "Valkyrie",
+        "tags": [],
+        "bases": {
+            "SPD": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "HP": 0,
+            "RES": 0,
+            "DEF": 0,
+            "STR": 0,
+            "MAG": 0
+        },
+        "growths": {
+            "SPD": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "HP": 0,
+            "RES": 0,
+            "DEF": 0,
+            "STR": 0,
+            "MAG": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "HP": 0,
+            "RES": 0,
+            "DEF": 0,
+            "STR": 0,
+            "MAG": 0
+        },
+        "starting_items": [
+            [
+                "FireD2",
+                false
+            ],
+            [
+                "FireE",
+                false
+            ],
+            [
+                "FireB2",
+                false
+            ],
+            [
+                "EmberPendant",
+                true
+            ],
+            [
+                "SpiritLantert",
+                true
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "AWorldAblaze"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    }
+]

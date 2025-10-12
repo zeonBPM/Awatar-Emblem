@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "TerraEmblem",
+        "name": "new_13",
+        "desc": "A family crest carved into stone, granting the wearer unshakable resolve. (Increases Defense and prevents Knockback effects.)",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            19
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "TerraEmblemSkill"
+            ]
+        ]
+    }
+]

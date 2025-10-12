@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "EarthbendingE",
+        "name": "EarthbendingE",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "EarthE"
+            ],
+            [
+                "menu_category",
+                "<olive-green>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

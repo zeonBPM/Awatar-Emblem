@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "ObstructAura",
+        "name": "Obstruct Aura***",
+        "desc": "Enemies can only attack this unit within melee range.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "aura",
+                "ObstructChild"
+            ],
+            [
+                "aura_range",
+                10
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ],
+            [
+                "show_aura",
+                [
+                    128,
+                    0,
+                    0
+                ]
+            ]
+        ]
+    }
+]

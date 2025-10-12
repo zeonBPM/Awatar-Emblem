@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Vendor",
+        "trigger": "Vendor",
+        "level_nid": "A2",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "If Nelad",
+            "    give",
+            "   Bramar",
+            "    give",
+            "   Anael",
+            "    give"
+        ],
+        "nid": "A2 Vendor"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "Sunblade",
+        "name": "Sunblade",
+        "desc": "A straight blade forged from volcanic metal, designed for both quick stabs and powerful slashes. When swung, it leaves behind a trail of fire.\nCauses burning.\n",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "status_on_hit",
+                "Burning"
+            ]
+        ]
+    }
+]

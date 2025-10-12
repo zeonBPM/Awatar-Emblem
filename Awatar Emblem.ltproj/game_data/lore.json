@@ -1,0 +1,93 @@
+[
+    {
+        "nid": "Eirika",
+        "name": "Eirika",
+        "title": "Eirika",
+        "category": "Character",
+        "text": "Eirika is the princess of Renais, only daughter of King Fado of Renais, and the younger twin sister of Prince Ephraim."
+    },
+    {
+        "nid": "Seth",
+        "name": "Seth",
+        "title": "Seth",
+        "category": "Character",
+        "text": "Seth is a brave and clever knight of Renais and serves as protector and advisor to Eirika and Ephraim. He is better known as the Silver Knight."
+    },
+    {
+        "nid": "Ephraim",
+        "name": "Ephraim",
+        "title": "Ephraim",
+        "category": "Character",
+        "text": "Ephraim is the crown prince of Renais and Eirika's older twin brother.{br}\nHe is a headstrong and determined man whose skill with a Lance is unsurpassed by any other in his country, having been taught by Duessel."
+    },
+    {
+        "nid": "Nelad",
+        "name": "Nelad",
+        "title": "Nelad",
+        "category": "Character",
+        "text": ""
+    },
+    {
+        "nid": "Bramar",
+        "name": "Bramar",
+        "title": "Bramar",
+        "category": "Character",
+        "text": ""
+    },
+    {
+        "nid": "Anael",
+        "name": "Anael",
+        "title": "Anael",
+        "category": "Character",
+        "text": ""
+    },
+    {
+        "nid": "Folre",
+        "name": "Folre",
+        "title": "Folre",
+        "category": "Character",
+        "text": ""
+    },
+    {
+        "nid": "Bending",
+        "name": "Bending",
+        "title": "Bending",
+        "category": "Guide",
+        "text": "Air>Water>Earth>Fire>Air"
+    },
+    {
+        "nid": "FireNation",
+        "name": "Fire Nation",
+        "title": "FireNation",
+        "category": "Character",
+        "text": ""
+    },
+    {
+        "nid": "Prince",
+        "name": "Prince",
+        "title": "Prince",
+        "category": "Character",
+        "text": ""
+    },
+    {
+        "nid": "Spirit",
+        "name": "Spirit",
+        "title": "Spirit",
+        "category": "Character",
+        "text": ""
+    },
+    {
+        "nid": "Juro",
+        "name": "Juro",
+        "title": "Juro",
+        "category": "Character",
+        "text": ""
+    },
+    {
+        "nid": "Adriana",
+        "name": "Adriana",
+        "title": "Adriana",
+        "category": "Character",
+        "text": ""
+    }
+]

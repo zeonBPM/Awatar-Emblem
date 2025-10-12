@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FirebendingC",
+        "name": "FirebendingC",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "FireC"
+            ],
+            [
+                "menu_category",
+                "<orange>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

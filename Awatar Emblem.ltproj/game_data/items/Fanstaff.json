@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Fanstaff",
+        "name": "Fan Staff",
+        "desc": "+2 SPD",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "equippable_accessory",
+                null
+            ]
+        ]
+    }
+]

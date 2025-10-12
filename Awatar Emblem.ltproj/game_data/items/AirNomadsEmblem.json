@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "AirNomadsEmblem",
+        "name": "AirNomadsEmblem",
+        "desc": "bonus growths",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            20
+        ],
+        "components": []
+    }
+]

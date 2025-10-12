@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "WaterbendingA",
+        "name": "WaterbendingA",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "ability",
+                "WaterA"
+            ],
+            [
+                "menu_category",
+                "<blue>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

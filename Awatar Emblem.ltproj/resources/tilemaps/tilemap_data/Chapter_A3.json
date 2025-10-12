@@ -1,0 +1,4279 @@
+[
+    {
+        "nid": "Chapter A3",
+        "size": [
+            32,
+            19
+        ],
+        "autotile_fps": 29,
+        "layers": [
+            {
+                "nid": "base",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "7,17": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            17
+                        ]
+                    ],
+                    "18,17": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            17
+                        ]
+                    ],
+                    "27,4": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            4
+                        ]
+                    ],
+                    "8,0": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            0
+                        ]
+                    ],
+                    "19,0": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            0
+                        ]
+                    ],
+                    "27,13": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            13
+                        ]
+                    ],
+                    "8,9": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            9
+                        ]
+                    ],
+                    "19,9": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            9
+                        ]
+                    ],
+                    "0,5": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "11,5": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            5
+                        ]
+                    ],
+                    "8,18": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            18
+                        ]
+                    ],
+                    "19,18": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            18
+                        ]
+                    ],
+                    "0,14": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            14
+                        ]
+                    ],
+                    "11,14": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "4,2": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            2
+                        ]
+                    ],
+                    "22,10": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            10
+                        ]
+                    ],
+                    "3,6": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            6
+                        ]
+                    ],
+                    "3,15": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            15
+                        ]
+                    ],
+                    "14,15": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            15
+                        ]
+                    ],
+                    "15,7": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            7
+                        ]
+                    ],
+                    "26,7": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            7
+                        ]
+                    ],
+                    "7,3": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            3
+                        ]
+                    ],
+                    "18,3": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            3
+                        ]
+                    ],
+                    "15,16": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            16
+                        ]
+                    ],
+                    "26,16": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            16
+                        ]
+                    ],
+                    "7,12": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            12
+                        ]
+                    ],
+                    "18,12": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            12
+                        ]
+                    ],
+                    "27,8": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            8
+                        ]
+                    ],
+                    "8,4": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            4
+                        ]
+                    ],
+                    "19,4": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            4
+                        ]
+                    ],
+                    "0,0": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "11,0": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            0
+                        ]
+                    ],
+                    "0,9": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            9
+                        ]
+                    ],
+                    "11,9": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            9
+                        ]
+                    ],
+                    "25,11": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            11
+                        ]
+                    ],
+                    "22,5": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            5
+                        ]
+                    ],
+                    "3,1": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "14,1": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            1
+                        ]
+                    ],
+                    "22,14": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            14
+                        ]
+                    ],
+                    "3,10": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            10
+                        ]
+                    ],
+                    "14,10": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            10
+                        ]
+                    ],
+                    "15,2": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            2
+                        ]
+                    ],
+                    "26,2": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            2
+                        ]
+                    ],
+                    "15,11": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            11
+                        ]
+                    ],
+                    "26,11": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            11
+                        ]
+                    ],
+                    "7,7": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            7
+                        ]
+                    ],
+                    "18,7": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            7
+                        ]
+                    ],
+                    "7,16": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            16
+                        ]
+                    ],
+                    "18,16": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            16
+                        ]
+                    ],
+                    "29,13": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            13
+                        ]
+                    ],
+                    "21,18": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            18
+                        ]
+                    ],
+                    "11,4": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            4
+                        ]
+                    ],
+                    "10,8": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            8
+                        ]
+                    ],
+                    "25,6": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            6
+                        ]
+                    ],
+                    "10,17": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            17
+                        ]
+                    ],
+                    "2,13": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            13
+                        ]
+                    ],
+                    "25,15": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            15
+                        ]
+                    ],
+                    "22,0": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            0
+                        ]
+                    ],
+                    "22,9": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            9
+                        ]
+                    ],
+                    "3,5": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            5
+                        ]
+                    ],
+                    "14,5": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            5
+                        ]
+                    ],
+                    "22,18": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            18
+                        ]
+                    ],
+                    "3,14": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            14
+                        ]
+                    ],
+                    "14,14": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            14
+                        ]
+                    ],
+                    "15,6": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            6
+                        ]
+                    ],
+                    "26,6": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            6
+                        ]
+                    ],
+                    "7,2": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            2
+                        ]
+                    ],
+                    "18,2": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            2
+                        ]
+                    ],
+                    "7,11": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            11
+                        ]
+                    ],
+                    "18,11": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            11
+                        ]
+                    ],
+                    "29,8": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            8
+                        ]
+                    ],
+                    "6,15": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            15
+                        ]
+                    ],
+                    "29,17": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            17
+                        ]
+                    ],
+                    "21,13": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            13
+                        ]
+                    ],
+                    "10,3": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            3
+                        ]
+                    ],
+                    "25,1": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            1
+                        ]
+                    ],
+                    "10,12": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            12
+                        ]
+                    ],
+                    "2,8": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            8
+                        ]
+                    ],
+                    "25,10": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            10
+                        ]
+                    ],
+                    "2,17": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            17
+                        ]
+                    ],
+                    "22,4": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            4
+                        ]
+                    ],
+                    "3,0": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            0
+                        ]
+                    ],
+                    "14,0": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            0
+                        ]
+                    ],
+                    "22,13": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            13
+                        ]
+                    ],
+                    "3,9": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            9
+                        ]
+                    ],
+                    "14,9": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            9
+                        ]
+                    ],
+                    "3,18": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            18
+                        ]
+                    ],
+                    "14,18": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            18
+                        ]
+                    ],
+                    "26,1": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            1
+                        ]
+                    ],
+                    "29,3": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            3
+                        ]
+                    ],
+                    "6,10": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            10
+                        ]
+                    ],
+                    "29,12": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            12
+                        ]
+                    ],
+                    "21,8": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            8
+                        ]
+                    ],
+                    "21,17": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            17
+                        ]
+                    ],
+                    "10,7": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            7
+                        ]
+                    ],
+                    "2,3": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "25,5": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            5
+                        ]
+                    ],
+                    "10,16": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            16
+                        ]
+                    ],
+                    "2,12": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            12
+                        ]
+                    ],
+                    "25,14": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            14
+                        ]
+                    ],
+                    "22,8": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            8
+                        ]
+                    ],
+                    "3,4": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            4
+                        ]
+                    ],
+                    "14,4": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            4
+                        ]
+                    ],
+                    "17,6": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            6
+                        ]
+                    ],
+                    "28,6": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            6
+                        ]
+                    ],
+                    "17,15": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            15
+                        ]
+                    ],
+                    "28,15": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            15
+                        ]
+                    ],
+                    "9,11": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            11
+                        ]
+                    ],
+                    "6,5": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            5
+                        ]
+                    ],
+                    "29,7": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            7
+                        ]
+                    ],
+                    "21,3": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            3
+                        ]
+                    ],
+                    "6,14": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            14
+                        ]
+                    ],
+                    "29,16": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            16
+                        ]
+                    ],
+                    "21,12": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            12
+                        ]
+                    ],
+                    "10,2": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            2
+                        ]
+                    ],
+                    "25,0": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            0
+                        ]
+                    ],
+                    "10,11": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            11
+                        ]
+                    ],
+                    "2,7": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            7
+                        ]
+                    ],
+                    "25,9": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            9
+                        ]
+                    ],
+                    "2,16": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            16
+                        ]
+                    ],
+                    "13,13": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            13
+                        ]
+                    ],
+                    "24,13": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            13
+                        ]
+                    ],
+                    "16,18": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            18
+                        ]
+                    ],
+                    "17,1": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            1
+                        ]
+                    ],
+                    "28,1": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            1
+                        ]
+                    ],
+                    "5,8": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            8
+                        ]
+                    ],
+                    "17,10": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            10
+                        ]
+                    ],
+                    "28,10": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            10
+                        ]
+                    ],
+                    "9,6": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            6
+                        ]
+                    ],
+                    "5,17": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            17
+                        ]
+                    ],
+                    "9,15": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            15
+                        ]
+                    ],
+                    "6,0": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "29,2": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            2
+                        ]
+                    ],
+                    "6,9": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            9
+                        ]
+                    ],
+                    "29,11": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            11
+                        ]
+                    ],
+                    "21,7": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            7
+                        ]
+                    ],
+                    "6,18": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "21,16": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            16
+                        ]
+                    ],
+                    "10,6": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            6
+                        ]
+                    ],
+                    "2,2": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "2,11": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            11
+                        ]
+                    ],
+                    "13,8": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            8
+                        ]
+                    ],
+                    "24,8": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            8
+                        ]
+                    ],
+                    "1,15": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "13,17": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            17
+                        ]
+                    ],
+                    "24,17": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            17
+                        ]
+                    ],
+                    "16,13": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            13
+                        ]
+                    ],
+                    "5,3": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            3
+                        ]
+                    ],
+                    "17,5": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            5
+                        ]
+                    ],
+                    "28,5": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            5
+                        ]
+                    ],
+                    "9,1": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            1
+                        ]
+                    ],
+                    "5,12": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            12
+                        ]
+                    ],
+                    "17,14": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            14
+                        ]
+                    ],
+                    "28,14": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            14
+                        ]
+                    ],
+                    "9,10": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            10
+                        ]
+                    ],
+                    "6,4": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            4
+                        ]
+                    ],
+                    "29,6": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            6
+                        ]
+                    ],
+                    "21,2": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            2
+                        ]
+                    ],
+                    "6,13": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            13
+                        ]
+                    ],
+                    "20,15": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            15
+                        ]
+                    ],
+                    "13,3": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            3
+                        ]
+                    ],
+                    "24,3": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            3
+                        ]
+                    ],
+                    "1,10": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "13,12": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            12
+                        ]
+                    ],
+                    "24,12": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            12
+                        ]
+                    ],
+                    "16,8": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            8
+                        ]
+                    ],
+                    "16,17": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            17
+                        ]
+                    ],
+                    "17,0": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            0
+                        ]
+                    ],
+                    "28,0": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            0
+                        ]
+                    ],
+                    "5,7": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            7
+                        ]
+                    ],
+                    "17,9": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            9
+                        ]
+                    ],
+                    "28,9": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            9
+                        ]
+                    ],
+                    "9,5": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            5
+                        ]
+                    ],
+                    "5,16": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            16
+                        ]
+                    ],
+                    "28,18": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            18
+                        ]
+                    ],
+                    "9,14": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "20,1": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            1
+                        ]
+                    ],
+                    "20,10": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            10
+                        ]
+                    ],
+                    "12,6": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            6
+                        ]
+                    ],
+                    "23,6": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            6
+                        ]
+                    ],
+                    "12,15": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            15
+                        ]
+                    ],
+                    "23,15": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            15
+                        ]
+                    ],
+                    "4,11": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            11
+                        ]
+                    ],
+                    "1,5": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "13,7": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "24,7": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            7
+                        ]
+                    ],
+                    "16,3": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            3
+                        ]
+                    ],
+                    "1,14": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            14
+                        ]
+                    ],
+                    "13,16": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            16
+                        ]
+                    ],
+                    "24,16": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            16
+                        ]
+                    ],
+                    "16,12": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            12
+                        ]
+                    ],
+                    "5,2": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            2
+                        ]
+                    ],
+                    "17,4": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            4
+                        ]
+                    ],
+                    "28,4": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            4
+                        ]
+                    ],
+                    "9,0": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            0
+                        ]
+                    ],
+                    "5,11": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            11
+                        ]
+                    ],
+                    "9,9": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            9
+                        ]
+                    ],
+                    "27,17": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            17
+                        ]
+                    ],
+                    "8,13": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            13
+                        ]
+                    ],
+                    "19,13": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            13
+                        ]
+                    ],
+                    "0,18": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            18
+                        ]
+                    ],
+                    "11,18": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            18
+                        ]
+                    ],
+                    "20,5": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            5
+                        ]
+                    ],
+                    "12,1": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            1
+                        ]
+                    ],
+                    "23,1": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            1
+                        ]
+                    ],
+                    "20,14": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            14
+                        ]
+                    ],
+                    "12,10": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            10
+                        ]
+                    ],
+                    "23,10": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            10
+                        ]
+                    ],
+                    "4,6": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "4,15": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            15
+                        ]
+                    ],
+                    "1,0": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "13,2": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "24,2": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            2
+                        ]
+                    ],
+                    "1,9": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "13,11": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            11
+                        ]
+                    ],
+                    "24,11": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            11
+                        ]
+                    ],
+                    "16,7": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            7
+                        ]
+                    ],
+                    "1,18": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            18
+                        ]
+                    ],
+                    "16,16": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            16
+                        ]
+                    ],
+                    "5,6": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            6
+                        ]
+                    ],
+                    "18,8": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            8
+                        ]
+                    ],
+                    "27,3": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            3
+                        ]
+                    ],
+                    "27,12": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            12
+                        ]
+                    ],
+                    "8,8": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            8
+                        ]
+                    ],
+                    "19,8": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            8
+                        ]
+                    ],
+                    "0,4": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,17": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            17
+                        ]
+                    ],
+                    "19,17": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            17
+                        ]
+                    ],
+                    "0,13": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            13
+                        ]
+                    ],
+                    "11,13": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            13
+                        ]
+                    ],
+                    "20,0": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            0
+                        ]
+                    ],
+                    "20,9": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            9
+                        ]
+                    ],
+                    "12,5": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            5
+                        ]
+                    ],
+                    "23,5": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            5
+                        ]
+                    ],
+                    "20,18": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            18
+                        ]
+                    ],
+                    "4,1": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            1
+                        ]
+                    ],
+                    "12,14": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            14
+                        ]
+                    ],
+                    "23,14": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            14
+                        ]
+                    ],
+                    "4,10": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            10
+                        ]
+                    ],
+                    "1,4": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "24,6": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            6
+                        ]
+                    ],
+                    "16,2": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            2
+                        ]
+                    ],
+                    "1,13": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            13
+                        ]
+                    ],
+                    "15,15": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            15
+                        ]
+                    ],
+                    "26,15": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            15
+                        ]
+                    ],
+                    "27,7": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            7
+                        ]
+                    ],
+                    "8,3": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            3
+                        ]
+                    ],
+                    "19,3": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            3
+                        ]
+                    ],
+                    "27,16": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            16
+                        ]
+                    ],
+                    "8,12": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            12
+                        ]
+                    ],
+                    "19,12": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            12
+                        ]
+                    ],
+                    "0,8": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            8
+                        ]
+                    ],
+                    "11,8": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            8
+                        ]
+                    ],
+                    "0,17": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            17
+                        ]
+                    ],
+                    "11,17": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            17
+                        ]
+                    ],
+                    "20,4": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            4
+                        ]
+                    ],
+                    "12,0": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            0
+                        ]
+                    ],
+                    "23,0": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            0
+                        ]
+                    ],
+                    "20,13": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            13
+                        ]
+                    ],
+                    "12,9": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            9
+                        ]
+                    ],
+                    "23,9": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            9
+                        ]
+                    ],
+                    "4,5": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            5
+                        ]
+                    ],
+                    "23,18": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            18
+                        ]
+                    ],
+                    "4,14": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            14
+                        ]
+                    ],
+                    "15,1": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            1
+                        ]
+                    ],
+                    "15,10": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            10
+                        ]
+                    ],
+                    "26,10": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            10
+                        ]
+                    ],
+                    "7,6": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            6
+                        ]
+                    ],
+                    "18,6": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            6
+                        ]
+                    ],
+                    "7,15": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            15
+                        ]
+                    ],
+                    "18,15": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            15
+                        ]
+                    ],
+                    "27,2": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            2
+                        ]
+                    ],
+                    "27,11": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            11
+                        ]
+                    ],
+                    "8,7": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "19,7": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            7
+                        ]
+                    ],
+                    "0,3": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "11,3": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            3
+                        ]
+                    ],
+                    "8,16": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            16
+                        ]
+                    ],
+                    "19,16": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            16
+                        ]
+                    ],
+                    "0,12": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            12
+                        ]
+                    ],
+                    "11,12": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            12
+                        ]
+                    ],
+                    "12,4": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            4
+                        ]
+                    ],
+                    "23,4": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            4
+                        ]
+                    ],
+                    "4,0": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "4,9": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            9
+                        ]
+                    ],
+                    "22,17": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            17
+                        ]
+                    ],
+                    "3,13": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            13
+                        ]
+                    ],
+                    "14,13": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            13
+                        ]
+                    ],
+                    "15,5": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            5
+                        ]
+                    ],
+                    "26,5": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            5
+                        ]
+                    ],
+                    "7,1": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            1
+                        ]
+                    ],
+                    "18,1": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            1
+                        ]
+                    ],
+                    "15,14": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            14
+                        ]
+                    ],
+                    "26,14": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            14
+                        ]
+                    ],
+                    "7,10": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            10
+                        ]
+                    ],
+                    "18,10": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            10
+                        ]
+                    ],
+                    "27,6": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            6
+                        ]
+                    ],
+                    "8,2": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            2
+                        ]
+                    ],
+                    "19,2": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            2
+                        ]
+                    ],
+                    "8,11": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            11
+                        ]
+                    ],
+                    "19,11": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            11
+                        ]
+                    ],
+                    "0,7": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            7
+                        ]
+                    ],
+                    "11,7": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            7
+                        ]
+                    ],
+                    "0,16": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            16
+                        ]
+                    ],
+                    "11,16": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            16
+                        ]
+                    ],
+                    "25,18": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            18
+                        ]
+                    ],
+                    "22,3": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            3
+                        ]
+                    ],
+                    "22,12": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            12
+                        ]
+                    ],
+                    "3,8": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            8
+                        ]
+                    ],
+                    "14,8": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            8
+                        ]
+                    ],
+                    "3,17": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            17
+                        ]
+                    ],
+                    "14,17": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            17
+                        ]
+                    ],
+                    "15,0": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            0
+                        ]
+                    ],
+                    "26,0": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            0
+                        ]
+                    ],
+                    "15,9": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            9
+                        ]
+                    ],
+                    "26,9": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            9
+                        ]
+                    ],
+                    "7,5": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            5
+                        ]
+                    ],
+                    "18,5": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            5
+                        ]
+                    ],
+                    "15,18": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            18
+                        ]
+                    ],
+                    "26,18": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            18
+                        ]
+                    ],
+                    "7,14": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            14
+                        ]
+                    ],
+                    "18,14": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            14
+                        ]
+                    ],
+                    "27,1": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            1
+                        ]
+                    ],
+                    "19,6": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            6
+                        ]
+                    ],
+                    "0,2": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            2
+                        ]
+                    ],
+                    "11,2": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            2
+                        ]
+                    ],
+                    "25,4": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            4
+                        ]
+                    ],
+                    "10,15": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "25,13": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            13
+                        ]
+                    ],
+                    "22,7": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            7
+                        ]
+                    ],
+                    "3,3": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            3
+                        ]
+                    ],
+                    "14,3": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            3
+                        ]
+                    ],
+                    "22,16": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            16
+                        ]
+                    ],
+                    "3,12": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            12
+                        ]
+                    ],
+                    "14,12": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            12
+                        ]
+                    ],
+                    "15,4": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            4
+                        ]
+                    ],
+                    "26,4": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            4
+                        ]
+                    ],
+                    "7,0": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            0
+                        ]
+                    ],
+                    "18,0": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            0
+                        ]
+                    ],
+                    "15,13": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            13
+                        ]
+                    ],
+                    "26,13": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            13
+                        ]
+                    ],
+                    "7,9": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            9
+                        ]
+                    ],
+                    "18,9": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            9
+                        ]
+                    ],
+                    "18,18": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "29,15": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            15
+                        ]
+                    ],
+                    "21,11": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            11
+                        ]
+                    ],
+                    "10,1": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            1
+                        ]
+                    ],
+                    "10,10": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            10
+                        ]
+                    ],
+                    "2,6": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "25,8": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            8
+                        ]
+                    ],
+                    "2,15": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            15
+                        ]
+                    ],
+                    "25,17": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            17
+                        ]
+                    ],
+                    "22,2": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            2
+                        ]
+                    ],
+                    "22,11": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            11
+                        ]
+                    ],
+                    "3,7": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            7
+                        ]
+                    ],
+                    "14,7": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            7
+                        ]
+                    ],
+                    "3,16": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            16
+                        ]
+                    ],
+                    "14,16": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            16
+                        ]
+                    ],
+                    "17,18": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            18
+                        ]
+                    ],
+                    "7,4": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            4
+                        ]
+                    ],
+                    "18,4": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            4
+                        ]
+                    ],
+                    "29,1": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            1
+                        ]
+                    ],
+                    "26,12": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            12
+                        ]
+                    ],
+                    "6,8": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            8
+                        ]
+                    ],
+                    "29,10": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            10
+                        ]
+                    ],
+                    "21,6": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "6,17": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            17
+                        ]
+                    ],
+                    "21,15": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            15
+                        ]
+                    ],
+                    "10,5": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            5
+                        ]
+                    ],
+                    "2,1": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            1
+                        ]
+                    ],
+                    "25,3": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            3
+                        ]
+                    ],
+                    "10,14": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "2,10": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            10
+                        ]
+                    ],
+                    "25,12": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            12
+                        ]
+                    ],
+                    "22,6": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            6
+                        ]
+                    ],
+                    "3,2": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            2
+                        ]
+                    ],
+                    "14,2": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            2
+                        ]
+                    ],
+                    "3,11": [
+                        "Chapter 3 temple",
+                        [
+                            3,
+                            11
+                        ]
+                    ],
+                    "14,11": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            11
+                        ]
+                    ],
+                    "17,13": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            13
+                        ]
+                    ],
+                    "28,13": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            13
+                        ]
+                    ],
+                    "9,18": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            18
+                        ]
+                    ],
+                    "6,3": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            3
+                        ]
+                    ],
+                    "29,5": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            5
+                        ]
+                    ],
+                    "21,1": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            1
+                        ]
+                    ],
+                    "6,12": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            12
+                        ]
+                    ],
+                    "29,14": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            14
+                        ]
+                    ],
+                    "21,10": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            10
+                        ]
+                    ],
+                    "10,0": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            0
+                        ]
+                    ],
+                    "10,9": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            9
+                        ]
+                    ],
+                    "2,5": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            5
+                        ]
+                    ],
+                    "25,7": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            7
+                        ]
+                    ],
+                    "10,18": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            18
+                        ]
+                    ],
+                    "2,14": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            14
+                        ]
+                    ],
+                    "25,16": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            16
+                        ]
+                    ],
+                    "22,1": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            1
+                        ]
+                    ],
+                    "14,6": [
+                        "Chapter 3 temple",
+                        [
+                            14,
+                            6
+                        ]
+                    ],
+                    "17,8": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            8
+                        ]
+                    ],
+                    "28,8": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            8
+                        ]
+                    ],
+                    "9,4": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            4
+                        ]
+                    ],
+                    "5,15": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            15
+                        ]
+                    ],
+                    "17,17": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            17
+                        ]
+                    ],
+                    "28,17": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            17
+                        ]
+                    ],
+                    "9,13": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            13
+                        ]
+                    ],
+                    "29,0": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            0
+                        ]
+                    ],
+                    "6,7": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            7
+                        ]
+                    ],
+                    "29,9": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            9
+                        ]
+                    ],
+                    "21,5": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            5
+                        ]
+                    ],
+                    "6,16": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            16
+                        ]
+                    ],
+                    "29,18": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            18
+                        ]
+                    ],
+                    "21,14": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            14
+                        ]
+                    ],
+                    "10,4": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            4
+                        ]
+                    ],
+                    "2,0": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            0
+                        ]
+                    ],
+                    "25,2": [
+                        "Chapter 3 temple",
+                        [
+                            25,
+                            2
+                        ]
+                    ],
+                    "10,13": [
+                        "Chapter 3 temple",
+                        [
+                            10,
+                            13
+                        ]
+                    ],
+                    "2,9": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            9
+                        ]
+                    ],
+                    "13,6": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            6
+                        ]
+                    ],
+                    "2,18": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            18
+                        ]
+                    ],
+                    "13,15": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            15
+                        ]
+                    ],
+                    "24,15": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            15
+                        ]
+                    ],
+                    "16,11": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            11
+                        ]
+                    ],
+                    "5,1": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            1
+                        ]
+                    ],
+                    "17,3": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            3
+                        ]
+                    ],
+                    "28,3": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            3
+                        ]
+                    ],
+                    "5,10": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            10
+                        ]
+                    ],
+                    "17,12": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            12
+                        ]
+                    ],
+                    "28,12": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            12
+                        ]
+                    ],
+                    "9,8": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            8
+                        ]
+                    ],
+                    "9,17": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            17
+                        ]
+                    ],
+                    "6,2": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            2
+                        ]
+                    ],
+                    "29,4": [
+                        "Chapter 3 temple",
+                        [
+                            29,
+                            4
+                        ]
+                    ],
+                    "21,0": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            0
+                        ]
+                    ],
+                    "6,11": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            11
+                        ]
+                    ],
+                    "21,9": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            9
+                        ]
+                    ],
+                    "12,18": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            18
+                        ]
+                    ],
+                    "2,4": [
+                        "Chapter 3 temple",
+                        [
+                            2,
+                            4
+                        ]
+                    ],
+                    "13,1": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            1
+                        ]
+                    ],
+                    "24,1": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            1
+                        ]
+                    ],
+                    "1,8": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "13,10": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            10
+                        ]
+                    ],
+                    "24,10": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            10
+                        ]
+                    ],
+                    "16,6": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            6
+                        ]
+                    ],
+                    "1,17": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            17
+                        ]
+                    ],
+                    "16,15": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            15
+                        ]
+                    ],
+                    "5,5": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            5
+                        ]
+                    ],
+                    "17,7": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            7
+                        ]
+                    ],
+                    "28,7": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            7
+                        ]
+                    ],
+                    "9,3": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            3
+                        ]
+                    ],
+                    "5,14": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "17,16": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            16
+                        ]
+                    ],
+                    "28,16": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            16
+                        ]
+                    ],
+                    "9,12": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            12
+                        ]
+                    ],
+                    "6,6": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            6
+                        ]
+                    ],
+                    "21,4": [
+                        "Chapter 3 temple",
+                        [
+                            21,
+                            4
+                        ]
+                    ],
+                    "20,8": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            8
+                        ]
+                    ],
+                    "20,17": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "12,13": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "23,13": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            13
+                        ]
+                    ],
+                    "4,18": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            18
+                        ]
+                    ],
+                    "1,3": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "13,5": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            5
+                        ]
+                    ],
+                    "24,5": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            5
+                        ]
+                    ],
+                    "16,1": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            1
+                        ]
+                    ],
+                    "1,12": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "13,14": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            14
+                        ]
+                    ],
+                    "24,14": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            14
+                        ]
+                    ],
+                    "16,10": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            10
+                        ]
+                    ],
+                    "5,0": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            0
+                        ]
+                    ],
+                    "17,2": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            2
+                        ]
+                    ],
+                    "28,2": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            2
+                        ]
+                    ],
+                    "5,9": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            9
+                        ]
+                    ],
+                    "17,11": [
+                        "Chapter 3 temple",
+                        [
+                            17,
+                            11
+                        ]
+                    ],
+                    "28,11": [
+                        "Chapter 3 temple",
+                        [
+                            28,
+                            11
+                        ]
+                    ],
+                    "9,7": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            7
+                        ]
+                    ],
+                    "5,18": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            18
+                        ]
+                    ],
+                    "9,16": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            16
+                        ]
+                    ],
+                    "27,15": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            15
+                        ]
+                    ],
+                    "6,1": [
+                        "Chapter 3 temple",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "20,3": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            3
+                        ]
+                    ],
+                    "20,12": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            12
+                        ]
+                    ],
+                    "12,8": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            8
+                        ]
+                    ],
+                    "23,8": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            8
+                        ]
+                    ],
+                    "4,4": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    "12,17": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            17
+                        ]
+                    ],
+                    "23,17": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            17
+                        ]
+                    ],
+                    "4,13": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            13
+                        ]
+                    ],
+                    "13,0": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            0
+                        ]
+                    ],
+                    "24,0": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            0
+                        ]
+                    ],
+                    "1,7": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "13,9": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            9
+                        ]
+                    ],
+                    "24,9": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "16,5": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            5
+                        ]
+                    ],
+                    "1,16": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            16
+                        ]
+                    ],
+                    "13,18": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            18
+                        ]
+                    ],
+                    "24,18": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            18
+                        ]
+                    ],
+                    "16,14": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            14
+                        ]
+                    ],
+                    "5,4": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            4
+                        ]
+                    ],
+                    "9,2": [
+                        "Chapter 3 temple",
+                        [
+                            9,
+                            2
+                        ]
+                    ],
+                    "5,13": [
+                        "Chapter 3 temple",
+                        [
+                            5,
+                            13
+                        ]
+                    ],
+                    "27,10": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            10
+                        ]
+                    ],
+                    "8,6": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            6
+                        ]
+                    ],
+                    "8,15": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            15
+                        ]
+                    ],
+                    "19,15": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            15
+                        ]
+                    ],
+                    "0,11": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            11
+                        ]
+                    ],
+                    "11,11": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            11
+                        ]
+                    ],
+                    "20,7": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            7
+                        ]
+                    ],
+                    "12,3": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            3
+                        ]
+                    ],
+                    "23,3": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            3
+                        ]
+                    ],
+                    "20,16": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            16
+                        ]
+                    ],
+                    "12,12": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            12
+                        ]
+                    ],
+                    "23,12": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            12
+                        ]
+                    ],
+                    "4,8": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            8
+                        ]
+                    ],
+                    "4,17": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            17
+                        ]
+                    ],
+                    "1,2": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "13,4": [
+                        "Chapter 3 temple",
+                        [
+                            13,
+                            4
+                        ]
+                    ],
+                    "24,4": [
+                        "Chapter 3 temple",
+                        [
+                            24,
+                            4
+                        ]
+                    ],
+                    "16,0": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            0
+                        ]
+                    ],
+                    "1,11": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            11
+                        ]
+                    ],
+                    "16,9": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            9
+                        ]
+                    ],
+                    "7,18": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            18
+                        ]
+                    ],
+                    "27,5": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            5
+                        ]
+                    ],
+                    "8,1": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            1
+                        ]
+                    ],
+                    "19,1": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            1
+                        ]
+                    ],
+                    "27,14": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            14
+                        ]
+                    ],
+                    "8,10": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            10
+                        ]
+                    ],
+                    "19,10": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            10
+                        ]
+                    ],
+                    "0,6": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            6
+                        ]
+                    ],
+                    "11,6": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            6
+                        ]
+                    ],
+                    "0,15": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            15
+                        ]
+                    ],
+                    "11,15": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            15
+                        ]
+                    ],
+                    "20,2": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            2
+                        ]
+                    ],
+                    "20,11": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            11
+                        ]
+                    ],
+                    "12,7": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            7
+                        ]
+                    ],
+                    "23,7": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            7
+                        ]
+                    ],
+                    "4,3": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            3
+                        ]
+                    ],
+                    "12,16": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            16
+                        ]
+                    ],
+                    "23,16": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            16
+                        ]
+                    ],
+                    "4,12": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            12
+                        ]
+                    ],
+                    "1,6": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "16,4": [
+                        "Chapter 3 temple",
+                        [
+                            16,
+                            4
+                        ]
+                    ],
+                    "15,8": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "26,8": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            8
+                        ]
+                    ],
+                    "15,17": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            17
+                        ]
+                    ],
+                    "26,17": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            17
+                        ]
+                    ],
+                    "7,13": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            13
+                        ]
+                    ],
+                    "18,13": [
+                        "Chapter 3 temple",
+                        [
+                            18,
+                            13
+                        ]
+                    ],
+                    "27,0": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            0
+                        ]
+                    ],
+                    "27,9": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            9
+                        ]
+                    ],
+                    "8,5": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "19,5": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            5
+                        ]
+                    ],
+                    "27,18": [
+                        "Chapter 3 temple",
+                        [
+                            27,
+                            18
+                        ]
+                    ],
+                    "0,1": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "11,1": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            1
+                        ]
+                    ],
+                    "8,14": [
+                        "Chapter 3 temple",
+                        [
+                            8,
+                            14
+                        ]
+                    ],
+                    "19,14": [
+                        "Chapter 3 temple",
+                        [
+                            19,
+                            14
+                        ]
+                    ],
+                    "0,10": [
+                        "Chapter 3 temple",
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "11,10": [
+                        "Chapter 3 temple",
+                        [
+                            11,
+                            10
+                        ]
+                    ],
+                    "20,6": [
+                        "Chapter 3 temple",
+                        [
+                            20,
+                            6
+                        ]
+                    ],
+                    "12,2": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            2
+                        ]
+                    ],
+                    "23,2": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            2
+                        ]
+                    ],
+                    "12,11": [
+                        "Chapter 3 temple",
+                        [
+                            12,
+                            11
+                        ]
+                    ],
+                    "23,11": [
+                        "Chapter 3 temple",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "4,7": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            7
+                        ]
+                    ],
+                    "4,16": [
+                        "Chapter 3 temple",
+                        [
+                            4,
+                            16
+                        ]
+                    ],
+                    "22,15": [
+                        "Chapter 3 temple",
+                        [
+                            22,
+                            15
+                        ]
+                    ],
+                    "1,1": [
+                        "Chapter 3 temple",
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "15,3": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            3
+                        ]
+                    ],
+                    "26,3": [
+                        "Chapter 3 temple",
+                        [
+                            26,
+                            3
+                        ]
+                    ],
+                    "15,12": [
+                        "Chapter 3 temple",
+                        [
+                            15,
+                            12
+                        ]
+                    ],
+                    "7,8": [
+                        "Chapter 3 temple",
+                        [
+                            7,
+                            8
+                        ]
+                    ],
+                    "30,0": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            0
+                        ]
+                    ],
+                    "30,9": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            9
+                        ]
+                    ],
+                    "30,18": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            18
+                        ]
+                    ],
+                    "30,4": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            4
+                        ]
+                    ],
+                    "30,13": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            13
+                        ]
+                    ],
+                    "31,15": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            15
+                        ]
+                    ],
+                    "31,1": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            1
+                        ]
+                    ],
+                    "31,10": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            10
+                        ]
+                    ],
+                    "31,5": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            5
+                        ]
+                    ],
+                    "31,14": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            14
+                        ]
+                    ],
+                    "30,8": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            8
+                        ]
+                    ],
+                    "30,17": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            17
+                        ]
+                    ],
+                    "31,0": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            0
+                        ]
+                    ],
+                    "31,9": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            9
+                        ]
+                    ],
+                    "31,18": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            18
+                        ]
+                    ],
+                    "30,3": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            3
+                        ]
+                    ],
+                    "30,12": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            12
+                        ]
+                    ],
+                    "31,4": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            4
+                        ]
+                    ],
+                    "31,13": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            13
+                        ]
+                    ],
+                    "30,7": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            7
+                        ]
+                    ],
+                    "30,16": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            16
+                        ]
+                    ],
+                    "30,2": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            2
+                        ]
+                    ],
+                    "30,11": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            11
+                        ]
+                    ],
+                    "30,6": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            6
+                        ]
+                    ],
+                    "31,8": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            8
+                        ]
+                    ],
+                    "31,17": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            17
+                        ]
+                    ],
+                    "31,3": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            3
+                        ]
+                    ],
+                    "31,12": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            12
+                        ]
+                    ],
+                    "30,15": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            15
+                        ]
+                    ],
+                    "31,7": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            7
+                        ]
+                    ],
+                    "31,16": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            16
+                        ]
+                    ],
+                    "30,1": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            1
+                        ]
+                    ],
+                    "30,10": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            10
+                        ]
+                    ],
+                    "31,2": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            2
+                        ]
+                    ],
+                    "31,11": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            11
+                        ]
+                    ],
+                    "30,5": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            5
+                        ]
+                    ],
+                    "30,14": [
+                        "Chapter 3 temple",
+                        [
+                            30,
+                            14
+                        ]
+                    ],
+                    "31,6": [
+                        "Chapter 3 temple",
+                        [
+                            31,
+                            6
+                        ]
+                    ]
+                }
+            }
+        ],
+        "tilesets": [
+            "Chapter 3 temple"
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "BlazeforgedRingsSkill",
+        "name": "Blazeforged Rings",
+        "desc": "Increases Strength and Magic by +4",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        4
+                    ],
+                    [
+                        "STR",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

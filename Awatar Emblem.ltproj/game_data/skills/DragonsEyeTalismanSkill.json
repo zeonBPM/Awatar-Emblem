@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "DragonsEyeTalismanSkill",
+        "name": "Dragon Eye Talisman",
+        "desc": "Grants a slight boost to all stats and improves vision in fog",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ],
+                    [
+                        "SKL",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "RES",
+                        2
+                    ],
+                    [
+                        "LCK",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "sight_range_bonus",
+                3
+            ]
+        ]
+    }
+]

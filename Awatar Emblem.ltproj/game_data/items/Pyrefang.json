@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Pyrefang",
+        "name": "Pyrefang",
+        "desc": "A blade rumored to be kissed by the flames of a Fire Spirit, capable of setting the battlefield ablaze with each slash.\nCleaves.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "enemy_cleave_aoe",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Fire"
+            ]
+        ]
+    }
+]

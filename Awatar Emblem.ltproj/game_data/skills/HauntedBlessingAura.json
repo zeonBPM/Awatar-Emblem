@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "HauntedBlessingAura",
+        "name": "Hauntedlessing",
+        "desc": "Heal spirits within range",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            7
+        ],
+        "components": [
+            [
+                "aura",
+                "HauntedBlessingChild"
+            ],
+            [
+                "aura_range",
+                10
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

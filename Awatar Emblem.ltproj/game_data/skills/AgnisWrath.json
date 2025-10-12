@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "AgnisWrath",
+        "name": "Agni's Wrath",
+        "desc": "Burns that will keep hurting forever.\nTake 10% of max hp damage per turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            7
+        ],
+        "components": [
+            [
+                "regeneration",
+                -0.1
+            ]
+        ]
+    }
+]

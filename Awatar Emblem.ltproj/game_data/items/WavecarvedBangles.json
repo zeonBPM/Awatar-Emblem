@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WavecarvedBangles",
+        "name": "new_9",
+        "desc": "Jewelry shaped by the tides, reflecting moonlight. (Increases Speed and reduces the effects of status ailments.)",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "WavecarvedBanglesSkill"
+            ]
+        ]
+    }
+]

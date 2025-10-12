@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "InfernoGauntlet",
+        "name": "new_4",
+        "desc": "A bracer that glows with heat, enhancing the wearer\u2019s strikes. (Boosts Strength and gives a chance for attacks to burn enemies.)",
+        "icon_nid": "Killer Knuckle {VelvetKitsune, LordGlenn}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "InfernoGauntletSkill"
+            ]
+        ]
+    }
+]

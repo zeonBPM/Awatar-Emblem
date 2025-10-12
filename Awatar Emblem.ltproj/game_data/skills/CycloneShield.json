@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CycloneShield",
+        "name": "Cyclone Shield",
+        "desc": "Unit is immune to all attacks from 2 or more tiles away.\nLasts for 2 turns.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            7,
+            34
+        ],
+        "components": [
+            [
+                "ignore_damage",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) >= 2)"
+            ]
+        ]
+    }
+]

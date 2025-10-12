@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "GlacierBracersSkill",
+        "name": "Glacier Bracers",
+        "desc": "Increases Defense and Resistance by +4",
+        "icon_nid": "Brave Knuckle {VelvetKitsune, LordGlenn}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        4
+                    ],
+                    [
+                        "RES",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

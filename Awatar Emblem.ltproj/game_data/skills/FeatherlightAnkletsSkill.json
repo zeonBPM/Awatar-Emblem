@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "FeatherlightAnkletsSkill",
+        "name": "Featherlight Anklets",
+        "desc": "Increases Speed by +2 and gain MAG chance to buff avoid by 10 for 1 round when in combat.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            1,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "proc_rate",
+                "MAG_PROC"
+            ],
+            [
+                "defense_pre_proc",
+                "Avoid10"
+            ],
+            [
+                "attack_pre_proc",
+                "Avoid10"
+            ]
+        ]
+    }
+]

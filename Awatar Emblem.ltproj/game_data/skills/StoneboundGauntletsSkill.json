@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "StoneboundGauntletsSkill",
+        "name": "Stonebound Gauntlets",
+        "desc": "Boosts Strength by +2 and allows breaking obstacles faster",
+        "icon_nid": "Iron Knuckle {VelvetKitsune, LordGlenn}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "item_override",
+                "TileEffective"
+            ]
+        ]
+    }
+]

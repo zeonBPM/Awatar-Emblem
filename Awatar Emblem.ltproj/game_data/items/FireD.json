@@ -1,0 +1,94 @@
+[
+    {
+        "nid": "FireD",
+        "name": "Rocket Jump",
+        "desc": "Uses a burst of flame to propel the user forward or over obstacles.<green>CD:1</>\n<pink>Effect:</>Grants +2 MOV for 1 turn and allows to jump over terrain, this resets the unit after use. Cannot be used if unit has already moved.Only usable on self.",
+        "icon_nid": "{Beansy} AnimaSheet",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global RocketJump"
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "cooldown",
+                1
+            ],
+            [
+                "map_cast_anim",
+                "MapTorch"
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "FireHit"
+            ],
+            [
+                "no_attack_after_move",
+                null
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "NoTarget",
+        "name": "NoTarget",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                -0.9999999999999999
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

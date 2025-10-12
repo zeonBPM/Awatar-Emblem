@@ -1,0 +1,94 @@
+[
+    {
+        "nid": "EarthB",
+        "name": "Constrict",
+        "desc": "Causes the ground to rise up, grabbing an enemy and holding them in place. <green>CD:3</>\n<pink>Effect:</>Inflicts Petrify.",
+        "icon_nid": "{Beansy} DarkSheet",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "weight",
+                19
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Earth"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Petrify"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "DEFENSE"
+            ],
+            [
+                "battle_cast_anim",
+                "Wall_Crush"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                3
+            ]
+        ]
+    }
+]

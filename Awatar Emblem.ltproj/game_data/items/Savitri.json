@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Savitri",
+        "name": "Savitri",
+        "desc": "A sacred relic bow. When drawn, the string generates blades of wind that are used to take down non benders.\nTargets MAG.\n",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "alternate_resist_formula",
+                "MAG_PROC"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ]
+        ]
+    }
+]

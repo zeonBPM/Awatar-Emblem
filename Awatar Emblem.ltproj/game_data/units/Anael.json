@@ -1,0 +1,112 @@
+[
+    {
+        "nid": "Anael",
+        "name": "Anael",
+        "desc": "Tideflow (D-rank Water Magic) \u2013 A controlled jet of water that heals allies and harms enemies.\n",
+        "variant": null,
+        "level": 2,
+        "klass": "Wavecaller",
+        "tags": [
+            "Required",
+            "Water"
+        ],
+        "bases": {
+            "HP": 26,
+            "STR": 4,
+            "MAG": 7,
+            "SKL": 7,
+            "SPD": 5,
+            "LCK": 7,
+            "DEF": 4,
+            "RES": 9,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 30,
+            "MAG": 60,
+            "SKL": 50,
+            "SPD": 40,
+            "LCK": 50,
+            "DEF": 30,
+            "RES": 65,
+            "CON": 10,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "LCK": 0,
+            "RES": 0,
+            "MOV": 0,
+            "CON": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0
+        },
+        "starting_items": [
+            [
+                "Slim_Lance",
+                false
+            ],
+            [
+                "SpiritWater",
+                false
+            ],
+            [
+                "SpiritCharm",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "WaterbendingE"
+            ],
+            [
+                1,
+                "WaterbendingD"
+            ],
+            [
+                1,
+                "WaterbendingC"
+            ],
+            [
+                1,
+                "WaterbendingB"
+            ],
+            [
+                1,
+                "WaterbendingA"
+            ],
+            [
+                1,
+                "WaterbendingS"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                201,
+                null
+            ],
+            "Water": [
+                false,
+                201,
+                null
+            ],
+            "Default": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "AnaelP",
+        "affinity": "Ice",
+        "fields": []
+    }
+]

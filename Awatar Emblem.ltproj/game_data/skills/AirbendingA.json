@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AirbendingA",
+        "name": "AirbendingA",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "ability",
+                "AirA"
+            ],
+            [
+                "menu_category",
+                "<yellow>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

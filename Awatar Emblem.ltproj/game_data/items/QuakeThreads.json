@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "QuakeThreads",
+        "name": "new_12",
+        "desc": "Reinforced boots that stabilize footing on unstable ground. (Prevents movement penalties on rough terrain.)",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "icon_index": [
+            14,
+            8
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "QuakeTreadsSkill"
+            ]
+        ]
+    }
+]

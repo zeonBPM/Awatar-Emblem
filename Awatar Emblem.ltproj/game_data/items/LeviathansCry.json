@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "LeviathansCry",
+        "name": "Levaiathan's Cry",
+        "desc": "A weapon crafted from the remnants of a slain sea spirit, infused with strong energy. Each strike is like a crashing wave, overwhelming all in its path while revitalizing the user.",
+        "icon_nid": "{Beansy} {Lances} All Icons",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "lifelink",
+                0.5
+            ],
+            [
+                "battle_cast_anim",
+                "Javelin"
+            ]
+        ]
+    }
+]

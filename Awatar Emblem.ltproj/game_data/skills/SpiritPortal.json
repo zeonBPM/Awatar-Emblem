@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "SpiritPortal",
+        "name": "SpiritPortal",
+        "desc": "Summon a green spirit unit for aid",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": []
+    }
+]

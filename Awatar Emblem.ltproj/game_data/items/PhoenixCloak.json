@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "PhoenixCloak",
+        "name": "new_5",
+        "desc": "A fireproof garment that flares up when struck. (Reduces damage from Fire-based attacks and retaliates with small flame bursts.)",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "PhoenixCloakSkill"
+            ]
+        ]
+    }
+]

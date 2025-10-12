@@ -1,0 +1,16 @@
+[
+    {
+        "name": "WRANK_B_B",
+        "trigger": "unit_weapon_rank_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Folre' and weapon_type == 'Earth' and rank == 'A'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Folre;FarRight",
+            "speak;Folre;A thousand years mastering the blade."
+        ],
+        "nid": "Global WRANK_B_B"
+    }
+]

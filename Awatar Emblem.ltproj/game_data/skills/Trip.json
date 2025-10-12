@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Trip",
+        "name": "Trip",
+        "desc": "Hit chance against this unit is fixed",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "avoid_formula_override",
+                "CRIT_AVOID"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

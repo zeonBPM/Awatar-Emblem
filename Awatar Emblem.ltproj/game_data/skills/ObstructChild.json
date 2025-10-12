@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ObstructChild",
+        "name": "Obstruct",
+        "desc": "Enemies can only attack this unit within melee range.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) >= 2)"
+            ],
+            [
+                "ignore_damage",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

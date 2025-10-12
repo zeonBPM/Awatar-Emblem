@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ObsidianSeal",
+        "name": "new_14",
+        "desc": "A talisman made of volcanic rock, rumored to ward off spirits. (Grants resistance to spirit-based attacks and status effects.)",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "ObsidianSealSkill"
+            ]
+        ]
+    }
+]

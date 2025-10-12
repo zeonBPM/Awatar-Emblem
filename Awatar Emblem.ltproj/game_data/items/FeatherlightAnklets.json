@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "FeatherlightAnklets",
+        "name": "new_3",
+        "desc": "Weightless footwraps that improve agility. (Increases Speed and grants a chance to dodge attacks.)",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            1,
+            1
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "FeatherlightAnkletsSkill"
+            ]
+        ]
+    }
+]

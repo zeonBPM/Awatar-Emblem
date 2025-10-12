@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "TidalCrest",
+        "name": "new_10",
+        "desc": "A blue gemstone infused with oceanic energy. (Boosts Healing effects and allows minor HP regeneration each turn.)",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "multi_status_on_hold",
+                [
+                    "FrostbiteBandSkill",
+                    "FrostbiteBandSkill_1"
+                ]
+            ]
+        ]
+    }
+]

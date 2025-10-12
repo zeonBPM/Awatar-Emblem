@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "New Raw",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "oattrs": [
+            "nid",
+            "asd"
+        ],
+        "lovalue": [
+            {
+                "nid": "Key",
+                "asd": ""
+            },
+            {
+                "nid": "Key_1",
+                "asd": ""
+            },
+            {
+                "nid": "Key_2",
+                "asd": ""
+            },
+            {
+                "nid": "Key_3",
+                "asd": ""
+            },
+            {
+                "nid": "Key_4",
+                "asd": ""
+            },
+            {
+                "nid": "Key_5",
+                "asd": ""
+            }
+        ]
+    }
+]

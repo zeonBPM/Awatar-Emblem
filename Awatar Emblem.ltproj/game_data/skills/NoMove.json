@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "NoMove",
+        "name": "NoMove",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MOV",
+                        0
+                    ]
+                ]
+            ]
+        ]
+    }
+]

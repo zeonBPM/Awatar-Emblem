@@ -1,0 +1,106 @@
+[
+    {
+        "nid": "FireA",
+        "name": "Lightning bolt",
+        "desc": "Secret art exclusive to the Royal family. A rare bolt that pierces the strongest of armors. Starts on CD. <green>CD:4</>\n<pink>Effect:</> Siege weapon, Effective vs Armor<icon>Armor</>.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                25
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "crit",
+                50
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Bolting"
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 5,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                4
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    }
+]

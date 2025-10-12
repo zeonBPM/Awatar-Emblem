@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WaterAtimed",
+        "name": "Healing Arts",
+        "desc": "Restores 10% HP each turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.1
+            ],
+            [
+                "end_time",
+                1
+            ]
+        ]
+    }
+]

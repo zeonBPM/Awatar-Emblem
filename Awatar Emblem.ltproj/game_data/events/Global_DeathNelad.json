@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DeathNelad",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Nelad'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Nelad;FarRight",
+            "speak;Nelad;Brother... I'm sorry.",
+            "expression;Nelad;CloseEyes",
+            "remove_portrait;Nelad",
+            "remove_unit;Nelad",
+            "lose_game"
+        ],
+        "nid": "Global DeathNelad"
+    }
+]

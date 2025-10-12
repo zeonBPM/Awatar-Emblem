@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AirbendingB",
+        "name": "AirbendingB",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "ability",
+                "AirB"
+            ],
+            [
+                "menu_category",
+                "<yellow>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

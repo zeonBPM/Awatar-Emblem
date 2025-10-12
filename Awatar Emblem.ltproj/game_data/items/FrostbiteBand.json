@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "FrostbiteBand",
+        "name": "new_11",
+        "desc": "A ring forged from permafrost, radiating a faint chill. (Increases Waterbending power and weakens Fire-based attacks.)",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "FrostbiteBandSkill",
+                    "FrostbiteBandSkill_1"
+                ]
+            ]
+        ]
+    }
+]

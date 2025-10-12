@@ -1,0 +1,183 @@
+[
+    {
+        "nid": "Affinity",
+        "subicon_dict": {
+            "Affinity 0, 7": [
+                0,
+                7
+            ]
+        }
+    },
+    {
+        "nid": "Anima",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Axe",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Boosters",
+        "subicon_dict": {
+            "Boosters 0, 6": [
+                0,
+                6
+            ],
+            "Boosters 0, 10": [
+                0,
+                10
+            ],
+            "Boosters 0, 14": [
+                0,
+                14
+            ],
+            "Boosters 0, 1": [
+                0,
+                1
+            ]
+        }
+    },
+    {
+        "nid": "Bow",
+        "subicon_dict": {
+            "Bow 0, 9": [
+                0,
+                9
+            ]
+        }
+    },
+    {
+        "nid": "Consumable",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Dark",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Lance",
+        "subicon_dict": {
+            "Lance 0, 11": [
+                0,
+                11
+            ]
+        }
+    },
+    {
+        "nid": "Light",
+        "subicon_dict": {
+            "Light 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Neutral",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Skills",
+        "subicon_dict": {
+            "Skills 8, 7": [
+                8,
+                7
+            ]
+        }
+    },
+    {
+        "nid": "Staff",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Sword",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Valuable",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "wexp_icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "(Rootrick, Zarg) Secret of Evermore Collection",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Axes} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Bows} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Lances} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Swords} All Icons",
+        "subicon_dict": {
+            "{Beansy} {Swords} All Icons 0, 7": [
+                0,
+                7
+            ]
+        }
+    },
+    {
+        "nid": "{Beansy} AnimaSheet",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} DarkSheet",
+        "subicon_dict": {
+            "{Beansy} DarkSheet 0, 3": [
+                0,
+                3
+            ]
+        }
+    },
+    {
+        "nid": "{Cardcafe} {FE15} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Brave Knuckle {VelvetKitsune, LordGlenn}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Iron Knuckle {VelvetKitsune, LordGlenn}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Killer Knuckle {VelvetKitsune, LordGlenn}",
+        "subicon_dict": {
+            "Killer Knuckle {VelvetKitsune, LordGlenn} 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Silver Knuckle {VelvetKitsune, LordGlenn}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Steel Knuckle {VelvetKitsune, LordGlenn}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "image",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "skill_icons",
+        "subicon_dict": {}
+    }
+]

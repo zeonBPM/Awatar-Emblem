@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Bramar VS Juro",
+        "trigger": "combat_start",
+        "level_nid": "A1",
+        "condition": "check_pair('Juro',\"Bramar\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "#Pre-Fight Quotes",
+            "",
+            "",
+            "add_portrait;Juro;Right",
+            "add_portrait;Bramar;Left",
+            "",
+            "speak;Juro;Have you come to plead for your life, earthling?|Our lord might agree to keep you prisoner if you look sorry enough.",
+            "",
+            "",
+            "speak;Bramar;Your empire can burn for all I care.|You want my land?|Come take it.",
+            "",
+            "change_ai;Juro;Attack"
+        ],
+        "nid": "A1 Bramar VS Juro"
+    }
+]

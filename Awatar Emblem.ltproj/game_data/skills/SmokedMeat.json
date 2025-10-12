@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SmokedMeat",
+        "name": "SmokedMeat",
+        "desc": "Heals 10hp per turn, for 3 turns.\nSmells like home.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            1,
+            42
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "end_time",
+                3
+            ],
+            [
+                "upkeep_damage",
+                -10
+            ]
+        ]
+    }
+]

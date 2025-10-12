@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "A1",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#show in map background",
+            "",
+            "",
+            "center_cursor;BramarHouse",
+            "add_unit;Bramar;BramarHouse;immediate",
+            "",
+            "",
+            "change_background;House",
+            "",
+            "",
+            "#show Bramar defending against the attackers",
+            "add_portrait;SoldierRed;RightCorner",
+            "speak;Soldier;Stand down, Earthbender! You're outnumbered!",
+            "add_portrait;Bramar;CenterLeft",
+            "speak;Bramar;Outnumbered? Maybe. But I've never needed numbers to crush cowards.;",
+            "",
+            "interact_unit;Bramar;SoldierB;crit1;EarthE;",
+            "remove_unit;Bramar;fade",
+            "speak;Nelad;A survivor? I need to help him at once.;top;;thought_bubble"
+        ],
+        "nid": "A1 Turn2"
+    }
+]

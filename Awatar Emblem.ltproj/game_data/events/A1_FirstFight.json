@@ -1,0 +1,21 @@
+[
+    {
+        "name": "FirstFight",
+        "trigger": "combat_start",
+        "level_nid": "A1",
+        "condition": "unit.nid == 'Nelad' or unit2.nid == 'Nelad'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# First battle Nelad vs Fire Nation Soldiers",
+            "",
+            "",
+            "add_portrait;SoldierR;RightCorner",
+            "speak;SoldierR;An Airbender?! You should be dead! The Fire Lord wiped you out!;top",
+            "add_portrait;Nelad;LeftCorner",
+            "speak;Nelad;... Must you all be so violent?"
+        ],
+        "nid": "A1 FirstFight"
+    }
+]

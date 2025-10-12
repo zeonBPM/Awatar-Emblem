@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Earth1",
+        "name": "High Momentum",
+        "desc": "Using short gravity pulls allows the user to keep moving after attacking.\nUnit gains Canto+.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "canto_plus",
+                null
+            ]
+        ]
+    }
+]

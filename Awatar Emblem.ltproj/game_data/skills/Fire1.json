@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Fire1",
+        "name": "Twitchy",
+        "desc": "Everyone else calls you paranoid, you prefer the term prepared.\nUnit always attacks first.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "vantage",
+                null
+            ]
+        ]
+    }
+]

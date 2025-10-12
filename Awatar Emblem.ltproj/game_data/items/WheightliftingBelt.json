@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "WheightliftingBelt",
+        "name": "Wheightlifting Belt",
+        "desc": "+2CON",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "CON",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

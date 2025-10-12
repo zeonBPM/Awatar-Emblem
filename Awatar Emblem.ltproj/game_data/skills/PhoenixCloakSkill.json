@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "PhoenixCloakSkill",
+        "name": "Phoenix Cloak",
+        "desc": "Increases DEF and RES by 6 against Fire-based attacks.\n",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) in ('Fire')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        6
+                    ],
+                    [
+                        "RES",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    }
+]

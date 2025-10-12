@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "StoneboundGauntlets",
+        "name": "new_15",
+        "desc": "Heavy wristbands that help channel earthbending power. (Boosts Strength and allows breaking obstacles faster.)",
+        "icon_nid": "Iron Knuckle {VelvetKitsune, LordGlenn}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "StoneboundGauntletsSkill"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Whetstone",
+        "name": "Whetstone",
+        "desc": "+2 SKL\nUsed to sharpen axes for better accuracy.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

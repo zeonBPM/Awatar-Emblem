@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "WavecarvedBanglesSkill",
+        "name": "Wavecarved Bangle",
+        "desc": "Increases Skill and reduces the effects of status ailments",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "resist_status",
+                null
+            ]
+        ]
+    }
+]

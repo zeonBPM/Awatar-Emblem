@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Airbending",
+        "name": "Airbending",
+        "desc": "The millenary art of moving air.\nTargets SPD",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "multi_item_hides_unavailable",
+                null
+            ],
+            [
+                "multi_item",
+                [
+                    "AirE",
+                    "AirD",
+                    "AirC",
+                    "AirB",
+                    "AirA",
+                    "AirS"
+                ]
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Nelad"
+                ]
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    }
+]

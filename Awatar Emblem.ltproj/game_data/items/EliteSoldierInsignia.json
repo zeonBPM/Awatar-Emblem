@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "EliteSoldierInsignia",
+        "name": "Elite Soldier Insignia",
+        "desc": "+2STR\nInsignia belonging to a decorated veteran.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

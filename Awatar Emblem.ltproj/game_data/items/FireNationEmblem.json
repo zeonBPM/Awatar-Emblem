@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "FireNationEmblem",
+        "name": "new_3",
+        "desc": "bonus growths",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": []
+    }
+]

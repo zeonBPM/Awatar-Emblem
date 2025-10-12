@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Spirit",
+        "trigger": "Spirit",
+        "level_nid": "A1",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Gust",
+            "sound;Gust",
+            "",
+            "multi_add_portrait;Bramar;LeftCorner;Nelad;CenterLeft",
+            "move_unit;Nelad;13,0;normal",
+            "move_unit;Bramar;13,1;normal",
+            "",
+            "speak;Bramar;This fog...|there was never any fog in the village.",
+            "\u2028sound;Gust",
+            "sound;Gust",
+            "",
+            "speak;Bramar;What is that sound? Can't place it.",
+            "",
+            "speak;Nelad;I think I know what it is,{w} but I am still hoping to be wrong,{w} it sounds like an angry <green>spirit</green>.",
+            "",
+            "speak;Bramar;You sure?I can fight ash makers all day but I don....;low_priority",
+            "wait;600",
+            "speak;Nelad;IT'S COMING!",
+            "sound;Gust",
+            "sound;Gust",
+            "\u2028wait;100",
+            "",
+            "move_unit;eye;Nelad;fade;push",
+            "",
+            "interact_unit;eye;Nelad;miss1;Evil_Eye",
+            "",
+            "speak;Bramar;Move, I'll cleave it in two!",
+            "speak;Nelad;No,|<red>weapons are worthless against spirits</red>,|we must use our bending.",
+            ""
+        ],
+        "nid": "A1 Spirit"
+    }
+]

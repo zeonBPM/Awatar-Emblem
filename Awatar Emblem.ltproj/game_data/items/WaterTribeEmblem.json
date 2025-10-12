@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "WaterTribeEmblem",
+        "name": "new_2",
+        "desc": "bonus growths",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": []
+    }
+]

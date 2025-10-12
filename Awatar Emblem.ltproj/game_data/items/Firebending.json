@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Firebending",
+        "name": "Firebending",
+        "desc": "The millenary art of moving fire.\nTargets RES",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "multi_item",
+                [
+                    "FireE",
+                    "FireD",
+                    "FireC",
+                    "FireB",
+                    "FireA",
+                    "FireS"
+                ]
+            ],
+            [
+                "multi_item_hides_unavailable",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Folre"
+                ]
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    }
+]

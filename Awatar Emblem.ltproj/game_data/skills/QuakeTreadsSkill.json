@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "QuakeTreadsSkill",
+        "name": "Quake Treads",
+        "desc": "Ignores movement penalties of rough terrain",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "icon_index": [
+            14,
+            8
+        ],
+        "components": [
+            [
+                "movement_type",
+                "Earth"
+            ]
+        ]
+    }
+]

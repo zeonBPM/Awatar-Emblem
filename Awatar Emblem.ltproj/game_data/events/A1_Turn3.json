@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Turn3",
+        "trigger": "enemy_turn_change",
+        "level_nid": "A1",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "#Miniboss \u2013 Lieutenant Juro",
+            "center_cursor;Juro",
+            "add_portrait;Juro;FarRight",
+            "speak;Juro;Who in Agni's name is that?{w}An Airbender?",
+            "bop_portrait;Juro",
+            "expression;Juro;Smile",
+            "speak;Juro;What an opportunity. The <green>Prince</green> will reward me greatly for your head!;",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "nid": "A1 Turn3"
+    }
+]

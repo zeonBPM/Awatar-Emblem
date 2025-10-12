@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "EmberPendant",
+        "name": "new_7",
+        "desc": "A gemstone infused with eternal flame, warm to the touch. (Boosts Firebending power and critical hit rate.)",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "EmberPendantSkill"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "GaleCharm",
+        "name": "new_2",
+        "desc": "A small glider-shaped pendant that resonates with wind. (Boosts bow accuracy and reduces enemy ranged damage.)",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "GaleCharmSkill"
+            ]
+        ]
+    }
+]

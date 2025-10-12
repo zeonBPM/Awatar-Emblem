@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "SmokedMeat",
+        "name": "Smoked Meat",
+        "desc": "Restores 10% hp per turn, for 3 turns.\nSmells like home.",
+        "icon_nid": "Valuable",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                4
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "status_on_hit",
+                "SmokedMeat"
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    }
+]

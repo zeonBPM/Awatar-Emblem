@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "SpiritCharm",
+        "name": "Spirit Charm",
+        "desc": "+2 RES\nA protective talisman against spirits and bending.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

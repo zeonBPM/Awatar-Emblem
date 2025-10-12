@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "damageaura",
+        "name": "damageaura",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "aura",
+                "damageaurachild"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

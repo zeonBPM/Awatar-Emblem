@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "GaleCharmSkill",
+        "name": "Gale Charm",
+        "desc": "Boosts bow accuracy by 15",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "condition",
+                "item_system.weapon_type(unit, item) == 'Bow'"
+            ],
+            [
+                "hit",
+                15
+            ]
+        ]
+    }
+]

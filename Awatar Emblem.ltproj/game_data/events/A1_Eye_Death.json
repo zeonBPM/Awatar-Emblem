@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Eye_Death",
+        "trigger": "unit_death",
+        "level_nid": "A1",
+        "condition": "unit.nid == \"eye\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eye;FarRight",
+            "speak;Eye;jfghfjfgjf",
+            "",
+            "",
+            "add_portrait;Nelad;Left",
+            "add_portrait;Bramar;FarLeft",
+            "speak;Bramar;Do... do all spirits sound so hurt?|i know we are pummeling it to death{w} but this is making me uncomfortable.",
+            "speak;Nelad;Spirits should be able to talk like us, this one has been corrupted by some sort of unbalance of its domain",
+            "wait;400",
+            "remove_portrait;Eye",
+            "",
+            "speak;Bramar;At least it dies like any beast, one less problem to think about.",
+            "speak;Nelad;You should respect spirits, even violent ones, they are the ones that keep the world in shape. Unless we fix whatever is causing this they will keep appearing, and i fear the next ones will not be as easy as a small village spirit."
+        ],
+        "nid": "A1 Eye_Death"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DragonEyeTalisman",
+        "name": "new_2",
+        "desc": "An ancient relic that enhances battlefield awareness. (Grants a slight boost to all stats and improves vision in fog.)",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "DragonsEyeTalismanSkill"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WhisperingBeads",
+        "name": "WhisperingBeads",
+        "desc": "A bracelet of carved wooden beads, once used by Air Nomads in meditation.\nIncreases Evasion and Crit dodge by 10.)",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "WhisperingBeadsSkill"
+            ]
+        ]
+    }
+]

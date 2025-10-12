@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Air2",
+        "name": "Counterbalance",
+        "desc": "Microscopically dodging at the last second greatly increases survivability\n+50 Crit Avoid.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit_avoid",
+                50
+            ]
+        ]
+    }
+]

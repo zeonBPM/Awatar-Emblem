@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SpiritLanternSkill",
+        "name": "Spirit Lantern",
+        "desc": "Reduces damage from spirit enemies and increases sight range",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            11,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "'Monster' in target.tags"
+            ],
+            [
+                "sight_range_bonus",
+                3
+            ],
+            [
+                "resist_multiplier",
+                0.8
+            ]
+        ]
+    }
+]

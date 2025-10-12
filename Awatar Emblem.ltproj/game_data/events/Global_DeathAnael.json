@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DeathAnael",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Anael'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Anael;FarRight",
+            "speak;Anael;Brother... I'm sorry.",
+            "expression;Anael;CloseEyes",
+            "remove_portrait;Anael",
+            "remove_unit;Anael",
+            "lose_game"
+        ],
+        "nid": "Global DeathAnael"
+    }
+]

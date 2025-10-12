@@ -1,0 +1,78 @@
+[
+    {
+        "nid": "_EarthA2",
+        "name": "Landslide",
+        "desc": "At the start of this units phase, a landslide triggers, any enemy units in terrain are shaken and can't act for the reminder of the phase.<green>CD:2</>\n<pink>Effect:</> this is a free action.",
+        "icon_nid": "{Beansy} DarkSheet",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Stabilized"
+            ],
+            [
+                "all_allies_aoe",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "weapon_type",
+                "Earth"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Wall Attack"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                4
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AWorldAblaze",
+        "name": "A World Ablaze",
+        "desc": "enemies nearby get inflicted with ablaze",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            2,
+            26
+        ],
+        "components": [
+            [
+                "aura",
+                "AirbendingE"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "unit"
+            ]
+        ]
+    }
+]

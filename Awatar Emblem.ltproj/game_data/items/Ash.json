@@ -1,0 +1,93 @@
+[
+    {
+        "nid": "Ash",
+        "name": "Ash",
+        "desc": "A divine blade said to have been wielded by Agni himself, creates dark blue flames that never fade.\nTargets worse of DEF or RES. +3 MAG and SPD. Can only be wielded by royal blood.\n\nLegends say Agni forged this sword from the heart of a dying star, bestowing it upon a mortal only once in history. The blade\u2019s flames are fueled by the wielder\u2019s spirit. When swung, it sunders both body and soul, ensuring that no enemy can withstand its power.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            2,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "value",
+                3300
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "alternate_resist_formula",
+                "WORSEDEF"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Fire"
+                ]
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "status_on_hit",
+                "AgnisWrath"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Forblaze"
+            ]
+        ]
+    }
+]

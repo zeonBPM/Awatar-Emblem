@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SpiritLantert",
+        "name": "SpiritLantert",
+        "desc": "A small, glowing lantern said to keep angry spirits at bay. (Reduces damage from spirit enemies and reveals hidden foes.)",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            11,
+            0
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "SpiritLanternSkill"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "StormatcherSashSkill",
+        "name": "Stormatcher Sash",
+        "desc": "Increases Movement by 1",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

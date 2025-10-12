@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Juro_death",
+        "trigger": "unit_death",
+        "level_nid": "A1",
+        "condition": "unit.nid == \"Jiro\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Juro;FarRight",
+            "speak;Juro;Fools...|you will only...|make the prince...|angrier.",
+            "expression;Juro;CloseEyes",
+            "wait;400",
+            "remove_portrait;Juro"
+        ],
+        "nid": "A1 Juro_death"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Slow",
+        "name": "Slow",
+        "desc": "-4 MOV",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            9
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

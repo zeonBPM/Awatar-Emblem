@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Nelad VS Juro",
+        "trigger": "combat_start",
+        "level_nid": "A1",
+        "condition": "check_pair('Juro',\"Nelad\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "#Pre-Fight Quotes",
+            "",
+            "multi_add_portrait;Juro;Left;Nelad;Right",
+            "speak;Juro;You think a leaf in the wind can stop a raging inferno? Your kind is dead, Airbender. Give up!",
+            "",
+            "speak;Nelad;...",
+            "",
+            "change_ai;Juro;Attack",
+            ""
+        ],
+        "nid": "A1 Nelad VS Juro"
+    }
+]

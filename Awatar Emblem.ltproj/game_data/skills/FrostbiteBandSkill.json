@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "FrostbiteBandSkill",
+        "name": "Frostbite Band",
+        "desc": "(Increases Waterbending power and weakens Fire-based attacks",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) in ('Water')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

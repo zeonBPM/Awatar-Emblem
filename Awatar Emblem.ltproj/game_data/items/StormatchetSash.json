@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "StormatchetSash",
+        "name": "new_1",
+        "desc": "A flowing sash that enhances air currents around the wearer. (Increases Movement by 1 and reduces fall damage.)",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "StormatcherSashSkill"
+            ]
+        ]
+    }
+]

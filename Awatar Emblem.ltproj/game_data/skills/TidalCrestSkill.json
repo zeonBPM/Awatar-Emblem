@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "TidalCrestSkill",
+        "name": "Tidal Crest",
+        "desc": "Boosts Healing effects , heals the user when healing allies. and gives small regen to nearby allies.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "empower_heal",
+                "10"
+            ],
+            [
+                "live_to_serve",
+                0.5
+            ],
+            [
+                "upkeep_aoe_skill_gain",
+                {
+                    "skill": "WaterAtimed",
+                    "range": 1,
+                    "affect_self": false,
+                    "target": "ally"
+                }
+            ]
+        ]
+    }
+]

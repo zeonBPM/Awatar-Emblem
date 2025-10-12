@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WhisperingBeadsSkill",
+        "name": "Whispering Beads",
+        "desc": "Increases Evasion and Crit dodge by +10.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "avoid",
+                10
+            ],
+            [
+                "crit_avoid",
+                10
+            ]
+        ]
+    }
+]

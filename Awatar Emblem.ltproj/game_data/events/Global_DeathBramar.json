@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DeathBramar",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Bramar'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bramar;FarRight",
+            "speak;Bramar;Brother... I'm sorry.",
+            "expression;Bramar;CloseEyes",
+            "remove_portrait;Bramar",
+            "remove_unit;Bramar",
+            "lose_game"
+        ],
+        "nid": "Global DeathBramar"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CursedFang",
+        "name": "new_1",
+        "desc": "A broken piece of a spirit beast\u2019s tooth. (Boosts Attack but causes slight HP loss each turn.)",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "CursedFang"
+            ]
+        ]
+    }
+]
