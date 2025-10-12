@@ -16,6 +16,7 @@ Juro was sent to both raid frontier villages for loot, and to kill all benders t
 Chapter 2 will be in a flooded town
 Anael is recruited in the intro
 the goal is to get to the temple(escape) to stop the fire nations plans. the temple hosts a group of sacred spirit relics(all C rank magic weapons) both powerful and unbreakable.
+The temple was sunk by the waterbenders,
 Adriana is seen at the intro, but soon goes into the temple and leaves the minions to fight the party.
 
 The Armory gives a steel weapon based on who enters(bow/axe/lance)
@@ -23,9 +24,10 @@ The Armory gives a steel weapon based on who enters(bow/axe/lance)
 The Vendor gives an accesory based on who enters
 Its the same as the ones they start with(so now you can have one duplicate)
 
+standing in the water reduces fire damage taken
 
-
-
+allies are a couple waterbenders(monk?) and a single militia(recruit)[need some sort of reward based on how many remain alive at the end]
+enemies range from firebenders(mage), , the boss is a Royal Guard(duelist)
 
 
 
@@ -35,7 +37,7 @@ Folre is recruited in the outro, he jumps the party from the temple roof
 
 Chapter 3 will be inside the sunken temple
 Adriana(Ari's unit) went there to steal all spirit relics found within, to give to the fire army
-there are thieves and a couple water / fire benders inside
+there are thieves, skirmishers? and a couple water / fire benders inside
 
 Chapter 4 is in the forest going to the next area
 Boss is a haunted spirit tree, that summons eyes, there is couple spirits wandering. this map has a crapton of accesories as loot
