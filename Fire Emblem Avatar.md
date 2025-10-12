@@ -56,6 +56,7 @@ the goal is to get to the top, and destroy(seize) the lava forge the fire nation
 
 Chapter 7	Fire nation Castle
 Prince Zoran is waiting patiently for the challengers to come
+Zoran's left hand is a mute airbender...
 Defeat boss, standard map.
 This is the last step, whoever dies stays down for good.
 
