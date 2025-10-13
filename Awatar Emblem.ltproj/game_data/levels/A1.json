@@ -7,7 +7,7 @@
         "party": "Liberators",
         "music": {},
         "objective": {
-            "simple": "",
+            "simple": "Protect the remaining villagers",
             "win": "Defeat Boss",
             "loss": "Nelad dies"
         },

@@ -7,9 +7,9 @@
         "party": "Liberators",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Protect the Spirit Relics",
+            "win": "Defeat boss",
+            "loss": "All allies perish"
         },
         "roam": false,
         "roam_unit": null,

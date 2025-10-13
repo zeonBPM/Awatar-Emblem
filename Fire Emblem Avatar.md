@@ -3,7 +3,44 @@ Earthbending hits DEF
 Waterbending hits SKL
 Firebending hits RES
 
+Sakura
+tbd
+	shatter		2 aoe air attack
+	Windstep		
+	funnel aura	buff avo of allies
+	air quake		4 aoe air attack
+	anthem of harmony	bell
+Forge
+	swordreaver
+	quakethreads	drop
+	Landslide		global/large aoe attack on terrain
 
+Jake
+	Warmth
+	Pyroclasatic Flow
+	Ember Flick
+	Spirit Lantern	drop
+	Ember Pendant	drop
+
+Adriana
+	Azure Spike	drop
+	Tidal Pull		PRF
+	Water Whip
+
+
+Zoran
+	Ash
+	Lightning
+	Flare
+	Ember Flick
+	Rebellion Fireblade
+	Supreme Mastery of Combat
+
+
+Juro
+	steel sword
+	veteran soldier insignia	drop
+	skill?
 
 Killer weapons are renamed as meteoric weapons(SPACE SWORD). needs specialized facilities to make one.
 

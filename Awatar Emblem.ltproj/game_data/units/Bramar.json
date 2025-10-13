@@ -86,12 +86,12 @@
         "wexp_gain": {
             "Axe": [
                 false,
-                201,
+                21,
                 null
             ],
             "Earth": [
                 false,
-                201,
+                1,
                 null
             ],
             "Bow": [
@@ -107,7 +107,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "BramarP",
-        "affinity": "Anima",
+        "affinity": "Earth",
         "fields": []
     }
 ]

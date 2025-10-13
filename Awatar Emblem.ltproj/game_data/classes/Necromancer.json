@@ -71,12 +71,12 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
+            "Lance": [
                 false,
                 0,
                 81
             ],
-            "Lance": [
+            "Sword": [
                 false,
                 0,
                 81
@@ -91,17 +91,27 @@
                 0,
                 81
             ],
-            "Staff": [
-                2,
-                251,
-                81
-            ],
-            "Light": [
+            "Air": [
                 false,
                 0,
-                81
+                null
             ],
-            "Anima": [
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 81
@@ -111,9 +121,19 @@
                 251,
                 81
             ],
-            "Default": [
+            "Anima": [
                 false,
                 0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                2,
+                251,
                 81
             ]
         },

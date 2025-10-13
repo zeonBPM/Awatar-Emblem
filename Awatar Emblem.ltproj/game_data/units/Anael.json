@@ -90,12 +90,12 @@
         "wexp_gain": {
             "Lance": [
                 false,
-                201,
+                21,
                 null
             ],
             "Water": [
                 false,
-                201,
+                21,
                 null
             ],
             "Default": [
@@ -106,7 +106,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "AnaelP",
-        "affinity": "Ice",
+        "affinity": "Water",
         "fields": []
     }
 ]

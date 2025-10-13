@@ -1,14 +1,14 @@
 [
     {
         "nid": "Mage",
-        "name": "Bender",
+        "name": "Fire Bender",
         "desc": "Novice bender in service of the Royal Army.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [
-            "Sage",
-            "Mage Knight"
+            "WindStrider",
+            "Sage"
         ],
         "tags": [],
         "max_level": 20,

@@ -56,8 +56,8 @@
         ]
     },
     {
-        "nid": "Thunder",
-        "name": "Thunder",
+        "nid": "Earth",
+        "name": "Earth",
         "desc": "Grants increased defense, avoid, crit rate, and crit avoid.",
         "bonus": [
             {
@@ -97,7 +97,7 @@
         "icon_nid": "Affinity",
         "icon_index": [
             0,
-            0
+            3
         ]
     },
     {
@@ -146,8 +146,8 @@
         ]
     },
     {
-        "nid": "Ice",
-        "name": "Ice",
+        "nid": "Water",
+        "name": "Water",
         "desc": "Grants increased defense, accuracy, avoid, and crit avoid.",
         "bonus": [
             {
@@ -281,8 +281,8 @@
         ]
     },
     {
-        "nid": "Anima",
-        "name": "Anima",
+        "nid": "Spirit",
+        "name": "Spirit",
         "desc": "Grants increased attack, defense, avoid, and crit avoid.",
         "bonus": [
             {

@@ -7,7 +7,7 @@
         "movement_group": "Armors",
         "promotes_from": null,
         "turns_into": [
-            "Great_Knight",
+            "WindStrider",
             "General"
         ],
         "tags": [
@@ -76,14 +76,14 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                81
-            ],
             "Lance": [
                 true,
                 31,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
                 81
             ],
             "Axe": [
@@ -96,17 +96,27 @@
                 0,
                 81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                81
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                81
+                null
             ],
-            "Anima": [
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 81
@@ -116,7 +126,17 @@
                 0,
                 81
             ],
-            "Default": [
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
                 false,
                 0,
                 81

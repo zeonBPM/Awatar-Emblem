@@ -1,8 +1,8 @@
 [
     {
         "nid": "Monk",
-        "name": "Monk",
-        "desc": "Kind-hearted healers.",
+        "name": "Waterbender",
+        "desc": "Turncoat Water Tribe member. Prefers to fight as a team.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -73,12 +73,12 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
+            "Lance": [
                 false,
                 0,
                 81
             ],
-            "Lance": [
+            "Sword": [
                 false,
                 0,
                 81
@@ -99,8 +99,8 @@
                 null
             ],
             "Water": [
-                false,
-                0,
+                true,
+                21,
                 null
             ],
             "Earth": [
@@ -129,7 +129,7 @@
                 81
             ],
             "Light": [
-                true,
+                false,
                 1,
                 81
             ],

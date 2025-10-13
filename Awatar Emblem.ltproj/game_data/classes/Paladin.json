@@ -79,12 +79,12 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
+            "Lance": [
                 true,
                 30,
                 81
             ],
-            "Lance": [
+            "Sword": [
                 true,
                 30,
                 81
@@ -99,17 +99,27 @@
                 0,
                 81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                81
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                81
+                null
             ],
-            "Anima": [
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 81
@@ -119,7 +129,17 @@
                 0,
                 81
             ],
-            "Default": [
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
                 false,
                 0,
                 81

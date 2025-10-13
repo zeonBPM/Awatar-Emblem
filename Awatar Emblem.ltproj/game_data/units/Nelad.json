@@ -88,12 +88,12 @@
         "wexp_gain": {
             "Bow": [
                 false,
-                201,
+                21,
                 null
             ],
             "Air": [
                 false,
-                201,
+                10,
                 null
             ],
             "Water": [

@@ -73,14 +73,14 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                2,
-                30,
-                81
-            ],
             "Lance": [
                 false,
                 0,
+                81
+            ],
+            "Sword": [
+                2,
+                30,
                 81
             ],
             "Axe": [

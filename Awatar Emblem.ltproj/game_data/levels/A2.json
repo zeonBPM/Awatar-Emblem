@@ -9,7 +9,7 @@
         "objective": {
             "simple": "Enter the temple",
             "win": "All units escape",
-            "loss": "All units perish"
+            "loss": "All allies perish"
         },
         "roam": false,
         "roam_unit": null,

@@ -8,28 +8,28 @@
         "klass": "Wavecaller",
         "tags": [],
         "bases": {
-            "SPD": 0,
-            "MOV": 0,
-            "CON": 0,
+            "SPD": 1,
+            "MOV": 5,
+            "CON": 6,
             "LCK": 0,
             "SKL": 0,
-            "HP": 0,
+            "HP": 20,
             "RES": 0,
             "DEF": 0,
-            "STR": 0,
+            "STR": 3,
             "MAG": 0
         },
         "growths": {
-            "SPD": 0,
+            "SPD": 20,
             "MOV": 0,
             "CON": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "HP": 0,
-            "RES": 0,
-            "DEF": 0,
-            "STR": 0,
-            "MAG": 0
+            "LCK": 25,
+            "SKL": 30,
+            "HP": 80,
+            "RES": 15,
+            "DEF": 12,
+            "STR": 50,
+            "MAG": 30
         },
         "stat_cap_modifiers": {
             "SPD": 0,
@@ -73,7 +73,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "",
-        "affinity": "None",
+        "affinity": "Water",
         "fields": []
     }
 ]

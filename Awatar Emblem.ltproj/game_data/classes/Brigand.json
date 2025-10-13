@@ -2,7 +2,7 @@
     {
         "nid": "Brigand",
         "name": "Brigand",
-        "desc": "Ruffians good for nothing else besides pillagin.",
+        "desc": "Ruffians good for nothing else besides pillaging.",
         "tier": 1,
         "movement_group": "Bandits",
         "promotes_from": null,

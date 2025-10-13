@@ -1,8 +1,8 @@
 [
     {
         "nid": "Shaman",
-        "name": "Shaman",
-        "desc": "Impulsive mages with a tenous grasp on their magic.",
+        "name": "Earthbender",
+        "desc": "A traitor to the Earth Kingdom, dangerous in close range.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -102,8 +102,8 @@
                 null
             ],
             "Earth": [
-                false,
-                0,
+                true,
+                21,
                 null
             ],
             "Fire": [
@@ -117,7 +117,7 @@
                 81
             ],
             "Dark": [
-                true,
+                false,
                 31,
                 81
             ],

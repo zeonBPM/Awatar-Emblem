@@ -69,17 +69,6 @@
                 1
             ],
             [
-                "prf_class",
-                [
-                    "Myrmidon",
-                    "Swordmaster",
-                    "Eirika_Lord",
-                    "Assassin",
-                    "Sword_Bonewalker",
-                    "Sword_Wight"
-                ]
-            ],
-            [
                 "weapon_rank",
                 "D"
             ]

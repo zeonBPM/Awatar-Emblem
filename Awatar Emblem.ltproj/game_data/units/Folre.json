@@ -86,12 +86,12 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                1,
+                21,
                 null
             ],
             "Fire": [
                 false,
-                201,
+                41,
                 null
             ],
             "Default": [
