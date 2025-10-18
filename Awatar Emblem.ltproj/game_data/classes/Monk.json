@@ -4,7 +4,7 @@
         "name": "Waterbender",
         "desc": "Turncoat Water Tribe member. Prefers to fight as a team.",
         "tier": 1,
-        "movement_group": "Mages",
+        "movement_group": "Water",
         "promotes_from": null,
         "turns_into": [
             "Bishop"

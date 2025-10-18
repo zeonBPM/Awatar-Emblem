@@ -9,11 +9,13 @@
         "priority": 20,
         "_source": [
             "If Nelad",
-            "    give",
+            "    give    fanstaff",
             "   Bramar",
-            "    give",
+            "    give    whetstone",
             "   Anael",
-            "    give"
+            "    give    spiritcharm",
+            "    ",
+            "    \"hey, its just like mine\""
         ],
         "nid": "A2 Vendor"
     }

@@ -3,9 +3,9 @@
         "nid": "Valkyrie",
         "name": "Valkyrie",
         "desc": "Cruel-hearted healers.",
-        "tier": 2,
+        "tier": 1,
         "movement_group": "Heavy Cav",
-        "promotes_from": "Troubadour",
+        "promotes_from": null,
         "turns_into": [],
         "tags": [
             "Horse",

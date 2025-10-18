@@ -104,6 +104,10 @@
             [
                 "start_cooldown",
                 null
+            ],
+            [
+                "battle_cast_anim",
+                "Volcano"
             ]
         ]
     }

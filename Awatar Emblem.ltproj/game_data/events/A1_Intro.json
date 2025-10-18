@@ -13,6 +13,7 @@
             "",
             "",
             "game_var;_convoy;True",
+            "game_var;killcount;0",
             "",
             "#start intro",
             "",

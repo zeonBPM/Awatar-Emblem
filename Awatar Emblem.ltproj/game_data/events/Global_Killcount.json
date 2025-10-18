@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Killcount",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit1.nid == 'Nelad'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "",
+            "inc_game_var;killcount"
+        ],
+        "nid": "Global Killcount"
+    }
+]

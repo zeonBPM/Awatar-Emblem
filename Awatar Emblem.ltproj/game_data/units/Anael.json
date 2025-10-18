@@ -3,7 +3,7 @@
         "nid": "Anael",
         "name": "Anael",
         "desc": "Tideflow (D-rank Water Magic) \u2013 A controlled jet of water that heals allies and harms enemies.\n",
-        "variant": null,
+        "variant": "",
         "level": 2,
         "klass": "Wavecaller",
         "tags": [
@@ -84,6 +84,14 @@
             [
                 1,
                 "WaterbendingS"
+            ],
+            [
+                3,
+                "Water1"
+            ],
+            [
+                8,
+                "Water2"
             ]
         ],
         "unit_notes": [],
@@ -105,7 +113,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "AnaelP",
+        "portrait_nid": "{Garytop} OC Saphyre [F2E]",
         "affinity": "Water",
         "fields": []
     }

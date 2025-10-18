@@ -1,7 +1,7 @@
 [
     {
         "nid": "_EarthA2",
-        "name": "Landslide",
+        "name": "Rockalanche",
         "desc": "At the start of this units phase, a landslide triggers, any enemy units in terrain are shaken and can't act for the reminder of the phase.<green>CD:2</>\n<pink>Effect:</> this is a free action.",
         "icon_nid": "{Beansy} DarkSheet",
         "icon_index": [

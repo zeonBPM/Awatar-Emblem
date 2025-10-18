@@ -4,7 +4,7 @@
         "name": "Earthbender",
         "desc": "A traitor to the Earth Kingdom, dangerous in close range.",
         "tier": 1,
-        "movement_group": "Mages",
+        "movement_group": "Earth",
         "promotes_from": null,
         "turns_into": [],
         "tags": [],

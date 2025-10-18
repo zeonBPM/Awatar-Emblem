@@ -46,7 +46,7 @@
         "starting_items": [
             [
                 "AzureSpike",
-                true
+                false
             ],
             [
                 "_WaterC2",
@@ -55,6 +55,10 @@
             [
                 "WaterE",
                 false
+            ],
+            [
+                "Fire_1",
+                true
             ]
         ],
         "learned_skills": [],

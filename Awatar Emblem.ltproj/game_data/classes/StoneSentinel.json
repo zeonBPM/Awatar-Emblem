@@ -71,16 +71,7 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [
-            [
-                3,
-                "Earth1"
-            ],
-            [
-                8,
-                "Earth2"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Lance": [
                 false,

@@ -3,7 +3,7 @@
         "nid": "Folre",
         "name": "Folre",
         "desc": "Exiled Royal Army Lieutenant",
-        "variant": null,
+        "variant": "Folre",
         "level": 3,
         "klass": "FlameDuelist",
         "tags": [
@@ -80,6 +80,14 @@
             [
                 1,
                 "FirebendingS"
+            ],
+            [
+                3,
+                "Fire1"
+            ],
+            [
+                8,
+                "Fire2"
             ]
         ],
         "unit_notes": [],
@@ -101,7 +109,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "FolreP",
+        "portrait_nid": "{Nickt} Gail (Scar)",
         "affinity": "Fire",
         "fields": []
     }

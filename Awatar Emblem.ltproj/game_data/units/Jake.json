@@ -3,7 +3,7 @@
         "nid": "Jake",
         "name": "Jake",
         "desc": "items: prf seige tome with lasting aoe any units inside the aoe on endstep get blazing stacks and take more fire damage, elfire, psychic skills: aura that gives enemies a stack of blazing on endstep",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Valkyrie",
         "tags": [],
@@ -80,7 +80,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "",
+        "portrait_nid": "{Lenh} OC 14 [F2E]",
         "affinity": "Spirit",
         "fields": []
     }

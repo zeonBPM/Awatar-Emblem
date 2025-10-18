@@ -5,7 +5,7 @@
         "desc": "sound based airbender",
         "variant": null,
         "level": 1,
-        "klass": "WindStrider",
+        "klass": "Airbender",
         "tags": [],
         "bases": {
             "SPD": 4,

@@ -4,7 +4,7 @@
         "name": "Fire Bender",
         "desc": "Novice bender in service of the Royal Army.",
         "tier": 1,
-        "movement_group": "Mages",
+        "movement_group": "Fire",
         "promotes_from": null,
         "turns_into": [
             "WindStrider",

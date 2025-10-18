@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Ol",
+        "name": "Ol",
+        "desc": "Close confidant of the Fire Prince",
+        "variant": null,
+        "level": 1,
+        "klass": "FlameDuelist",
+        "tags": [],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Steel_Sword",
+                false
+            ],
+            [
+                "FireE",
+                false
+            ],
+            [
+                "FireC",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                41,
+                null
+            ],
+            "Fire": [
+                false,
+                61,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    }
+]

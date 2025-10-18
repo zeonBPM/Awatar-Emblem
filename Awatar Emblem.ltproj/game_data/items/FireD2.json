@@ -71,6 +71,10 @@
             [
                 "equation_heal",
                 "HEAL"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
             ]
         ]
     }
