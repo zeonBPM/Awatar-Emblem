@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Chrage_sub",
+        "name": "Chrage sub",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "give_status_after_attack",
+                "ChargeSkill"
+            ],
+            [
+                "give_status_on_take_hit",
+                "ChargeSkill"
+            ],
+            [
+                "gain_skill_after_take_miss",
+                "ChargeSkill"
+            ],
+            [
+                "gain_skill_after_take_damage",
+                "ChargeSkill"
+            ]
+        ]
+    }
+]

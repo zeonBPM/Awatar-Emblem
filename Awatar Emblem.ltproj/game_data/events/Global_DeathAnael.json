@@ -13,7 +13,7 @@
             "expression;Anael;CloseEyes",
             "remove_portrait;Anael",
             "remove_unit;Anael",
-            "lose_game"
+            ""
         ],
         "nid": "Global DeathAnael"
     }

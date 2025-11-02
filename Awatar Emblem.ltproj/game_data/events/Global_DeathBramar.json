@@ -13,7 +13,7 @@
             "expression;Bramar;CloseEyes",
             "remove_portrait;Bramar",
             "remove_unit;Bramar",
-            "lose_game"
+            ""
         ],
         "nid": "Global DeathBramar"
     }

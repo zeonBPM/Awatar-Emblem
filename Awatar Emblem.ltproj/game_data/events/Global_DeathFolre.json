@@ -13,7 +13,7 @@
             "expression;Folre;CloseEyes",
             "remove_portrait;Folre",
             "remove_unit;Folre",
-            "lose_game"
+            ""
         ],
         "nid": "Global DeathFolre"
     }

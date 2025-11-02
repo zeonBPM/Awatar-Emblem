@@ -934,5 +934,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Tiki (Hooded) {BatimaTheBat} [F2E]",
+        "blinking_offset": [
+            16,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            56
+        ],
+        "info_offset": 0
     }
 ]
