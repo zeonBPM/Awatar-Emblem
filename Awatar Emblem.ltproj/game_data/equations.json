@@ -122,5 +122,9 @@
     {
         "nid": "HALFRES",
         "expression": "RES//2"
+    },
+    {
+        "nid": "MAGnegat",
+        "expression": "(MAG)*-1"
     }
 ]

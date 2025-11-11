@@ -3,7 +3,7 @@
         "nid": "SoldierR",
         "name": "SoldierR",
         "desc": "",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "WindStrider",
         "tags": [],

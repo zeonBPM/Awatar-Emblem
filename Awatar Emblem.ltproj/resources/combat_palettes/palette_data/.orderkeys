@@ -628,10 +628,12 @@
     "Dracolord0_GenericBlue",
     "Dracolord0_GenericRed",
     "Dread_Figther_Folre",
+    "Dread_Figther_Zoran",
     "Dread_Figther_GenericRed",
     "EirikaLord",
     "Lancer_Anael",
     "Lancer_GenericBlue",
+    "Lancer_Adriana",
     "Oracle0_GenericBlue",
     "Oracle0_GenericRed",
     "Oracle5_GenericBlue",
@@ -662,6 +664,8 @@
     "Warlock5_Kayla",
     "WindStrider",
     "Mogall",
-    "Airbender_GenericBlue",
-    "DreadFighter_GenericBlue"
+    "Airbender_Sakura",
+    "DreadFighter_GenericBlue",
+    "Valkyrie_GenericBlue",
+    "Valkyrie_GenericRed"
 ]

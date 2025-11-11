@@ -14,14 +14,6 @@
                 null
             ],
             [
-                "value",
-                600
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
                 "min_range",
                 1
             ],
@@ -38,25 +30,6 @@
                 "E"
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                11
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     96,
@@ -65,8 +38,8 @@
                 ]
             ],
             [
-                "equation_heal",
-                "HEAL"
+                "target_unit",
+                null
             ]
         ]
     }

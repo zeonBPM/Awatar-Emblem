@@ -1213,3 +1213,59 @@ class WeaponTypes(ItemComponent):
 # complicated - because what if unit has access to all eligible weapon types?
 # how to resolve?
 
+
+
+
+
+class ShittyHeal(ItemComponent):
+    nid = 'shittyheal'
+    desc = "Item heals this amount on hit, ignoring target's current hp, and allowing negative healing"
+    tag = ItemTags.UTILITY
+
+    expose = ComponentType.Int
+    value = 10
+
+    def _get_heal_amount(self, unit, target):
+        empower_heal = skill_system.empower_heal(unit, target)
+        empower_heal_received = skill_system.empower_heal_received(target, unit)
+        return self.value + empower_heal + empower_heal_received
+
+    def on_hit(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
+        heal = self._get_heal_amount(unit, target)
+        true_heal = heal
+        actions.append(action.ChangeHP(target, heal))
+
+
+
+
+
+class ShittyEquationHeal(ShittyHeal):
+    nid = 'equation_shittyheal'
+    desc = "Heals the target for the value of the equation defined in the equations editor. Equation is calculated using the caster's stats, not the targets Works with shittyheal as a base instead of normal heal."
+
+    expose = ComponentType.Equation
+    value = 'HEAL'
+
+    def _get_heal_amount(self, unit, target):
+        empower_heal = skill_system.empower_heal(unit, target)
+        empower_heal_received = skill_system.empower_heal_received(target, unit)
+        equation = self.value
+        return equations.parser.get(equation, unit) + empower_heal + empower_heal_received
+
+
+
+class AlternateHealFormula(ItemComponent):
+    nid = 'alternate_heal_formula'
+    desc = 'Item uses a different heal formula'
+    tag = ItemTags.FORMULA
+
+    expose = ComponentType.Equation
+    value = 'HEAL'
+
+    def damage_formula(self, unit, item):
+        return self.value
+
+
+
+
+

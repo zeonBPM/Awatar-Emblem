@@ -26,10 +26,10 @@
             "mirror_portrait;Nelad;3",
             "speak;Nelad;It's not about revenge.|I just won't let them take any more.",
             "expression;Bramar;Smile",
-            "speak;Bramar; Good enough for me.{w} I'll hold the front.You take out their archers.",
+            "speak;Bramar;Good enough for me.{w} I'll hold the front.You take out their archers.",
             "expression;Nelad;Smile",
             "bop_portrait;Nelad",
-            "speak;Nelad;\u2028Then let's move.",
+            "speak;Nelad;Then let's move.",
             "multi_remove_portrait;Bramar;Nelad",
             "add_unit;Bramar;Nelad;immediate;closest"
         ],

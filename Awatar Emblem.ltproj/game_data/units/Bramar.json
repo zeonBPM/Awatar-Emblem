@@ -3,7 +3,7 @@
         "nid": "Bramar",
         "name": "Bramar",
         "desc": "A cobbler with nothing else to lose.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "StoneSentinel",
         "tags": [

@@ -14,7 +14,7 @@
             "add_portrait;SoldierR;RightCorner",
             "speak;SoldierR;An Airbender?! You should be dead! The Fire Lord wiped you out!;top",
             "add_portrait;Nelad;LeftCorner",
-            "speak;Nelad;... Must you all be so violent?"
+            "speak;Nelad;... Apparently he didn't do a good enough job."
         ],
         "nid": "A1 FirstFight"
     }

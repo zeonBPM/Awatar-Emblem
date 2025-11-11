@@ -1,4 +1,7 @@
 [
+    "Heal",
+    "Heal_D",
+    "Heal_H",
     "Fire_1",
     "Airbending",
     "AirE",
@@ -33,7 +36,6 @@
     "WaterA",
     "WaterS",
     "Runners_High",
-    "Heal_1",
     "TemplateWeapon",
     "HuntingBow",
     "Fanstaff",
@@ -148,7 +150,6 @@
     "Ballista",
     "Long_Ballista",
     "Killer_Ballista",
-    "Heal",
     "Mend",
     "Recover",
     "Physic",

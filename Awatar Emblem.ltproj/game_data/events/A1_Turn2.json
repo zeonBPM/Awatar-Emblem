@@ -28,7 +28,7 @@
             "interact_unit;Bramar;SoldierB;crit1;EarthE;",
             "",
             "remove_unit;Bramar;fade",
-            "speak;Nelad;A survivor? I need to help him at once.;top;;thought_bubble"
+            "speak;Nelad;A survivor? I must help him at once!;top;;thought_bubble"
         ],
         "nid": "A1 Turn2"
     }
