@@ -3,10 +3,10 @@
         "nid": "Stabilized",
         "name": "Stabilized",
         "desc": "Unit is immune to knockback and move effects.",
-        "icon_nid": "Skills",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            7,
-            6
+            8,
+            14
         ],
         "components": [
             [

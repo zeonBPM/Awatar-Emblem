@@ -2,7 +2,7 @@
     {
         "nid": "Ablaze",
         "name": "Ablaze",
-        "desc": "taake more damage from fire attacks (except from burning)",
+        "desc": "take more damage from fire attacks (except from burning)",
         "icon_nid": "skill_icons",
         "icon_index": [
             8,

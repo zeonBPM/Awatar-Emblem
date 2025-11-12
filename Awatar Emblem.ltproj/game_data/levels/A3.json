@@ -17,7 +17,26 @@
         "should_record": true,
         "tags": [],
         "units": [],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "formation",
+                "position": [
+                    14,
+                    3
+                ],
+                "size": [
+                    4,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
         "unit_groups": [],
         "ai_groups": []
     }

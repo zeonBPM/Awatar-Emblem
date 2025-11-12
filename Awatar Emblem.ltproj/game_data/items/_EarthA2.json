@@ -18,10 +18,6 @@
                 null
             ],
             [
-                "status_on_hit",
-                "Stabilized"
-            ],
-            [
                 "all_allies_aoe",
                 null
             ],
@@ -63,7 +59,7 @@
             ],
             [
                 "map_cast_anim",
-                "AOE_Rally"
+                "AOE_Sandblast"
             ],
             [
                 "spell",
@@ -71,7 +67,18 @@
             ],
             [
                 "cooldown",
-                4
+                2
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Stumble",
+                    "Restrained"
+                ]
+            ],
+            [
+                "no_attack_after_move",
+                null
             ]
         ]
     }

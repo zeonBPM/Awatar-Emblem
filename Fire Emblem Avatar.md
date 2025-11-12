@@ -102,7 +102,7 @@ She claims it is a unique beast, bred from an orstrich-horse and a horse-monkey,
 
 
 
-## Sakura
+## Yora
 tbd
 	shatter		2 aoe air attack
 	Windstep		

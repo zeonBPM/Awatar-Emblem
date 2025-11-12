@@ -130,5 +130,30 @@
         "nid": "Chapter 3 temple",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "c8d148e96aca0278f4b8160f0d8780576d5a8319",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Ch.18 - Link The Faces of Evil",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "[A] Preview",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "ch 4 haunted forest",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "ch4",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
