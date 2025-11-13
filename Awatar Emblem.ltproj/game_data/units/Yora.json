@@ -44,7 +44,12 @@
             "MAG": 0
         },
         "starting_items": [],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Air1"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Air": [
@@ -55,7 +60,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "{Cygnus} cleric girl the Troubadour [F2E]",
-        "affinity": "Wind",
+        "affinity": "Air",
         "fields": []
     }
 ]

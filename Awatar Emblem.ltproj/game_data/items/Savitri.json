@@ -2,7 +2,7 @@
     {
         "nid": "Savitri",
         "name": "Savitri",
-        "desc": "A sacred relic bow. When drawn, the string generates blades of wind that are used to take down non benders.\nTargets MAG.\n",
+        "desc": "A sacred relic bow. When drawn, the string generates blades of wind that are used to take down non benders.\nTargets MAG. 3 uses per chapter\n",
         "icon_nid": "{Beansy} {Bows} All Icons",
         "icon_index": [
             2,
@@ -60,6 +60,17 @@
             [
                 "battle_cast_anim",
                 "Arrow"
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "None",
         "name": "None",
-        "desc": "No affinity",
+        "desc": "Non benders",
         "bonus": [],
         "icon_nid": "",
         "icon_index": [
@@ -13,7 +13,7 @@
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "Grants increased might, accuracy, avoid, and crit rate.",
+        "desc": "Firebenders ",
         "bonus": [
             {
                 "support_rank": "C",
@@ -58,7 +58,7 @@
     {
         "nid": "Earth",
         "name": "Earth",
-        "desc": "Grants increased defense, avoid, crit rate, and crit avoid.",
+        "desc": "Earthbenders ",
         "bonus": [
             {
                 "support_rank": "C",
@@ -101,9 +101,9 @@
         ]
     },
     {
-        "nid": "Wind",
-        "name": "Wind",
-        "desc": "Grants increased might, accuracy, crit rate, and crit avoid.",
+        "nid": "Air",
+        "name": "Air",
+        "desc": "Airbenders",
         "bonus": [
             {
                 "support_rank": "C",
@@ -148,7 +148,7 @@
     {
         "nid": "Water",
         "name": "Water",
-        "desc": "Grants increased defense, accuracy, avoid, and crit avoid.",
+        "desc": "Waterbenders",
         "bonus": [
             {
                 "support_rank": "C",
@@ -283,7 +283,7 @@
     {
         "nid": "Spirit",
         "name": "Spirit",
-        "desc": "Grants increased attack, defense, avoid, and crit avoid.",
+        "desc": "Spirits ",
         "bonus": [
             {
                 "support_rank": "C",

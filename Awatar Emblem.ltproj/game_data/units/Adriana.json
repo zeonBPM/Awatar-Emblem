@@ -61,7 +61,12 @@
                 true
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Water1"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Water": [

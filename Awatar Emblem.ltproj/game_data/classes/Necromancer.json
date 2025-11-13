@@ -112,8 +112,8 @@
                 null
             ],
             "Default": [
-                false,
-                0,
+                true,
+                502,
                 81
             ],
             "Dark": [

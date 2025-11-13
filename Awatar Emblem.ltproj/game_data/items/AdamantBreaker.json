@@ -2,7 +2,7 @@
     {
         "nid": "AdamantBreaker",
         "name": "Adamant Breaker",
-        "desc": "A legendary axe said to be made from a boulder shaped by the primordial spirits themselves. It grows heavier when held with both hands but moves effortlessly when swinging it. \nIgnores half of enemy DEF.\n",
+        "desc": "A legendary axe said to be made from a boulder shaped by the primordial spirits themselves. It grows heavier when held with both hands but moves effortlessly when swinging it. \nIgnores half of enemy DEF. 3 uses per chapter\n",
         "icon_nid": "{Beansy} {Axes} All Icons",
         "icon_index": [
             0,
@@ -56,6 +56,17 @@
             [
                 "alternate_resist_formula",
                 "HALFDEF"
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     }

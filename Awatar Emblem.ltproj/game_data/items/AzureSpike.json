@@ -2,7 +2,7 @@
     {
         "nid": "AzureSpike",
         "name": "Azure Spike",
-        "desc": "A spear engraved with deep-sea minerals, allowing the wielder to channel waterbending through it.\nDoubles when initiating combat.",
+        "desc": "A spear engraved with deep-sea minerals, allowing the wielder to channel waterbending through it.\nDoubles when initiating combat. 5 uses per chapter",
         "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
             1,
@@ -56,6 +56,17 @@
             [
                 "brave_on_attack",
                 null
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "TerraCleaver",
         "name": "Terra Cleaver",
-        "desc": "A massive stone-forged greataxe, its head reinforced with ore that channels Earthbending. When swung, it can crack the ground beneath enemies to slow them.",
+        "desc": "A massive stone-forged greataxe, its head reinforced with ore that channels Earthbending. When swung, it can crack the ground beneath enemies to slow them. 5 uses per chapter",
         "icon_nid": "{Beansy} {Axes} All Icons",
         "icon_index": [
             3,
@@ -56,6 +56,17 @@
             [
                 "status_on_hit",
                 "Slow"
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     }

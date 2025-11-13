@@ -1,39 +1,36 @@
 [
     {
-        "nid": "Troubadour",
-        "name": "Troubadour",
-        "desc": "Kind-hearted healers.",
+        "nid": "Monk_evil",
+        "name": "Waterbender",
+        "desc": "Turncoat Water Tribe member. Prefers to fight as a team.",
         "tier": 1,
-        "movement_group": "Heavy Cav",
+        "movement_group": "Water",
         "promotes_from": null,
         "turns_into": [
-            "Valkyrie"
+            "Bishop"
         ],
-        "tags": [
-            "Horse",
-            "Mounted"
-        ],
+        "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 15,
+            "HP": 18,
             "STR": 0,
             "MAG": 1,
             "SKL": 1,
-            "SPD": 3,
+            "SPD": 2,
             "LCK": 0,
-            "DEF": 2,
+            "DEF": 1,
             "RES": 5,
-            "CON": 5,
-            "MOV": 6
+            "CON": 6,
+            "MOV": 5
         },
         "growths": {
             "HP": 50,
             "STR": 0,
-            "MAG": 25,
+            "MAG": 30,
             "SKL": 35,
-            "SPD": 55,
+            "SPD": 32,
             "LCK": 45,
-            "DEF": 12,
+            "DEF": 8,
             "RES": 40,
             "CON": 0,
             "MOV": 0
@@ -51,16 +48,16 @@
             "MOV": 0
         },
         "promotion": {
-            "HP": 0,
+            "HP": 1,
             "STR": 0,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "SKL": 2,
+            "SPD": 2,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -71,15 +68,10 @@
             "LCK": 30,
             "DEF": 20,
             "RES": 20,
-            "CON": 25,
+            "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Lance": [
                 false,
@@ -107,8 +99,8 @@
                 null
             ],
             "Water": [
-                false,
-                0,
+                true,
+                21,
                 null
             ],
             "Earth": [
@@ -122,8 +114,8 @@
                 null
             ],
             "Default": [
-                true,
-                31,
+                false,
+                1,
                 81
             ],
             "Dark": [
@@ -138,22 +130,22 @@
             ],
             "Light": [
                 false,
-                0,
+                1,
                 81
             ],
             "Staff": [
-                true,
-                31,
+                false,
+                0,
                 81
             ]
         },
-        "icon_nid": "Generic_Portrait_Troubadour",
+        "icon_nid": "Generic_Portrait_Monk",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Troubadour",
-        "combat_anim_nid": null,
+        "map_sprite_nid": "Monk",
+        "combat_anim_nid": "Tactician",
         "fields": []
     }
 ]

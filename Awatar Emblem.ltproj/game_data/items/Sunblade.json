@@ -2,7 +2,7 @@
     {
         "nid": "Sunblade",
         "name": "Sunblade",
-        "desc": "A straight blade forged from volcanic metal, designed for both quick stabs and powerful slashes. When swung, it leaves behind a trail of fire.\nCauses burning.\n",
+        "desc": "A straight blade forged from volcanic metal, designed for both quick stabs and powerful slashes. When swung, it leaves behind a trail of fire.\nCauses burning. 5 uses per chapter",
         "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
             0,
@@ -56,6 +56,17 @@
             [
                 "status_on_hit",
                 "Burning"
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     }

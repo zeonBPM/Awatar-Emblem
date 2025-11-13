@@ -2,7 +2,7 @@
     {
         "nid": "Whetstone",
         "name": "Whetstone",
-        "desc": "+2 SKL\nUsed to sharpen axes for better accuracy.",
+        "desc": "+2 SKL\nUsed to sharpen weapons for better accuracy.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,

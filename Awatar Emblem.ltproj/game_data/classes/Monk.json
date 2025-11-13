@@ -2,7 +2,7 @@
     {
         "nid": "Monk",
         "name": "Waterbender",
-        "desc": "Turncoat Water Tribe member. Prefers to fight as a team.",
+        "desc": "Valiant guardian of the sacred relics. Prefers to fight as a team.",
         "tier": 1,
         "movement_group": "Water",
         "promotes_from": null,
@@ -115,7 +115,7 @@
             ],
             "Default": [
                 false,
-                0,
+                1,
                 81
             ],
             "Dark": [

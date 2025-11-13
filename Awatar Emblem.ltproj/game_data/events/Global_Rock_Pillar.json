@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Rock Pillar",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_region;RPillar;{unit2};1,1;terrain;Fence;1;true",
+            "map_anim;BrownDot;{unit2};permanent"
+        ],
+        "nid": "Global Rock Pillar"
+    }
+]

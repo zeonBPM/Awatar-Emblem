@@ -2,7 +2,7 @@
     {
         "nid": "GalePiercer",
         "name": "Gale Piercer",
-        "desc": "A lightweight recurve bow crafted from Air Nomad wood, reinforced with glider materials. The arrows are shaped to follow air currents, increasing their range.\n",
+        "desc": "A lightweight recurve bow crafted from Air Nomad wood, reinforced with glider materials. The arrows are shaped to follow air currents, increasing their range. 5 uses per chapter\n",
         "icon_nid": "{Beansy} {Bows} All Icons",
         "icon_index": [
             0,
@@ -56,6 +56,17 @@
             [
                 "battle_cast_anim",
                 "Arrow"
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     }

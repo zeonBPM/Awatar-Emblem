@@ -3,7 +3,7 @@
         "nid": "Ol",
         "name": "Ol",
         "desc": "Close confidant of the Fire Prince",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "FlameDuelist",
         "tags": [],
@@ -73,7 +73,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "SoldierRed",
-        "affinity": "None",
+        "affinity": "Fire",
         "fields": []
     }
 ]

@@ -1,7 +1,7 @@
 [
     {
         "nid": "Mage",
-        "name": "Fire Bender",
+        "name": "Firebender",
         "desc": "Novice bender in service of the Royal Army.",
         "tier": 1,
         "movement_group": "Fire",
@@ -116,7 +116,7 @@
             ],
             "Default": [
                 false,
-                0,
+                31,
                 81
             ],
             "Dark": [

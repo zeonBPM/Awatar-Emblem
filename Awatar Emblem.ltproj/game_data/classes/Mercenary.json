@@ -1,8 +1,8 @@
 [
     {
         "nid": "Mercenary",
-        "name": "Mercenary",
-        "desc": "Professional soldiers for hire. Well-balanced, with superior abilities all around.",
+        "name": "Vanguard",
+        "desc": "Frontliner sword wielders. Well-balanced, with superior abilities all around.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

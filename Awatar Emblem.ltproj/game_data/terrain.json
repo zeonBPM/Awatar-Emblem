@@ -158,11 +158,11 @@
             40
         ],
         "minimap": "Wall",
-        "platform": "Wall",
-        "background": "combat_plains",
+        "platform": "Mountain",
+        "background": "CastleRuins",
         "mtype": "Fence",
-        "opaque": false,
-        "status": null
+        "opaque": true,
+        "status": "Stumble"
     },
     {
         "nid": "10",

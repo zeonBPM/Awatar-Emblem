@@ -3,6 +3,15 @@ Earthbending hits DEF	Pavise
 Waterbending hits SKL	Regen
 Firebending hits RES	???
 
+
+spirits bring fog when they appear
+
+
+
+Killer weapons are renamed as meteoric weapons(SPACE SWORD). needs specialized facilities to make one.
+
+
+
 # Characters
 
 ## Nelad
@@ -92,7 +101,7 @@ His parents chose that name hoping it would turn him into a fantastic bender, di
 	Ember Pendant	drop
 
 Has a horse, all members comment on it when fighting.
-She claims it is a unique beast, bred from an orstrich-horse and a horse-monkey, she calls it the orstrich-monkey.
+She claims it is a unique beast, bred from an orstrich-horse and a horse-eagle, she calls it the orstrich-eagle.
 
 ## Spirit Tree
 
@@ -124,7 +133,8 @@ The Fire nation Prince in charge of the local campaign, Aloof and carefree, but 
 
 
 
-Killer weapons are renamed as meteoric weapons(SPACE SWORD). needs specialized facilities to make one.
+
+
 
 
 # Chapter 1 will be in a raided village, kill boss
@@ -146,8 +156,8 @@ Its the same as the ones they start with(so now you can have one duplicate)
 
 standing in the water reduces fire damage taken
 
-allies are a couple waterbenders(monk?) and a single militia(recruit)[need some sort of reward based on how many remain alive at the end]
-enemies range from firebenders(mage), , 
+allies are a couple waterbenders(monk?) and a single militia(recruit)[gives a moonstone amulet if the recruit survives]
+enemies range from firebenders(mage), mercenaries, and soldiers, 
 
 
 the boss is Ol(Royal Guard)	steel sword/ fire E fire C	roam AI, is looking for a missing royal guard and asks the party if they saw one, after a short talk, he concludes that while they were most helpful in answering, they remain enemies of the crown, and must be eliminated. Bramar comments that the guy is too polite to be angry at, but he agrees that they must fight.

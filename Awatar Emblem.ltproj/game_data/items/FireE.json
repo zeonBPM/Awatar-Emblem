@@ -1,7 +1,7 @@
 [
     {
         "nid": "FireE",
-        "name": "Ember Flick",
+        "name": "Ember",
         "desc": "A short, focused burst of flame that causes severe burns.\n<pink>Misc:</>Effective vs Beasts <icon>Horse</>, Inflicts Burning.",
         "icon_nid": "Anima",
         "icon_index": [
