@@ -177,7 +177,7 @@
         "background": "combat_river",
         "mtype": "Sea",
         "opaque": false,
-        "status": "Avoid10"
+        "status": "FireImmune"
     },
     {
         "nid": "11",
@@ -192,7 +192,7 @@
         "background": "combat_sea",
         "mtype": "Sea",
         "opaque": false,
-        "status": "Avoid10"
+        "status": "FireImmune"
     },
     {
         "nid": "12",
@@ -207,7 +207,7 @@
         "background": "combat_river",
         "mtype": "River",
         "opaque": false,
-        "status": null
+        "status": "FireImmune"
     },
     {
         "nid": "20",
@@ -256,16 +256,16 @@
     },
     {
         "nid": "25",
-        "name": "Barrel",
+        "name": "Chasm",
         "color": [
             168,
             104,
             56
         ],
-        "minimap": "Wall",
-        "platform": "Deck",
-        "background": "combat_sea",
-        "mtype": "Fence",
+        "minimap": "Waste",
+        "platform": "Pillar",
+        "background": "BlackBackground",
+        "mtype": "Cliff",
         "opaque": false,
         "status": null
     },
@@ -370,7 +370,7 @@
         "minimap": "House",
         "platform": "Village",
         "background": "combat_village",
-        "mtype": "Normal",
+        "mtype": "Ruins",
         "opaque": false,
         "status": "Avoid10"
     },
@@ -430,7 +430,7 @@
         "minimap": "Ruins",
         "platform": "Ruins",
         "background": "combat_ruins",
-        "mtype": "Normal",
+        "mtype": "Ruins",
         "opaque": false,
         "status": "Avoid10"
     },

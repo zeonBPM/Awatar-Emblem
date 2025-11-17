@@ -141,7 +141,7 @@ The Fire nation Prince in charge of the local campaign, Aloof and carefree, but 
 Nelad gets there while the raiders are finishing, but there is still a survivor.
 Bramar has been fighting all day in his home, is recruitable.(might add a force recruit if he was not found in chapter)
 Juro was sent to both raid frontier villages for loot, and to kill all benders they find. he wants a promotion
-there is a hidden spirit(mogall) in the top right corner, behind the boss.
+there is a hidden spirit(mogall) in the top right corner, behind the boss. it has the terraria boss spawn sound when attacking
 
 # Chapter 2 will be in a flooded town, escape
 Anael is recruited in the intro
