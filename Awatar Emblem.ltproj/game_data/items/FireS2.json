@@ -1,0 +1,86 @@
+[
+    {
+        "nid": "FireS2",
+        "name": "Dragonflame",
+        "desc": "Signature technique of the Iridescent Dragon",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            15,
+            38
+        ],
+        "components": [
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "FireHit"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                6
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    }
+]

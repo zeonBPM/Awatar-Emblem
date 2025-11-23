@@ -3,7 +3,7 @@
         "nid": "Juro",
         "name": "Juro",
         "desc": "Low ranking officer in the Royal Army, sent to harrass defenceless villagers.",
-        "variant": null,
+        "variant": "",
         "level": 3,
         "klass": "Myrmidon",
         "tags": [],

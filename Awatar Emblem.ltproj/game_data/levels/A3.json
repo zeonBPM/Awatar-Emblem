@@ -44,7 +44,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Flee",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -68,7 +68,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Flee",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -92,7 +92,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Flee",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -116,7 +116,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Flee",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -140,7 +140,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Flee",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -164,7 +164,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Flee",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -317,6 +317,58 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Nelad",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Bramar",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Folre",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Anael",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [

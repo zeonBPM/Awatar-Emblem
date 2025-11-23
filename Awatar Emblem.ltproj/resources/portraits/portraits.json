@@ -660,50 +660,14 @@
         "info_offset": 0
     },
     {
-        "nid": "BramarP",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            16,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "NeladP",
         "blinking_offset": [
-            24,
+            32,
             32
         ],
         "smiling_offset": [
-            16,
+            32,
             48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "AnaelP",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "FolreP",
-        "blinking_offset": [
-            56,
-            0
-        ],
-        "smiling_offset": [
-            16,
-            40
         ],
         "info_offset": 0
     },
@@ -792,7 +756,7 @@
         "info_offset": 0
     },
     {
-        "nid": "{Garytop} OC Saphyre [F2E]",
+        "nid": "AnaelP",
         "blinking_offset": [
             24,
             24
@@ -804,7 +768,7 @@
         "info_offset": 0
     },
     {
-        "nid": "{Kanna} Sedric [F2E]",
+        "nid": "ZoranP",
         "blinking_offset": [
             32,
             24
@@ -816,7 +780,7 @@
         "info_offset": 0
     },
     {
-        "nid": "{LaurentLacroix} OC 18 [F2E]",
+        "nid": "AdrianaP",
         "blinking_offset": [
             24,
             32
@@ -828,7 +792,7 @@
         "info_offset": 0
     },
     {
-        "nid": "{LaurentLacroix} OC 46 [F2E]",
+        "nid": "NullP",
         "blinking_offset": [
             24,
             24
@@ -840,7 +804,7 @@
         "info_offset": 0
     },
     {
-        "nid": "{Lenh} OC 14 [F2E]",
+        "nid": "JoshiP",
         "blinking_offset": [
             24,
             24
@@ -888,7 +852,7 @@
         "info_offset": 0
     },
     {
-        "nid": "{Nickt} Gail (Scar)",
+        "nid": "FolreP",
         "blinking_offset": [
             24,
             32
@@ -996,18 +960,6 @@
         "info_offset": 0
     },
     {
-        "nid": "{Der} Estelle",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "{DATonDemand} OC Xyl [F2E]",
         "blinking_offset": [
             32,
@@ -1032,7 +984,7 @@
         "info_offset": 0
     },
     {
-        "nid": "John_Forge",
+        "nid": "John_ForgeP",
         "blinking_offset": [
             24,
             24
@@ -1044,13 +996,37 @@
         "info_offset": 0
     },
     {
-        "nid": "{Der} Estelle - recolor",
+        "nid": "YoraP",
         "blinking_offset": [
             24,
             32
         ],
         "smiling_offset": [
             16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "OlP",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "BramarP",
+        "blinking_offset": [
+            16,
+            32
+        ],
+        "smiling_offset": [
+            15,
             48
         ],
         "info_offset": 0
