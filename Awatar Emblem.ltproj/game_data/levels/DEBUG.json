@@ -257,7 +257,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Fire_1",
+                        "FireE",
                         false
                     ],
                     [
@@ -265,7 +265,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "iceonmiss"
+                ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,

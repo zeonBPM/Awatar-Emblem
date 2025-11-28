@@ -1,8 +1,79 @@
 [
     {
+        "nid": "Heal",
+        "name": "Heal",
+        "desc": "Restores (User's MAG + 10) HP.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Default"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "target_unit",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Heal_H",
+        "name": "Heal",
+        "desc": "Restores (User's MAG + 10) H",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "shittyheal",
+                10
+            ]
+        ]
+    },
+    {
+        "nid": "Heal_D",
+        "name": "Heal",
+        "desc": "Restores (User's MAG + 10) H",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    },
+    {
         "nid": "Fire_1",
         "name": "Fire",
-        "desc": "",
+        "desc": "asdasdsa\nasdasdas\nasdsadsa\n<red>EarthA</>\n<blue>Pavise</>",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -61,14 +132,6 @@
                 null
             ],
             [
-                "weapon_type",
-                "Anima"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     224,
@@ -79,1487 +142,30 @@
             [
                 "magic",
                 null
-            ]
-        ]
-    },
-    {
-        "nid": "Airbending",
-        "name": "Airbending",
-        "desc": "",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            7
-        ],
-        "components": [
-            [
-                "multi_item_hides_unavailable",
-                null
             ],
             [
-                "multi_item",
+                "weapon_types",
                 [
-                    "AirD",
-                    "AirC",
-                    "AirB",
-                    "AirA"
+                    "Earth",
+                    "Bow",
+                    "Lance"
                 ]
-            ]
-        ]
-    },
-    {
-        "nid": "AirD",
-        "name": "Gale Burst",
-        "desc": "A quick, small blast of wind that knocks back enemies or allies in a straight line.\nDeals no damage but cancels burning.",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            7
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "weight",
-                2
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Air"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    255,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "shove",
-                1
-            ],
-            [
-                "target_unit",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                4
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "no_equip",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "AirC",
-        "name": "Cyclone Shield*",
-        "desc": "Creates a defensive barrier of swirling air that provides cover.\nDeflects projectiles for 2 rounds.",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            7
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "min_range",
-                0
-            ],
-            [
-                "max_range",
-                3
-            ],
-            [
-                "weight",
-                4
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Air"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    255,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "buff_ally",
-                "CycloneShield"
-            ]
-        ]
-    },
-    {
-        "nid": "AirB",
-        "name": "Wind Step",
-        "desc": "Uses the wind to increase mobility, allowing for quick repositioning.\nGains +4 SPD, +1MOV to allies within 3 tiles for 3 rounds",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            7
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "min_range",
-                0
-            ],
-            [
-                "max_range",
-                0
-            ],
-            [
-                "weight",
-                7
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Air"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    255,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "status_on_hit",
-                "WindStep"
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "cannot_counter",
-                null
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "ally_blast_aoe",
-                3
-            ]
-        ]
-    },
-    {
-        "nid": "AirA",
-        "name": "Tempest Vortex",
-        "desc": "Summons a powerful, swirling vortex of wind that disorients enemies and cannot be countered.",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            7
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                3
-            ],
-            [
-                "damage",
-                15
-            ],
-            [
-                "hit",
-                100
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                14
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Air"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    255,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "status_on_hit",
-                "Berserk"
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "cannot_counter",
-                null
-            ],
-            [
-                "cannot_be_countered",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "AirS",
-        "name": "AirS",
-        "desc": "",
-        "icon_nid": null,
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": []
-    },
-    {
-        "nid": "Firebending",
-        "name": "Firebending",
-        "desc": "",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "multi_item",
-                [
-                    "FireD",
-                    "FireC",
-                    "FireB",
-                    "FireA"
-                ]
-            ],
-            [
-                "multi_item_hides_unavailable",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "FireD",
-        "name": "Ember Flick",
-        "desc": "A short, focused burst of flame aimed at a single target that causes severe burns.\n",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                5
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                4
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Fire"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    0,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "status_on_hit",
-                "Burning"
-            ]
-        ]
-    },
-    {
-        "nid": "FireC",
-        "name": "Rocket Jump",
-        "desc": "Uses a burst of flame to propel the user forward or over obstacles.\nEffect: Grants the user a +2 movement boost for 1 turn and allows them to jump over terrain.\n",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "weight",
-                4
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Fire"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    255,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "status_on_hit",
-                "RocketJump"
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "min_range",
-                0
-            ],
-            [
-                "max_range",
-                0
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "no_equip",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "FireB",
-        "name": "Flaming Wave",
-        "desc": "Sends a wave of fire across a straight line, affecting all enemies within range.",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                3
-            ],
-            [
-                "damage",
-                8
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                4
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Fire"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    0,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "line_aoe",
-                null
-            ],
-            [
-                "no_double",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "FireA",
-        "name": "Inferno Surge",
-        "desc": "Unleashes a massive blast of fire that targets multiple enemies in the area and inflicts burn.\n",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                4
-            ],
-            [
-                "damage",
-                12
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                4
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Fire"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    0,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "blast_aoe",
-                3
-            ],
-            [
-                "status_on_hit",
-                "Burning"
-            ],
-            [
-                "no_double",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "FireS",
-        "name": "Lightning",
-        "desc": "",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                3
-            ],
-            [
-                "max_range",
-                10
-            ],
-            [
-                "damage",
-                12
-            ],
-            [
-                "hit",
-                60
-            ],
-            [
-                "crit",
-                50
-            ],
-            [
-                "weight",
-                20
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Fire"
-            ],
-            [
-                "weapon_rank",
-                "S"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    255,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "value",
-                2500
-            ],
-            [
-                "siege_weapon",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Earthbending",
-        "name": "Earthbending",
-        "desc": "",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "multi_item",
-                [
-                    "EarthD",
-                    "EarthC",
-                    "EarthA",
-                    "EarthB"
-                ]
-            ],
-            [
-                "multi_item_hides_unavailable",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "EarthD",
-        "name": "Stone Fist",
-        "desc": "Creates a solid punch of earth that strikes at the target and leaves them stumbling.\n",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                5
-            ],
-            [
-                "hit",
-                85
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                6
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Earth"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    170,
-                    85,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "status_on_hit",
-                "Stumble"
-            ]
-        ]
-    },
-    {
-        "nid": "EarthC",
-        "name": "Rock Wall",
-        "desc": "Raises a solid wall of earth to block the path or create cover.\nEffect: Blocks movement for 2 turns in a 1-tile radius, providing +5 defense to those behind it.",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                8
-            ],
-            [
-                "hit",
-                85
-            ],
-            [
-                "crit",
-                5
-            ],
-            [
-                "weight",
-                9
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Earth"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    170,
-                    85,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "enemy_blast_aoe",
-                1
-            ],
-            [
-                "status_on_hit",
-                "Stumble"
-            ],
-            [
-                "no_double",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "EarthB",
-        "name": "Seismic Slam",
-        "desc": "A massive shockwave that shakes the earth and affects all enemies in the area.\nEffect: Deals 20-25 physical damage in a 3-tile radius, stuns all enemies hit for 1 turn.",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "min_range",
-                0
-            ],
-            [
-                "max_range",
-                0
-            ],
-            [
-                "damage",
-                3
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                14
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Earth"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    255,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "status_on_hit",
-                "Stunned"
-            ],
-            [
-                "enemy_blast_aoe",
-                4
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "target_tile",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "EarthA",
-        "name": "Constrictive Pillars",
-        "desc": "Causes the ground to rise up, grabbing an enemy and holding them in place.\nEffect: Immobilizes an enemy for 1 turn and deals 15-20 physical damage.",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                3
-            ],
-            [
-                "damage",
-                11
-            ],
-            [
-                "hit",
-                100
-            ],
-            [
-                "crit",
-                20
-            ],
-            [
-                "weight",
-                19
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Earth"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    170,
-                    85,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "status_on_hit",
-                "Petrify"
-            ]
-        ]
-    },
-    {
-        "nid": "EarthS",
-        "name": "EarthS",
-        "desc": "",
-        "icon_nid": null,
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": []
-    },
-    {
-        "nid": "Waterbending",
-        "name": "Waterbending",
-        "desc": "",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            5
-        ],
-        "components": [
-            [
-                "multi_item",
-                [
-                    "WaterD",
-                    "WaterC",
-                    "WaterB",
-                    "WaterA"
-                ]
-            ],
-            [
-                "multi_item_hides_unavailable",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "WaterD",
-        "name": "Water Whip",
-        "desc": "A lash of water that strikes enemies at range.\nRestrains enemies for 2 rounds.",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            5
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                5
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                4
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Water"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    0,
-                    170,
-                    255
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "status_on_hit",
-                "Restrained"
-            ]
-        ]
-    },
-    {
-        "nid": "WaterC",
-        "name": "Ice Shield",
-        "desc": "Forms a shield of ice around the user or an ally to absorb damage.\nRES+4, greatly empowers healing received, lasts 3 turns.\n",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            5
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "min_range",
-                0
-            ],
-            [
-                "max_range",
-                3
-            ],
-            [
-                "weight",
-                8
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Water"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    0,
-                    170,
-                    255
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "status_on_hit",
-                "IceShield"
-            ]
-        ]
-    },
-    {
-        "nid": "WaterB",
-        "name": "Tidal Pull",
-        "desc": "Creates a localized water surge that pulls up to 3 enemies toward the user.\n",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            5
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                4
-            ],
-            [
-                "damage",
-                6
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                7
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Water"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    0,
-                    170,
-                    255
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "multi_target",
-                3
-            ],
-            [
-                "shove",
-                -1
-            ],
-            [
-                "allow_less_than_max_targets",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "WaterA",
-        "name": "Flood Surge",
-        "desc": "Summons a massive wave that overwhelms a large area.\n",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            5
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "min_range",
-                0
-            ],
-            [
-                "damage",
-                -5
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                31
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Water"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    0,
-                    170,
-                    255
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "target_tile",
-                null
-            ],
-            [
-                "enemy_blast_aoe",
-                5
-            ]
-        ]
-    },
-    {
-        "nid": "WaterS",
-        "name": "WaterS",
-        "desc": "",
-        "icon_nid": null,
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": []
-    },
-    {
-        "nid": "Runners_High",
-        "name": "Runner's High",
-        "desc": "Restores HP equal to user's MAG/2 + MOV. <green>CD:5</>\n<pink>Misc:</>Give +2 MOV, Canto+ to ally for 1 turn.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            15
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                3
-            ],
-            [
-                "weapon_type",
-                "Air"
             ],
             [
                 "weapon_rank",
                 "E"
             ],
             [
-                "ignore_line_of_sight",
-                null
+                "multi_desc_skill",
+                [
+                    "Pavise"
+                ]
             ],
             [
-                "equation_heal",
-                "DAMAGE"
-            ],
-            [
-                "status_on_hit",
-                "WindStep"
-            ]
-        ]
-    },
-    {
-        "nid": "Heal_1",
-        "name": "Heal",
-        "desc": "Restores (User's MAG + 10) HP.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "buff_ally",
-                "WindStep"
-            ],
-            [
-                "weapon_type",
-                "Air"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "equation_heal2",
-                "DAMAGE"
+                "multi_desc_item",
+                [
+                    "EarthA"
+                ]
             ]
         ]
     },
@@ -1606,17 +212,6 @@
                 0
             ],
             [
-                "uses",
-                1
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -1633,7 +228,7 @@
     {
         "nid": "HuntingBow",
         "name": "Hunting Bow",
-        "desc": "A small bow with light arrows, it is really easy to use.",
+        "desc": "A small bow with light arrows, easy to use.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -1677,17 +272,6 @@
                 3
             ],
             [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -1710,228 +294,14 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ]
-        ]
-    },
-    {
-        "nid": "Fanstaff",
-        "name": "Fan Staff",
-        "desc": "+2 SPD",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            6
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "SPD",
-                        2
-                    ]
-                ]
             ],
             [
-                "equippable_accessory",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Heatstone",
-        "name": "Heatstone",
-        "desc": "+2 MAG\nA Fire Nation alchemical item that enhances bending when held.",
-        "icon_nid": "Boosters",
-        "icon_index": [
-            0,
-            13
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "MAG",
-                        2
-                    ]
-                ]
-            ],
-            [
-                "equippable_accessory",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Whetstone",
-        "name": "Whetstone",
-        "desc": "+2 SKL\nUsed to sharpen axes for better accuracy.",
-        "icon_nid": "Boosters",
-        "icon_index": [
-            0,
-            2
-        ],
-        "components": [
-            [
-                "equippable_accessory",
-                null
-            ],
-            [
-                "stat_change",
-                [
-                    [
-                        "SKL",
-                        2
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "SpiritCHarm",
-        "name": "SpiritCHarm",
-        "desc": "+2 RES\nA protective talisman against spirits and bending.",
-        "icon_nid": "{Cardcafe} {FE15} All Icons",
-        "icon_index": [
-            1,
-            2
-        ],
-        "components": [
-            [
-                "equippable_accessory",
-                null
-            ],
-            [
-                "stat_change",
-                [
-                    [
-                        "RES",
-                        2
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "asdasd",
-        "name": "asdasd",
-        "desc": "+2STR",
-        "icon_nid": "Boosters",
-        "icon_index": [
-            0,
-            1
-        ],
-        "components": [
-            [
-                "equippable_accessory",
-                null
-            ],
-            [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        2
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "WheightliftingBelt",
-        "name": "Wheightlifting Belt",
-        "desc": "+2CON",
-        "icon_nid": "Boosters",
-        "icon_index": [
-            0,
-            8
-        ],
-        "components": [
-            [
-                "equippable_accessory",
-                null
-            ],
-            [
-                "stat_change",
-                [
-                    [
-                        "CON",
-                        2
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "FireNationEmblem",
-        "name": "new_3",
-        "desc": "bonus growths",
-        "icon_nid": "Boosters",
-        "icon_index": [
-            0,
-            10
-        ],
-        "components": []
-    },
-    {
-        "nid": "WaterTribeEmblem",
-        "name": "new_2",
-        "desc": "bonus growths",
-        "icon_nid": "Boosters",
-        "icon_index": [
-            0,
-            14
-        ],
-        "components": []
-    },
-    {
-        "nid": "EarthKingdomEmblem",
-        "name": "new_1",
-        "desc": "bonus growths",
-        "icon_nid": "Boosters",
-        "icon_index": [
-            0,
-            19
-        ],
-        "components": []
-    },
-    {
-        "nid": "AirNomadsEmblem",
-        "name": "AirNomadsEmblem",
-        "desc": "bonus growths",
-        "icon_nid": "Boosters",
-        "icon_index": [
-            0,
-            20
-        ],
-        "components": []
-    },
-    {
-        "nid": "SpiritWater",
-        "name": "Spirit Water",
-        "desc": "Flask of purified water imbued with spiritual energy.",
-        "icon_nid": "Consumable",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "usable",
-                null
-            ],
-            [
-                "value",
-                3000
-            ],
-            [
-                "target_ally",
-                null
+                "battle_cast_anim",
+                "Arrow"
             ],
             [
                 "uses",
-                1
+                40
             ],
             [
                 "uses_options",
@@ -1939,76 +309,17 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
-            ],
-            [
-                "heal",
-                99
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    96,
-                    144,
-                    232
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "SmokedMeat",
-        "name": "Smoked Meat",
-        "desc": " (Restores 5% HP per turn for 3 turns, 1 use) \u2013 Simple rations.",
-        "icon_nid": "Valuable",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "usable",
-                null
-            ],
-            [
-                "value",
-                3000
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "uses",
-                1
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    96,
-                    144,
-                    232
-                ]
-            ],
-            [
-                "status_on_hit",
-                "SmokedMeat"
             ]
         ]
     },
     {
         "nid": "GalePiercer",
         "name": "Gale Piercer",
-        "desc": "A lightweight recurve bow crafted from Air Nomad wood, reinforced with glider materials. The arrows are shaped to ride air currents, increasing their range.\n",
-        "icon_nid": "Bow",
+        "desc": "A lightweight recurve bow crafted from Air Nomad wood, reinforced with glider materials. The arrows are shaped to follow air currents, increasing their range. 5 uses per chapter\n",
+        "icon_nid": "{Beansy} {Bows} All Icons",
         "icon_index": [
             0,
-            9
+            2
         ],
         "components": [
             [
@@ -2044,17 +355,6 @@
                 6
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -2065,17 +365,32 @@
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     },
     {
         "nid": "Savitri",
         "name": "Savitri",
-        "desc": "A sacred relic bow. When drawn, the string generates blades of wind that are used to take down benders.\nTargets MAG.\n",
-        "icon_nid": "Bow",
+        "desc": "A sacred relic bow. When drawn, the string generates blades of wind that are used to take down non benders.\nTargets MAG. 3 uses per chapter\n",
+        "icon_nid": "{Beansy} {Bows} All Icons",
         "icon_index": [
-            0,
-            10
+            2,
+            0
         ],
         "components": [
             [
@@ -2111,17 +426,6 @@
                 9
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -2131,22 +435,37 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "alternate_resist_formula",
                 "MAG_PROC"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     },
     {
         "nid": "TerraCleaver",
         "name": "Terra Cleaver",
-        "desc": "A massive stone-forged greataxe, its head reinforced with ore that channels Earthbending. When swung, it can crack the ground beneath enemies to slow them.",
-        "icon_nid": "Axe",
+        "desc": "A massive stone-forged greataxe, its head reinforced with ore that channels Earthbending. When swung, it can crack the ground beneath enemies to slow them. 5 uses per chapter",
+        "icon_nid": "{Beansy} {Axes} All Icons",
         "icon_index": [
-            0,
-            8
+            3,
+            1
         ],
         "components": [
             [
@@ -2182,17 +501,6 @@
                 13
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -2207,17 +515,28 @@
             [
                 "status_on_hit",
                 "Slow"
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     },
     {
         "nid": "AdamantBreaker",
         "name": "Adamant Breaker",
-        "desc": "Description: A legendary axe said to be made from a boulder shaped by the primordial spirits themselves. It grows heavier in Bramar\u2019s hands but moves effortlessly when he swings it. \nIgnores half of enemy DEF.\n",
-        "icon_nid": "Axe",
+        "desc": "A legendary axe said to be made from a boulder shaped by the primordial spirits themselves. It grows heavier when held with both hands but moves effortlessly when swinging it. \nIgnores half of enemy DEF. 3 uses per chapter\n",
+        "icon_nid": "{Beansy} {Axes} All Icons",
         "icon_index": [
             0,
-            14
+            2
         ],
         "components": [
             [
@@ -2253,17 +572,6 @@
                 15
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -2273,22 +581,33 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "alternate_resist_formula",
                 "HALFDEF"
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     },
     {
         "nid": "AzureSpike",
         "name": "Azure Spike",
-        "desc": "A spear engraved with deep-sea minerals, allowing the wielder to channel waterbending through it.\nDoubles when initiating combat.",
-        "icon_nid": "Lance",
+        "desc": "A spear engraved with deep-sea minerals, allowing the wielder to channel waterbending through it.\nDoubles when initiating combat. 5 uses per chapter",
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            0,
-            14
+            1,
+            3
         ],
         "components": [
             [
@@ -2324,17 +643,6 @@
                 10
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -2349,17 +657,28 @@
             [
                 "brave_on_attack",
                 null
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     },
     {
         "nid": "LeviathansCry",
         "name": "Levaiathan's Cry",
-        "desc": "A weapon crafted from the remnants of a slain sea guardian, infused with spiritual energy. Each strike is like a crashing wave, overwhelming all in its path while revitalizing the user.\n",
-        "icon_nid": "Lance",
+        "desc": "A weapon crafted from the remnants of a slain sea spirit, infused with strong energy. Each strike is like a crashing wave, overwhelming all in its path while revitalizing the user. 3 uses per chapter",
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            0,
-            11
+            3,
+            5
         ],
         "components": [
             [
@@ -2395,17 +714,6 @@
                 13
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -2415,22 +723,37 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "lifelink",
                 0.5
+            ],
+            [
+                "battle_cast_anim",
+                "Javelin"
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     },
     {
         "nid": "Sunblade",
         "name": "Sunblade",
-        "desc": "A straight blade forged from volcanic metal, designed for both quick stabs and powerful slashes. When swung, it leaves behind a trail of fire.\nCauses burning.\n",
-        "icon_nid": "Sword",
+        "desc": "A straight blade forged from volcanic metal, designed for both quick stabs and powerful slashes. When swung, it leaves behind a trail of fire.\nCauses burning. 5 uses per chapter",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
             0,
-            14
+            7
         ],
         "components": [
             [
@@ -2466,17 +789,6 @@
                 8
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -2491,17 +803,28 @@
             [
                 "status_on_hit",
                 "Burning"
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     },
     {
         "nid": "Pyrefang",
         "name": "Pyrefang",
-        "desc": "A blade rumored to be kissed by the flames of a Fire Spirit, capable of setting the battlefield ablaze with each slash.\nCleaves.",
-        "icon_nid": "Sword",
+        "desc": "A blade rumored to be kissed by the flames of a Fire Spirit, capable of setting the battlefield ablaze with each slash.\nCleaves. 3 uses per chapter",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            0,
-            19
+            3,
+            1
         ],
         "components": [
             [
@@ -2537,17 +860,6 @@
                 10
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -2557,22 +869,37 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "enemy_cleave_aoe",
                 null
+            ],
+            [
+                "battle_cast_anim",
+                "Elfire"
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     },
     {
         "nid": "Ash",
         "name": "Ash",
-        "desc": "A divine blade said to have been wielded by Agni himself, creates dark blue flames that never fade.\nTargets worse of DEF or RES. +3 MAG and SPD. Can only be wielded by firebenders.\n\nLegends say Agni himself forged this sword from the heart of a dying star, bestowing it upon a mortal only once in history. The blade\u2019s flames are not mere fire\u2014they are pure destruction, fueled by the wielder\u2019s spirit. When swung, it sunders both body and soul, ensuring that no enemy can withstand its power.",
-        "icon_nid": "Sword",
+        "desc": "A divine blade said to have been wielded by Agni himself, creates dark blue flames that never fade.\nTargets worse of DEF or RES. +3 MAG and SPD. Can only be wielded by royal blood.\n\nLegends say Agni forged this sword from the heart of a dying star, bestowing it upon a mortal only once in history. The blade\u2019s flames are fueled by the wielder\u2019s spirit. When swung, it sunders both body and soul, ensuring that no enemy can withstand its power.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            0,
-            15
+            2,
+            4
         ],
         "components": [
             [
@@ -2601,7 +928,7 @@
             ],
             [
                 "weapon_rank",
-                "A"
+                "S"
             ],
             [
                 "weight",
@@ -2649,13 +976,167 @@
                         3
                     ]
                 ]
+            ],
+            [
+                "battle_cast_anim",
+                "Forblaze"
+            ]
+        ]
+    },
+    {
+        "nid": "Fanstaff",
+        "name": "Fan Staff",
+        "desc": "+2 SPD",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "equippable_accessory",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Heatstone",
+        "name": "Heatstone",
+        "desc": "+2 MAG\nA Fire Nation alchemical bauble that enhances bending when held.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            13
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "equippable_accessory",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Whetstone",
+        "name": "Whetstone",
+        "desc": "+2 SKL\nUsed to sharpen weapons for better accuracy.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "SpiritCharm",
+        "name": "Spirit Charm",
+        "desc": "+2 RES\nA protective talisman against spirits and bending.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "EliteSoldierInsignia",
+        "name": "Elite Soldier Insignia",
+        "desc": "+2STR\nInsignia belonging to a decorated veteran.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "WheightliftingBelt",
+        "name": "Wheightlifting Belt",
+        "desc": "+2CON",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "CON",
+                        2
+                    ]
+                ]
             ]
         ]
     },
     {
         "nid": "WhisperingBeads",
         "name": "WhisperingBeads",
-        "desc": "A bracelet of carved wooden beads, once used by Air Nomads in meditation. (Increases Evasion and Crit Avoidance.)",
+        "desc": "A bracelet of carved wooden beads, once used by Air Nomads in meditation.\nIncreases Evasion and Crit dodge by 10.)",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
             8,
@@ -2753,30 +1234,6 @@
         ]
     },
     {
-        "nid": "TileEffective",
-        "name": "TileEffective",
-        "desc": "",
-        "icon_nid": null,
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Tile"
-                    ],
-                    "effective_multiplier": 3,
-                    "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ]
-        ]
-    },
-    {
         "nid": "ObsidianSeal",
         "name": "new_14",
         "desc": "A talisman made of volcanic rock, rumored to ward off spirits. (Grants resistance to spirit-based attacks and status effects.)",
@@ -2804,26 +1261,6 @@
         "icon_index": [
             0,
             19
-        ],
-        "components": [
-            [
-                "equippable_accessory",
-                null
-            ],
-            [
-                "status_on_hold",
-                "TerraEmblemSkill"
-            ]
-        ]
-    },
-    {
-        "nid": "ImmunetoShove",
-        "name": "new_13",
-        "desc": "",
-        "icon_nid": null,
-        "icon_index": [
-            0,
-            0
         ],
         "components": [
             [
@@ -3103,6 +1540,3229 @@
         ]
     },
     {
+        "nid": "Airbending",
+        "name": "Airbending",
+        "desc": "The millenary art of moving air.\nTargets SPD",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "multi_item_hides_unavailable",
+                null
+            ],
+            [
+                "multi_item",
+                [
+                    "AirE",
+                    "AirD",
+                    "AirC",
+                    "AirB",
+                    "AirA",
+                    "AirS"
+                ]
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Nelad"
+                ]
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "AirE",
+        "name": "Gale Burst",
+        "desc": "A quick, small burst of wind. <green>CD:1</>\n<pink>Effect:</>Deals no damage, pushes allies and enemies in a line, clears Burning <icon>Fire</> on hit, this is a free action.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weight",
+                2
+            ],
+            [
+                "weapon_type",
+                "Air"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    255,
+                    127
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "shove",
+                1
+            ],
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                4
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "status_on_hit",
+                "FireImmune"
+            ],
+            [
+                "exp",
+                5
+            ],
+            [
+                "cooldown",
+                1
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "WindWave"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "AirD",
+        "name": "Cyclone Shield",
+        "desc": "Creates a defensive barrier of swirling air that provides cover. <green>CD:1</>\n<pink>Effect:</>Grants immunity to ranged attacks for 2 turns, this is a free action.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "weapon_type",
+                "Air"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    255,
+                    127
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "buff_ally",
+                "CycloneShield"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "exp",
+                5
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "WindWave"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "AirC",
+        "name": "Wind Step",
+        "desc": "Uses the wind to increase mobility, allowing for quick repositioning. <green>CD:2</>\n<pink>Effect:</>Gains +4 SPD, +1 MOV to allies within 3 tiles for 3 turns, this is a free action.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Air"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    255,
+                    127
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_hit",
+                "WindStep"
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "cannot_counter",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "ally_blast_aoe",
+                3
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "WindWave"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "AirB",
+        "name": "Vortex",
+        "desc": "Summons a powerful, swirling vortex of wind that disorients enemies.  <green>CD:3</>\n<pink>Effect:</>Inflicts Berserk, cannot be countered.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Air"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    255,
+                    127
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Berserk"
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "cannot_counter",
+                null
+            ],
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "ATTACK_SPEED"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Tempest"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                3
+            ]
+        ]
+    },
+    {
+        "nid": "AirA",
+        "name": "Void Vigilante",
+        "desc": "Become possessed by a vengeful spirit from afar. <green>CD:4</>\n<pink>Misc:</>Gives unit +1 Bonus attack, but takes 10 non-lethal damage per turn, lasts 4 turns. ",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Air"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    85,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "buff_ally",
+                "CursedFang"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "WindWave"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                4
+            ]
+        ]
+    },
+    {
+        "nid": "AirS",
+        "name": "Spirit Form",
+        "desc": "Causes the target to become ethereal. <green>CD:6</>\n<pink>Effect:</>Reduce damage taken by 75% for 4 turns, but become weak to spirit slaying weapons.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Air"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    255,
+                    127
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "buff_ally",
+                "SpiritBody"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "WindWave"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                6
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Firebending",
+        "name": "Firebending",
+        "desc": "The millenary art of moving fire.\nTargets RES",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "multi_item",
+                [
+                    "FireE",
+                    "FireD",
+                    "FireC",
+                    "FireB",
+                    "FireA",
+                    "FireS"
+                ]
+            ],
+            [
+                "multi_item_hides_unavailable",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Folre"
+                ]
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FireE",
+        "name": "Ember",
+        "desc": "A short, focused burst of flame that causes severe burns.\n<pink>Misc:</>Effective vs Beasts <icon>Horse</>, Inflicts Burning.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                0
+            ],
+            [
+                "hit",
+                110
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Burning"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Fire"
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Burning"
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 5,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FireD",
+        "name": "Rocket Jump",
+        "desc": "Uses a burst of flame to propel the user forward or over obstacles.<green>CD:1</>\n<pink>Effect:</>Grants +2 MOV for 1 turn and allows to jump over terrain, this resets the unit after use. Cannot be used if unit has already moved.Only usable on self.",
+        "icon_nid": "{Beansy} AnimaSheet",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global RocketJump"
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "cooldown",
+                1
+            ],
+            [
+                "map_cast_anim",
+                "MapTorch"
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "FireHit"
+            ],
+            [
+                "no_attack_after_move",
+                null
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FireD2",
+        "name": "Warmth",
+        "desc": "Restores an ally's HP from afar.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Default"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                22
+            ],
+            [
+                "value",
+                3750
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ]
+        ]
+    },
+    {
+        "nid": "FireC",
+        "name": "Flaming Snake",
+        "desc": "Sends a wave of fire across a straight line. <green>CD:2</>\n<pink>Effect: Inflicts Burning, (Line Attack), cannot double.",
+        "icon_nid": "{Beansy} AnimaSheet",
+        "icon_index": [
+            2,
+            1
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "line_aoe",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "FlameSweepSpell"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Burning"
+                ]
+            ],
+            [
+                "map_cast_sfx",
+                "FireHit"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "FireB",
+        "name": "Flare",
+        "desc": "Unleashes a massive blast of fire. Starts on CD. <green>CD:3</>\n <pink>Effect:</>Inflicts Burning, cannot double, (AOE:3).",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                4
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Burning"
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Meteor"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "enemy_blast_aoe",
+                3
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "FireBall"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                3
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FireB2",
+        "name": "Pyroclastic Flow",
+        "desc": "Siege tome, AOE burning, ablaze debuff. Starts on CD. <green>CD:3</>\n <pink>Effect:</>Inflicts Burning, cannot double, (AOE:3).",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                4
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Burning"
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Meteor"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "enemy_blast_aoe",
+                3
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "FireBall"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                3
+            ],
+            [
+                "start_cooldown",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Volcano"
+            ]
+        ]
+    },
+    {
+        "nid": "FireA",
+        "name": "Lightning bolt",
+        "desc": "Secret art exclusive to the Royal family. A rare bolt that pierces the strongest of armors. Starts on CD. <green>CD:4</>\n<pink>Effect:</> Siege weapon, Effective vs Armor<icon>Armor</>.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                25
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "crit",
+                50
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Bolting"
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 5,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                4
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FireS",
+        "name": "Rebellion Blade",
+        "desc": "Enchants an ally's blades to deal magical fire damage when attacking. <green>CD:6</>\n<pink>Effect:</>Adds MAG/2 to damage, only works with melee weapons, this is a free action.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            0,
+            25
+        ],
+        "components": [
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "status_on_hit",
+                "FireBladebuff"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "FireHit"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                6
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FireS2",
+        "name": "Dragonflame",
+        "desc": "Signature technique of the Iridescent Dragon",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            15,
+            38
+        ],
+        "components": [
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "FireHit"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                6
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Earthbending",
+        "name": "Earthbending",
+        "desc": "The millenary art of moving earth.\nTargets DEF",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "multi_item",
+                [
+                    "EarthE",
+                    "EarthD",
+                    "EarthC",
+                    "EarthB",
+                    "EarthA",
+                    "EarthS"
+                ]
+            ],
+            [
+                "multi_item_hides_unavailable",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Bramar"
+                ]
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthE",
+        "name": "Stone Fist",
+        "desc": "Creates a solid punch of earth that strikes at the target and leaves them stumbling.\n<pink>Effect:</>Inflicts Stumble.",
+        "icon_nid": "{Beansy} DarkSheet",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Earth"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "DEFENSE"
+            ],
+            [
+                "battle_cast_anim",
+                "Elstone"
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Stumble"
+                ]
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthD",
+        "name": "Rock Pillar",
+        "desc": "Raises a sturdy wall of earth to unbalance and damage enemies. leaves an obstacle for one round.\nStarts on CD. <green>CD:1</>\n<pink>Effect:</>Inflicts Stumble, (AOE:1), cannot double.",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Earth"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "enemy_blast_aoe",
+                1
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "DEFENSE"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Wall Attack"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Stumble"
+                ]
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                1
+            ],
+            [
+                "event_on_hit",
+                "Global Rock Pillar"
+            ],
+            [
+                "target_tile",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthC",
+        "name": "Seismic Slam",
+        "desc": "A massive shockwave that shakes the earth. Starts on CD. <green>CD:2</>\n<pink>Effect:</>Inflicts Stun (AOE:4) cannot double.",
+        "icon_nid": "{Beansy} DarkSheet",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Earth"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "enemy_blast_aoe",
+                4
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "DEFENSE"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Stunned"
+                ]
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Wall Attack"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                2
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthB",
+        "name": "Constrict",
+        "desc": "Causes the ground to rise up, grabbing an enemy and holding them in place. <green>CD:3</>\n<pink>Effect:</>Inflicts Petrify.",
+        "icon_nid": "{Beansy} DarkSheet",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "weight",
+                19
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Earth"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Petrify"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "DEFENSE"
+            ],
+            [
+                "battle_cast_anim",
+                "Wall_Crush"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                3
+            ]
+        ]
+    },
+    {
+        "nid": "EarthA",
+        "name": "Stabilizer",
+        "desc": "Stabilizies the ground below allies.<green>CD:4</>\n<pink>Effect:</>Makes allies within 4 spaces immune to knockback and movement effects, this is a free action.",
+        "icon_nid": "{Beansy} DarkSheet",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Stabilized"
+            ],
+            [
+                "all_allies_aoe",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "weapon_type",
+                "Earth"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Wall Attack"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                4
+            ]
+        ]
+    },
+    {
+        "nid": "_EarthA2",
+        "name": "Rockalanche",
+        "desc": "At the start of this units phase, a landslide triggers, any enemy units in terrain are shaken and can't act for the reminder of the phase.<green>CD:2</>\n<pink>Effect:</> this is a free action.",
+        "icon_nid": "{Beansy} DarkSheet",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "all_allies_aoe",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "weapon_type",
+                "Earth"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Wall Attack"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Sandblast"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                2
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Stumble",
+                    "Restrained"
+                ]
+            ],
+            [
+                "no_attack_after_move",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthS",
+        "name": "Full Crush",
+        "desc": "Compress a wide area with a meteor. Starts on CD. <green>CD:6</>\n<pink>Effect:</>Inflicts Stumble and Restrained, cannot double,(AOE:4).",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            5,
+            36
+        ],
+        "components": [
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "weight",
+                34
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Earth"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "DEFENSE"
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Stumble",
+                    "Restrained"
+                ]
+            ],
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "enemy_blast_aoe",
+                4
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Wall Attack"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                6
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Waterbending",
+        "name": "Waterbending",
+        "desc": "The millenary art of moving water.\nTargets SKL",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "multi_item",
+                [
+                    "WaterE",
+                    "WaterD",
+                    "WaterC",
+                    "WaterB",
+                    "WaterA",
+                    "WaterS"
+                ]
+            ],
+            [
+                "multi_item_hides_unavailable",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Anael"
+                ]
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterE",
+        "name": "Water Whip",
+        "desc": "A lash of water that strikes enemies at range.\n<pink>Effect:</> Inflicts Restrained\n",
+        "icon_nid": "{Beansy} AnimaSheet",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Water"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "SKL_PROC"
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Restrained"
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Aqua"
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterD",
+        "name": "Ice Shield",
+        "desc": "Forms a shield of ice around the user or an ally to absorb damage.<green>CD:1</>\n<pink>Effect:</>RES+4, greatly empowers healing received, lasts 3 turns, this is a free action.",
+        "icon_nid": "{Beansy} AnimaSheet",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Water"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "status_on_hit",
+                "IceShield"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "WaterC",
+        "name": "Tidal Pull",
+        "desc": "Creates a localized water surge that pulls enemies. Starts on CD. <green>CD:2</>\n<pink>Effect:</>Cannot Double.",
+        "icon_nid": "{Beansy} AnimaSheet",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                4
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Water"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "multi_target",
+                3
+            ],
+            [
+                "allow_less_than_max_targets",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "SKL_PROC"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "WaterBlast"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "statuses_on_hit",
+                []
+            ],
+            [
+                "shove_flex_stops",
+                -1
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                2
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "_WaterC2",
+        "name": "Tidal Push",
+        "desc": "Creates a localized water surge that pulshes enemies. Starts on CD. <green>CD:1</>\n<pink>Effect:</>Cannot Double. free action.",
+        "icon_nid": "{Beansy} AnimaSheet",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                4
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Water"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "multi_target",
+                3
+            ],
+            [
+                "allow_less_than_max_targets",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "SKL_PROC"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "WaterBlast"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                1
+            ],
+            [
+                "start_cooldown",
+                null
+            ],
+            [
+                "shove_flexible_on_end_combat_initiate",
+                2
+            ],
+            [
+                "attack_after_combat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterB",
+        "name": "Flood Surge",
+        "desc": "Summons a massive wave that overwhelms a large area. Starts on CD. <green>CD:3</>\n<pink>Effect:</>(AOE:5), cannot Double.",
+        "icon_nid": "{Beansy} AnimaSheet",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "damage",
+                -5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                31
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Water"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "enemy_blast_aoe",
+                5
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "alternate_resist_formula",
+                "SKL_PROC"
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "statuses_on_hit",
+                []
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                3
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterA",
+        "name": "Freezedry Boost",
+        "desc": "Covers your ally's hands in a gleaming blue aura, causing frostburn to anything they touch. <green>CD:4</>\n<pink>Effect:</>Ally's attacks inflict Frostburn, only works for weapons, this is a free action.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Water"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "status_on_hit",
+                "InfernoGauntletSkill"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                4
+            ]
+        ]
+    },
+    {
+        "nid": "WaterS",
+        "name": "Bend Blood",
+        "desc": "Bend an enemy's blood, leaving them on the verge of death. <green>CD:6</>\n<pink>Effect:</> Leaves the target at 1hp.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "weapon_type",
+                "Water"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "weight",
+                25
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "ignore_weapon_advantage",
+                null
+            ],
+            [
+                "ignore_weapon_disadvantage",
+                null
+            ],
+            [
+                "map_hit_sub_blend",
+                [
+                    85,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "no_equip",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Blood_Spikes"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "exempt_from_dual_strike",
+                null
+            ],
+            [
+                "super_eclipse",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "cooldown",
+                6
+            ],
+            [
+                "start_cooldown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FireNationEmblem",
+        "name": "new_3",
+        "desc": "bonus growths",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": []
+    },
+    {
+        "nid": "WaterTribeEmblem",
+        "name": "new_2",
+        "desc": "bonus growths",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": []
+    },
+    {
+        "nid": "EarthKingdomEmblem",
+        "name": "new_1",
+        "desc": "bonus growths",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            19
+        ],
+        "components": []
+    },
+    {
+        "nid": "AirNomadsEmblem",
+        "name": "AirNomadsEmblem",
+        "desc": "bonus growths",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            20
+        ],
+        "components": []
+    },
+    {
+        "nid": "SpiritWater",
+        "name": "Spirit Water",
+        "desc": "Flask of purified water imbued with spiritual energy.\nHeals all wounds and statuses.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "heal",
+                99
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "restore",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "SmokedMeat",
+        "name": "Smoked Meat",
+        "desc": "Restores 10% hp per turn, for 3 turns.\nSmells like home.",
+        "icon_nid": "Valuable",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                4
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "status_on_hit",
+                "SmokedMeat"
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "TileEffective",
+        "name": "TileEffective",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Tile"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "ImmunetoShove",
+        "name": "new_13",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "TerraEmblemSkill"
+            ]
+        ]
+    },
+    {
         "nid": "SpiritSummon",
         "name": "Summon",
         "desc": "Summons a spirit.",
@@ -3138,7 +4798,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -3156,6 +4816,54 @@
             0
         ],
         "components": []
+    },
+    {
+        "nid": "Runners_High",
+        "name": "Runner's High",
+        "desc": "Restores HP equal to user's MAG/2 + MOV. <green>CD:5</>\n<pink>Misc:</>Give +2 MOV, Canto+ to ally for 1 turn.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "weapon_type",
+                "Air"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "equation_heal",
+                "DAMAGE"
+            ],
+            [
+                "status_on_hit",
+                "WindStep"
+            ]
+        ]
     },
     {
         "nid": "Iron_Sword",
@@ -3739,8 +5447,8 @@
     },
     {
         "nid": "Killing_Edge",
-        "name": "Killing Edge",
-        "desc": "",
+        "name": "Meteoric Sword",
+        "desc": "Sword forged from an otherwordly meteor.\nHas increased crit rate.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -4365,17 +6073,6 @@
             [
                 "max_range",
                 1
-            ],
-            [
-                "prf_class",
-                [
-                    "Myrmidon",
-                    "Swordmaster",
-                    "Eirika_Lord",
-                    "Assassin",
-                    "Sword_Bonewalker",
-                    "Sword_Wight"
-                ]
             ],
             [
                 "weapon_rank",
@@ -5137,8 +6834,8 @@
     },
     {
         "nid": "Killer_Lance",
-        "name": "Killer Lance",
-        "desc": "",
+        "name": "Meteoric Lance",
+        "desc": "Lance forged from an otherwordly meteor.\nHas increased crit rate.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -6583,8 +8280,8 @@
     },
     {
         "nid": "Killer_Axe",
-        "name": "Killer Axe",
-        "desc": "",
+        "name": "Meteoric Axe",
+        "desc": "Axe forged from an otherwordly meteor.\nHas increased crit rate.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -8410,77 +10107,6 @@
         ]
     },
     {
-        "nid": "Heal",
-        "name": "Heal",
-        "desc": "Restores (User's MAG + 10) HP.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "value",
-                600
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                11
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    96,
-                    144,
-                    232
-                ]
-            ],
-            [
-                "equation_heal",
-                "HEAL"
-            ]
-        ]
-    },
-    {
         "nid": "Mend",
         "name": "Mend",
         "desc": "Restores (User's MAG + 20) HP.",
@@ -8512,7 +10138,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -8571,7 +10197,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -8646,7 +10272,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -8721,7 +10347,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -8796,7 +10422,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -8867,7 +10493,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -8918,7 +10544,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -8981,7 +10607,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9052,7 +10678,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9119,7 +10745,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9202,7 +10828,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9269,7 +10895,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9328,7 +10954,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9391,7 +11017,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9537,7 +11163,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9687,7 +11313,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9800,7 +11426,7 @@
             ],
             [
                 "weapon_type",
-                "Light"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9852,7 +11478,7 @@
             ],
             [
                 "weapon_type",
-                "Light"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -9939,7 +11565,7 @@
             ],
             [
                 "weapon_type",
-                "Light"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10018,7 +11644,7 @@
             ],
             [
                 "weapon_type",
-                "Light"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10140,7 +11766,7 @@
             ],
             [
                 "weapon_type",
-                "Light"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10192,7 +11818,7 @@
             ],
             [
                 "weapon_type",
-                "Light"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10322,7 +11948,7 @@
             ],
             [
                 "weapon_type",
-                "Anima"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10390,7 +12016,7 @@
             ],
             [
                 "weapon_type",
-                "Anima"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10473,7 +12099,7 @@
             ],
             [
                 "weapon_type",
-                "Anima"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10556,7 +12182,7 @@
             ],
             [
                 "weapon_type",
-                "Anima"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10627,7 +12253,7 @@
             ],
             [
                 "weapon_type",
-                "Anima"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10702,7 +12328,7 @@
             ],
             [
                 "weapon_type",
-                "Anima"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10801,7 +12427,7 @@
             ],
             [
                 "weapon_type",
-                "Anima"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10896,7 +12522,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -10963,7 +12589,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -11058,7 +12684,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -11121,7 +12747,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -11224,7 +12850,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -11291,7 +12917,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -11370,7 +12996,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "weapon_rank",
@@ -11474,7 +13100,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Default"
             ],
             [
                 "magic",
@@ -11665,7 +13291,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "magic",
@@ -11725,7 +13351,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "magic",
@@ -12193,7 +13819,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "magic",
@@ -12257,7 +13883,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "magic",
@@ -12309,7 +13935,7 @@
             ],
             [
                 "weapon_type",
-                "Dark"
+                "Default"
             ],
             [
                 "magic",
@@ -13412,8 +15038,7 @@
             [
                 "prf_class",
                 [
-                    "Pegasus_Knight",
-                    "Wyvern Rider"
+                    "Pegasus_Knight"
                 ]
             ],
             [
@@ -13572,9 +15197,7 @@
             ],
             [
                 "prf_class",
-                [
-                    "Eirika_Lord"
-                ]
+                []
             ],
             [
                 "eval_target_restrict_2",
@@ -13621,9 +15244,7 @@
             ],
             [
                 "prf_class",
-                [
-                    "Eirika_Lord"
-                ]
+                []
             ],
             [
                 "eval_target_restrict_2",
@@ -13684,8 +15305,7 @@
                     "Cleric",
                     "Mage",
                     "Shaman",
-                    "Troubadour",
-                    "Wyvern Rider"
+                    "Troubadour"
                 ]
             ],
             [
@@ -13991,6 +15611,28 @@
             [
                 "target_ally",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "StrongVSMagic",
+        "name": "new_2",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     }

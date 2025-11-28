@@ -1,8 +1,711 @@
 [
     {
-        "nid": "AirA",
+        "nid": "Charge",
+        "name": "Charge",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            3
+        ],
+        "components": [
+            [
+                "attack_pre_proc",
+                "Chrage_sub"
+            ],
+            [
+                "defense_pre_proc",
+                "Chrage_sub"
+            ],
+            [
+                "proc_rate",
+                "SKL_PROC"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        50
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "healnt",
+        "name": "healn't",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            17
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "unit2.team == 'enemy' or  unit2.team == 'enemy2'"
+            ],
+            [
+                "item_override",
+                "Heal_D"
+            ]
+        ]
+    },
+    {
+        "nid": "healnt_1",
+        "name": "healn't",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            17
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "unit2.team == 'player' or  unit2.team == 'ally'"
+            ],
+            [
+                "item_override",
+                "Heal_H"
+            ]
+        ]
+    },
+    {
+        "nid": "Chrage_sub",
+        "name": "Chrage sub",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "give_status_after_attack",
+                "ChargeSkill"
+            ],
+            [
+                "give_status_on_take_hit",
+                "ChargeSkill"
+            ],
+            [
+                "gain_skill_after_take_miss",
+                "ChargeSkill"
+            ],
+            [
+                "gain_skill_after_take_damage",
+                "ChargeSkill"
+            ]
+        ]
+    },
+    {
+        "nid": "ChargeSkill",
+        "name": "ChargeSkill",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            2
+        ],
+        "components": [
+            [
+                "dynamic_attacks",
+                "1"
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "AirbendingE",
+        "name": "AirbendingE",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "ability",
+                "AirE"
+            ],
+            [
+                "menu_category",
+                "<yellow>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "AirbendingD",
+        "name": "AirbendingD",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "ability",
+                "AirD"
+            ],
+            [
+                "menu_category",
+                "<yellow>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "AirbendingC",
+        "name": "AirbendingC",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "ability",
+                "AirC"
+            ],
+            [
+                "menu_category",
+                "<yellow>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "AirbendingB",
+        "name": "AirbendingB",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "ability",
+                "AirB"
+            ],
+            [
+                "menu_category",
+                "<yellow>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "AirbendingA",
+        "name": "AirbendingA",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "ability",
+                "AirA"
+            ],
+            [
+                "menu_category",
+                "<yellow>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "AirbendingS",
+        "name": "AirbendingS",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "ability",
+                "AirS"
+            ],
+            [
+                "menu_category",
+                "<yellow>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthbendingE",
+        "name": "EarthbendingE",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "EarthE"
+            ],
+            [
+                "menu_category",
+                "<olive-green>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthbendingD",
+        "name": "EarthbendingD",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "EarthD"
+            ],
+            [
+                "menu_category",
+                "<olive-green>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthbendingC",
+        "name": "EarthbendingC",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "EarthC"
+            ],
+            [
+                "menu_category",
+                "<olive-green>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthbendingB",
+        "name": "EarthbendingB",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "EarthB"
+            ],
+            [
+                "menu_category",
+                "<olive-green>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthbendingA",
+        "name": "EarthbendingA",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "EarthA"
+            ],
+            [
+                "menu_category",
+                "<olive-green>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "EarthbendingS",
+        "name": "EarthbendingS",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "EarthS"
+            ],
+            [
+                "menu_category",
+                "<olive-green>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterbendingE",
+        "name": "WaterbendingE",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "ability",
+                "WaterE"
+            ],
+            [
+                "menu_category",
+                "<blue>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterbendingD",
+        "name": "WaterbendingD",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "ability",
+                "WaterD"
+            ],
+            [
+                "menu_category",
+                "<blue>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterbendingC",
+        "name": "WaterbendingC",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "ability",
+                "WaterC"
+            ],
+            [
+                "menu_category",
+                "<blue>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterbendingB",
+        "name": "Waterbending",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "ability",
+                "WaterB"
+            ],
+            [
+                "menu_category",
+                "<blue>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterbendingA",
+        "name": "WaterbendingA",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "ability",
+                "WaterA"
+            ],
+            [
+                "menu_category",
+                "<blue>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterbendingS",
+        "name": "Waterbending",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "ability",
+                "WaterS"
+            ],
+            [
+                "menu_category",
+                "<blue>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FirebendingE",
+        "name": "FirebendingE",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "FireE"
+            ],
+            [
+                "menu_category",
+                "<orange>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FirebendingD",
+        "name": "FirebendingD",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "FireD"
+            ],
+            [
+                "menu_category",
+                "<orange>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FirebendingC",
+        "name": "FirebendingC",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "FireC"
+            ],
+            [
+                "menu_category",
+                "<orange>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FirebendingB",
+        "name": "FirebendingB",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "FireB"
+            ],
+            [
+                "menu_category",
+                "<orange>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FirebendingA",
+        "name": "FirebendingA",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "FireA"
+            ],
+            [
+                "menu_category",
+                "<orange>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FirebendingS",
+        "name": "FirebendingS",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "FireS"
+            ],
+            [
+                "menu_category",
+                "<orange>Bending</>"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Air1",
         "name": "Airdancing",
-        "desc": "fleet of foot and pass",
+        "desc": "Ancient dance that allows you to travel unburdened.\nUnit ignores terrain and can pass enemies.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -10,11 +713,11 @@
         ],
         "components": [
             [
-                "ignore_terrain",
+                "class_skill",
                 null
             ],
             [
-                "class_skill",
+                "ignore_terrain",
                 null
             ],
             [
@@ -24,9 +727,9 @@
         ]
     },
     {
-        "nid": "AirB",
+        "nid": "Air2",
         "name": "Counterbalance",
-        "desc": "Anticrit",
+        "desc": "Microscopically dodging at the last second greatly increases survivability\n+50 Crit Avoid.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -39,14 +742,14 @@
             ],
             [
                 "crit_avoid",
-                99
+                50
             ]
         ]
     },
     {
-        "nid": "EarthA",
-        "name": "Momentum",
-        "desc": "Canto+",
+        "nid": "Earth1",
+        "name": "High Momentum",
+        "desc": "Using short gravity pulls allows the user to keep moving after attacking.\nUnit gains Canto+.",
         "icon_nid": "Skills",
         "icon_index": [
             8,
@@ -64,9 +767,9 @@
         ]
     },
     {
-        "nid": "EarthB",
-        "name": "Earthen Pavise",
-        "desc": "Grants a chance based on MAG to reduce damage from weapon attacks.\n",
+        "nid": "Earth2",
+        "name": "Earthen Armor",
+        "desc": "A thin covering of mineral based armor, colored to match the user's skin tone.\nMAG% chance to halve damage received from Swords, Lances, Axes, or Bows.\n",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -94,7 +797,7 @@
     {
         "nid": "Pavise",
         "name": "Pavise",
-        "desc": "",
+        "desc": "asdasdas",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -112,9 +815,9 @@
         ]
     },
     {
-        "nid": "WaterA",
+        "nid": "Water1",
         "name": "Healing Arts",
-        "desc": "Restores 10% HP to self each turn.",
+        "desc": "An ancient blessings keeps you in top shape.\nUnit restores 10% Max HP at the beginning of each turn.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -122,29 +825,25 @@
         ],
         "components": [
             [
-                "class_skill",
-                null
-            ],
-            [
                 "regeneration",
                 0.1
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     },
     {
         "nid": "WaterAtimed",
         "name": "Healing Arts",
-        "desc": "Restores 10% HP to self each turn.",
+        "desc": "Restores 10% HP each turn.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
             2
         ],
         "components": [
-            [
-                "class_skill",
-                null
-            ],
             [
                 "regeneration",
                 0.1
@@ -156,9 +855,9 @@
         ]
     },
     {
-        "nid": "WaterB",
-        "name": "Focus",
-        "desc": "Grants +20 to hit and avoid when defending.",
+        "nid": "Water2",
+        "name": "Exceptional Focus",
+        "desc": "You cannot be beaten on your enemy's terms.\n+20 to Hit and Avoid when defending.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -180,9 +879,9 @@
         ]
     },
     {
-        "nid": "FireA",
-        "name": "Always Ready",
-        "desc": "Always attack first and allows to double counterattack while defending.",
+        "nid": "Fire1",
+        "name": "Twitchy",
+        "desc": "Everyone else calls you paranoid, you prefer the term prepared.\nUnit always attacks first.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -196,17 +895,13 @@
             [
                 "vantage",
                 null
-            ],
-            [
-                "can_double_on_defense",
-                null
             ]
         ]
     },
     {
-        "nid": "FireB",
+        "nid": "Fire2",
         "name": "Vaporizing Rebellion Fireblade",
-        "desc": "Adds half MAG to sword damage when attacking.",
+        "desc": "Adds MAG to unit's damage when initiating attacks.\nOnly works with melee weapons. ",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -214,47 +909,75 @@
         ],
         "components": [
             [
-                "class_skill",
-                null
-            ],
-            [
                 "condition",
-                "item_system.weapon_type(unit, item) == 'Sword'"
+                "item_system.weapon_type(unit, item) == 'Sword' or 'Axe' or 'Lance'"
             ],
             [
                 "dynamic_damage",
-                "unit.get_stat('MAG') // 2 if (mode == 'attack' or mode == 'splash') else 0"
+                "unit.get_stat('MAG') if (mode == 'attack' or mode == 'splash') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FireBladebuff",
+        "name": "Vaporizing Rebellion Fireblade",
+        "desc": "Adds MAG/2 to unit's damage when initiating attacks.\nOnly works with melee weapons. Last for 4 turns.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "condition",
+                "item_system.weapon_type(unit, item) == 'Sword' or 'Axe' or 'Lance'"
+            ],
+            [
+                "dynamic_damage",
+                "unit.get_stat('MAG')//2 if (mode == 'attack' or mode == 'splash') else 0"
+            ],
+            [
+                "end_time",
+                4
             ]
         ]
     },
     {
         "nid": "Burning",
         "name": "Burning",
-        "desc": "Deals 10%hp per turn, lasts 2 rounds",
-        "icon_nid": "Affinity",
+        "desc": "Unit takes 10% Max HP damage at the start of each turn for each stack.\nMax 3 stacks, last 2 turns.\n\n",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            4
+            6,
+            37
         ],
         "components": [
             [
                 "regeneration",
-                0.1
+                -0.1
             ],
             [
                 "time",
                 2
+            ],
+            [
+                "stack",
+                3
             ]
         ]
     },
     {
         "nid": "Stumble",
         "name": "Stumble",
-        "desc": "- 10 hit and avoid for 1 round.",
-        "icon_nid": "Affinity",
+        "desc": "-10 Hit and Avoid for each stack.\nMax 3 stacks, lasts 1 turn.",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            3
+            15,
+            8
         ],
         "components": [
             [
@@ -268,37 +991,41 @@
             [
                 "time",
                 1
+            ],
+            [
+                "stack",
+                3
             ]
         ]
     },
     {
         "nid": "Restrained",
         "name": "Restrained",
-        "desc": "Unit can either attack or move, lasts 2 rounds",
-        "icon_nid": "Affinity",
+        "desc": "Unit can either move or attack but not both. \nLasts 2 turns.",
+        "icon_nid": "Skills",
         "icon_index": [
-            0,
-            5
+            10,
+            0
         ],
         "components": [
             [
-                "end_time",
-                2
-            ],
-            [
                 "no_attack_after_move",
                 null
+            ],
+            [
+                "time",
+                2
             ]
         ]
     },
     {
         "nid": "RocketJump",
         "name": "Rocket Jump",
-        "desc": "+2 mov and flying.",
-        "icon_nid": "Affinity",
+        "desc": "+2 MOV and Flying.\nLast 1 turns.",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            4
+            8,
+            37
         ],
         "components": [
             [
@@ -316,18 +1043,22 @@
             ],
             [
                 "end_time",
-                2
+                1
+            ],
+            [
+                "movement_type",
+                "Fliers"
             ]
         ]
     },
     {
         "nid": "WindStep",
         "name": "Wind Step",
-        "desc": "+4SPD +1 MOV",
-        "icon_nid": "Affinity",
+        "desc": "+4 SPD, +1 MOV\nLasts 3 turns.",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            7
+            3,
+            20
         ],
         "components": [
             [
@@ -352,31 +1083,31 @@
     {
         "nid": "CycloneShield",
         "name": "Cyclone Shield",
-        "desc": "",
-        "icon_nid": "Affinity",
+        "desc": "Unit is immune to all attacks from 2 or more tiles away.\nLasts for 2 turns.",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            7
+            7,
+            34
         ],
         "components": [
-            [
-                "condition",
-                "unit.position and (utils.calculate_distance(unit.position, unit2.position) >= 2)"
-            ],
             [
                 "ignore_damage",
                 null
             ],
             [
                 "time",
-                3
+                2
+            ],
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) >= 2)"
             ]
         ]
     },
     {
         "nid": "IceShield",
         "name": "Ice Shield",
-        "desc": "RES+4, greatly empowers healing received, lasts 3 turns.",
+        "desc": "RES+4, and greatly empowers healing received.\nLasts 3 turns.",
         "icon_nid": "Affinity",
         "icon_index": [
             0,
@@ -405,11 +1136,11 @@
     {
         "nid": "SmokedMeat",
         "name": "SmokedMeat",
-        "desc": "",
-        "icon_nid": null,
+        "desc": "Heals 10hp per turn, for 3 turns.\nSmells like home.",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            1,
+            42
         ],
         "components": [
             [
@@ -428,8 +1159,8 @@
     },
     {
         "nid": "SpiritBody",
-        "name": "SpiritBody",
-        "desc": "Resistant to weapons",
+        "name": "Spirit Body",
+        "desc": "Reduce damage taken by 75% except from bending,\n but unit is weak to spirit slaying weapons for 2 turns.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -442,7 +1173,7 @@
             ],
             [
                 "combat_condition",
-                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) in ('Sword', 'Axe', 'Lance', 'Bow')"
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) in ('Sword', 'Axe', 'Lance', 'Bow', 'Monster')"
             ],
             [
                 "resist_multiplier",
@@ -453,6 +1184,38 @@
                 [
                     "Monster"
                 ]
+            ],
+            [
+                "time",
+                4
+            ]
+        ]
+    },
+    {
+        "nid": "SpiritBody_S",
+        "name": "Spirit Body",
+        "desc": "Reduce damage taken by 75%, except from bending.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) in ('Sword', 'Axe', 'Lance', 'Bow', 'Monster')"
+            ],
+            [
+                "resist_multiplier",
+                0.25
+            ],
+            [
+                "condition",
+                "'Monster' in unit.tags"
             ]
         ]
     },
@@ -484,7 +1247,7 @@
     {
         "nid": "AgnisWrath",
         "name": "Agni's Wrath",
-        "desc": "",
+        "desc": "Burns that will keep hurting forever.\nTake 10% of max hp damage per turn.",
         "icon_nid": "Skills",
         "icon_index": [
             8,
@@ -499,8 +1262,8 @@
     },
     {
         "nid": "WhisperingBeadsSkill",
-        "name": "WhisperingBeadsSkill",
-        "desc": "Increases Evasion and Crit Avoidance by +10.",
+        "name": "Whispering Beads",
+        "desc": "Increases Evasion and Crit dodge by +10.",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
             8,
@@ -519,7 +1282,7 @@
     },
     {
         "nid": "StormatcherSashSkill",
-        "name": "new_1",
+        "name": "Stormatcher Sash",
         "desc": "Increases Movement by 1",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
@@ -540,8 +1303,8 @@
     },
     {
         "nid": "GaleCharmSkill",
-        "name": "new_10",
-        "desc": "Boosts bow accuracy and *reduces enemy ranged damage*",
+        "name": "Gale Charm",
+        "desc": "Boosts bow accuracy by 15",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -560,8 +1323,8 @@
     },
     {
         "nid": "FeatherlightAnkletsSkill",
-        "name": "new_18",
-        "desc": " Increases Speed by +2 and MAG chance to avoid for 1 round when in combat",
+        "name": "Featherlight Anklets",
+        "desc": "Increases Speed by +2 and gain MAG chance to buff avoid by 10 for 1 round when in combat.",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
             1,
@@ -593,7 +1356,7 @@
     },
     {
         "nid": "StoneboundGauntletsSkill",
-        "name": "new_17",
+        "name": "Stonebound Gauntlets",
         "desc": "Boosts Strength by +2 and allows breaking obstacles faster",
         "icon_nid": "Iron Knuckle {VelvetKitsune, LordGlenn}",
         "icon_index": [
@@ -618,7 +1381,7 @@
     },
     {
         "nid": "ObsidianSealSkill",
-        "name": "new_16**",
+        "name": "Obsidian Seal",
         "desc": "Grants resistance to spirit-based attacks and status effects",
         "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
@@ -647,7 +1410,7 @@
     },
     {
         "nid": "TerraEmblemSkill",
-        "name": "new_15",
+        "name": "Terra Emblem",
         "desc": "Increases Defense and prevents Knockback*** effects",
         "icon_nid": "Boosters",
         "icon_index": [
@@ -672,8 +1435,8 @@
     },
     {
         "nid": "QuakeTreadsSkill",
-        "name": "new_14",
-        "desc": "Prevents movement penalties on rough terrain",
+        "name": "Quake Treads",
+        "desc": "Ignores movement penalties of rough terrain",
         "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
             14,
@@ -688,7 +1451,7 @@
     },
     {
         "nid": "FrostbiteBandSkill",
-        "name": "+water",
+        "name": "Frostbite Band",
         "desc": "(Increases Waterbending power and weakens Fire-based attacks",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
@@ -737,12 +1500,16 @@
                         8
                     ]
                 ]
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
     {
         "nid": "TidalCrestSkill",
-        "name": "new_12",
+        "name": "Tidal Crest",
         "desc": "Boosts Healing effects , heals the user when healing allies. and gives small regen to nearby allies.",
         "icon_nid": "Boosters",
         "icon_index": [
@@ -771,7 +1538,7 @@
     },
     {
         "nid": "WavecarvedBanglesSkill",
-        "name": "new_11",
+        "name": "Wavecarved Bangle",
         "desc": "Increases Skill and reduces the effects of status ailments",
         "icon_nid": "Boosters",
         "icon_index": [
@@ -796,8 +1563,8 @@
     },
     {
         "nid": "GlacierBracersSkill",
-        "name": "new_9",
-        "desc": "Increases Defense and Resistance to magic by +4",
+        "name": "Glacier Bracers",
+        "desc": "Increases Defense and Resistance by +4",
         "icon_nid": "Brave Knuckle {VelvetKitsune, LordGlenn}",
         "icon_index": [
             0,
@@ -821,7 +1588,7 @@
     },
     {
         "nid": "EmberPendantSkill",
-        "name": "new_7",
+        "name": "Ember Pendant",
         "desc": "Boosts Firebending damage by +3 and critical hit rate by +10.",
         "icon_nid": "Boosters",
         "icon_index": [
@@ -845,8 +1612,8 @@
     },
     {
         "nid": "BlazeforgedRingsSkill",
-        "name": "new_8",
-        "desc": "Increases Strenght and Magic by +4",
+        "name": "Blazeforged Rings",
+        "desc": "Increases Strength and Magic by +4",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -870,8 +1637,8 @@
     },
     {
         "nid": "PhoenixCloakSkill",
-        "name": "new_6",
-        "desc": "Reduces damage from Fire-based attacks.",
+        "name": "Phoenix Cloak",
+        "desc": "Increases DEF and RES by 6 against Fire-based attacks.\n",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -883,15 +1650,15 @@
                 "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) in ('Fire')"
             ],
             [
-                "stat_multiplier",
+                "stat_change",
                 [
                     [
-                        "RES",
-                        2.0
+                        "DEF",
+                        6
                     ],
                     [
-                        "DEF",
-                        2.0
+                        "RES",
+                        6
                     ]
                 ]
             ]
@@ -899,9 +1666,9 @@
     },
     {
         "nid": "InfernoGauntletSkill",
-        "name": "new_5",
-        "desc": "Gives MAG chance for weapon attacks to burn enemies",
-        "icon_nid": "Killer Knuckle {VelvetKitsune, LordGlenn}",
+        "name": "Freeze dry",
+        "desc": "Gives unit MAG% chance for attacks to inflict Frostburn to enemies on hit. Only works for weapons.\nLasts 4 turns.",
+        "icon_nid": "Silver Knuckle {VelvetKitsune, LordGlenn}",
         "icon_index": [
             0,
             0
@@ -909,25 +1676,29 @@
         "components": [
             [
                 "combat_condition",
-                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) in ('Sword', 'Axe', 'Lance', 'Bow')"
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) in ('Sword', 'Axe', 'Lance', 'Bow', 'Monster')"
             ],
             [
                 "attack_proc",
-                "Burning"
+                "Frostburn"
             ],
             [
                 "defense_proc",
-                "Burning"
+                "Frostburn"
             ],
             [
                 "proc_rate",
-                "MAG_PROC"
+                "MAGIC_DAMAGE"
+            ],
+            [
+                "end_time",
+                4
             ]
         ]
     },
     {
         "nid": "SpiritLanternSkill",
-        "name": "SpiritLanternSkill",
+        "name": "Spirit Lantern",
         "desc": "Reduces damage from spirit enemies and increases sight range",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
@@ -945,13 +1716,13 @@
             ],
             [
                 "resist_multiplier",
-                0.5
+                0.8
             ]
         ]
     },
     {
         "nid": "MoonstoneAmuletSkill",
-        "name": "new_4",
+        "name": "Moonstone Amulet",
         "desc": "Increases Resistance and Magic by +4",
         "icon_nid": "Neutral",
         "icon_index": [
@@ -976,7 +1747,7 @@
     },
     {
         "nid": "DragonsEyeTalismanSkill",
-        "name": "new_3",
+        "name": "Dragon Eye Talisman",
         "desc": "Grants a slight boost to all stats and improves vision in fog",
         "icon_nid": "Neutral",
         "icon_index": [
@@ -1025,21 +1796,25 @@
     },
     {
         "nid": "CursedFang",
-        "name": "new_2",
-        "desc": "Boosts Attack amount but causes 10 HP loss after combat, cannot kill the user",
-        "icon_nid": "Neutral",
+        "name": "Void Vigilante",
+        "desc": "+1 Bonus attack, but take 10 non-lethal damage after combat.",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            12
+            10,
+            34
         ],
         "components": [
             [
-                "all_brave",
-                null
-            ],
-            [
                 "better_post_combat_damage",
                 10
+            ],
+            [
+                "dynamic_attacks",
+                "1"
+            ],
+            [
+                "end_time",
+                4
             ]
         ]
     },
@@ -1065,8 +1840,8 @@
     },
     {
         "nid": "ObstructAura",
-        "name": "ObstructAura",
-        "desc": "Obstruct: Enemies can only attack this unit within melee range.",
+        "name": "Obstruct Aura***",
+        "desc": "Enemies can only attack this unit within melee range.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -1098,7 +1873,7 @@
     {
         "nid": "ObstructChild",
         "name": "Obstruct",
-        "desc": "Obstruct: Enemies can only attack this unit within melee range.",
+        "desc": "Enemies can only attack this unit within melee range.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -1129,6 +1904,26 @@
             3
         ],
         "components": []
+    },
+    {
+        "nid": "NoTarget",
+        "name": "NoTarget",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                -0.9999999999999999
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
     },
     {
         "nid": "HauntedBlessing",
@@ -1238,6 +2033,260 @@
             [
                 "upkeep_damage",
                 5
+            ]
+        ]
+    },
+    {
+        "nid": "Airwalk",
+        "name": "Airwalk",
+        "desc": "Lets unit move like they are Flying.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            10,
+            31
+        ],
+        "components": [
+            [
+                "movement_type",
+                "Fliers"
+            ],
+            [
+                "has_tags",
+                [
+                    "Flying"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "BrokenBlood",
+        "name": "Broken Blood",
+        "desc": "Unit takes 99% of Max HP after combat.\nNot lethal. Lasts 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            4
+        ],
+        "components": [
+            [
+                "recoil_percent",
+                0.99
+            ],
+            [
+                "end_time",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "EarthB_T1",
+        "name": "Earthen Armor",
+        "desc": "A thin covering of mineral based armor, colored to match the user's skin tone.\nMAG% chance to halve damage received from Swords, Lances, Axes, or Bows.\n",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) in ('Sword', 'Axe', 'Lance', 'Bow', 'Monster')"
+            ],
+            [
+                "proc_rate",
+                "MAG_PROC"
+            ],
+            [
+                "defense_proc",
+                "Pavise"
+            ]
+        ]
+    },
+    {
+        "nid": "FireImmune",
+        "name": "Fireproof",
+        "desc": "Removes Searing and Burning after combat.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            5,
+            20
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "FireImmune_1",
+                    "FireImmune_2"
+                ]
+            ],
+            [
+                "end_time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "FireImmune_1",
+        "name": "FireImmuneBurning",
+        "desc": "blocks searing and burning",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "remove_status_after_combat",
+                "Burning"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FireImmune_2",
+        "name": "FireImmuneSearing",
+        "desc": "blocks searing and burning",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    },
+    {
+        "nid": "Frostburn",
+        "name": "Frostburn",
+        "desc": "Unit takes 10% Max HP damage at the start of each turn for each stack.\nMax 3 stacks, last 2 turns.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            0,
+            38
+        ],
+        "components": [
+            [
+                "regeneration",
+                -0.1
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "stack",
+                3
+            ]
+        ]
+    },
+    {
+        "nid": "Stabilized",
+        "name": "Stabilized",
+        "desc": "Unit is immune to knockback and move effects.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            8,
+            14
+        ],
+        "components": [
+            [
+                "end_time",
+                5
+            ],
+            [
+                "grounded",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "SupremeMasteryofCombat_T2",
+        "name": "Supreme Mastery of Combat",
+        "desc": "Your superior reflexes allows you to mantain the upper hand in combat.\nUnit cannot be doubled.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_defense_speed",
+                "9999"
+            ]
+        ]
+    },
+    {
+        "nid": "SupremeMasteryofMagic_T3",
+        "name": "Supreme Mastery of Fire",
+        "desc": "Your control over the elements lets you overpower mundane benders.\nUnit gains effective damage against all bender enemies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            10
+        ],
+        "components": [
+            [
+                "item_override",
+                "StrongVSMagic"
+            ]
+        ]
+    },
+    {
+        "nid": "NoMove",
+        "name": "NoMove",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MOV",
+                        0
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Newbie",
+        "name": "Newbie",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        -2
+                    ],
+                    [
+                        "SPD",
+                        -1
+                    ],
+                    [
+                        "SKL",
+                        -2
+                    ]
+                ]
             ]
         ]
     },
@@ -2261,6 +3310,10 @@
             [
                 "enemy_exp_multiplier",
                 0
+            ],
+            [
+                "modify_ai_priority",
+                0.0
             ]
         ]
     },
@@ -2352,9 +3405,56 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ]
         ]
+    },
+    {
+        "nid": "AWorldAblaze",
+        "name": "A World Ablaze",
+        "desc": "enemies nearby get inflicted with ablaze",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            2,
+            26
+        ],
+        "components": [
+            [
+                "aura",
+                "Ablaze"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "unit"
+            ]
+        ]
+    },
+    {
+        "nid": "Ablaze",
+        "name": "Ablaze",
+        "desc": "take more damage from fire attacks (except from burning)",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            8,
+            21
+        ],
+        "components": []
+    },
+    {
+        "nid": "iceonmiss",
+        "name": "iceonmiss",
+        "desc": "",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": []
     }
 ]

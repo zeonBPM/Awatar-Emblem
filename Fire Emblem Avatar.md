@@ -226,5 +226,7 @@ Defeat boss, standard map.
 This is the last step, whoever dies stays down for good.
 
 
+if yora dies Zoran changes AI to pursue whoever dealt the killing blow
+
 
 

@@ -1,13 +1,15 @@
 [
     {
         "nid": "WindStrider",
-        "name": "Wind Strider",
+        "name": "Strider",
         "desc": "",
         "tier": 1,
         "movement_group": "Air",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Air"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 18,
@@ -72,20 +74,20 @@
         "learned_skills": [
             [
                 3,
-                "AirA"
+                "Air1"
             ],
             [
                 8,
-                "AirB"
+                "Air2"
             ]
         ],
         "wexp_gain": {
-            "Sword": [
+            "Lance": [
                 false,
                 0,
                 null
             ],
-            "Lance": [
+            "Sword": [
                 false,
                 0,
                 null
@@ -162,13 +164,15 @@
     },
     {
         "nid": "StoneSentinel",
-        "name": "Stone Sentinel",
+        "name": "Warden",
         "desc": "",
         "tier": 1,
         "movement_group": "Earth",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Earth"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 20,
@@ -230,23 +234,14 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [
-            [
-                3,
-                "EarthA"
-            ],
-            [
-                8,
-                "EarthB"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
+            "Lance": [
                 false,
                 0,
                 null
             ],
-            "Lance": [
+            "Sword": [
                 false,
                 0,
                 null
@@ -305,6 +300,11 @@
                 false,
                 0,
                 null
+            ],
+            "New Weapon Type": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": null,
@@ -324,7 +324,9 @@
         "movement_group": "Water",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Water"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 20,
@@ -386,25 +388,16 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [
-            [
-                3,
-                "WaterA"
-            ],
-            [
-                8,
-                "WaterB"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                null
-            ],
             "Lance": [
                 true,
                 71,
+                null
+            ],
+            "Sword": [
+                false,
+                0,
                 null
             ],
             "Axe": [
@@ -461,6 +454,11 @@
                 false,
                 0,
                 null
+            ],
+            "New Weapon Type": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": null,
@@ -474,13 +472,15 @@
     },
     {
         "nid": "FlameDuelist",
-        "name": "FlameDuelist",
+        "name": "Royal Guard",
         "desc": "",
         "tier": 1,
         "movement_group": "Fire",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Fire"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 16,
@@ -542,25 +542,16 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [
-            [
-                3,
-                "FireA"
-            ],
-            [
-                8,
-                "FireB"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                true,
-                71,
-                null
-            ],
             "Lance": [
                 false,
                 0,
+                null
+            ],
+            "Sword": [
+                true,
+                71,
                 null
             ],
             "Axe": [
@@ -617,6 +608,11 @@
                 false,
                 0,
                 null
+            ],
+            "New Weapon Type": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": null,
@@ -625,7 +621,7 @@
             0
         ],
         "map_sprite_nid": "Dread Fighter (M) {Nuramon}",
-        "combat_anim_nid": "FlameDuelistDread",
+        "combat_anim_nid": "DreadFighter",
         "fields": []
     },
     {
@@ -643,7 +639,7 @@
             "STR": 0,
             "MAG": 0,
             "SKL": 0,
-            "SPD": 0,
+            "SPD": 4,
             "LCK": 0,
             "DEF": 0,
             "CON": 5,
@@ -700,25 +696,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                0,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                0,
+                0,
+                81
             ],
             "Axe": [
                 0,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -743,27 +739,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -776,672 +772,134 @@
         "fields": []
     },
     {
-        "nid": "Eirika_Lord",
-        "name": "Lord",
-        "desc": "The princess of Renais. A sword fighter on an important mission.",
+        "nid": "Airbender",
+        "name": "Airbender",
+        "desc": "",
         "tier": 1,
-        "movement_group": "Light Foot",
+        "movement_group": "Air",
         "promotes_from": null,
-        "turns_into": [
-            "Eirika_Great_Lord"
-        ],
-        "tags": [
-            "Sword"
-        ],
+        "turns_into": [],
+        "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 16,
+            "HP": 18,
             "STR": 4,
-            "MAG": 2,
-            "SKL": 8,
-            "SPD": 9,
-            "LCK": 0,
-            "DEF": 3,
-            "CON": 5,
-            "MOV": 5,
-            "RES": 0
-        },
-        "growths": {
-            "HP": 90,
-            "STR": 45,
-            "MAG": 22,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 40,
-            "DEF": 15,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 20
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 35,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "CON": 20,
-            "MOV": 15,
-            "RES": 20
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                1,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "EirikaLord",
-        "combat_anim_nid": "Eirika Lord",
-        "fields": []
-    },
-    {
-        "nid": "Eirika_Great_Lord",
-        "name": "Great Lord",
-        "desc": "??",
-        "tier": 2,
-        "movement_group": "Heavy Cav",
-        "promotes_from": "Eirika_Lord",
-        "turns_into": [],
-        "tags": [
-            "Horse",
-            "Mounted",
-            "Sword"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 18,
-            "STR": 3,
-            "MAG": 2,
             "SKL": 3,
             "SPD": 4,
-            "LCK": 0,
-            "DEF": 5,
+            "DEF": 3,
             "RES": 0,
+            "LCK": 0,
             "CON": 7,
-            "MOV": 7
-        },
-        "growths": {
-            "HP": 90,
-            "STR": 45,
-            "MAG": 22,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 40,
-            "DEF": 15,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 4,
-            "STR": 2,
-            "MAG": 1,
-            "SKL": 2,
-            "SPD": 1,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 5,
-            "CON": 2,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 24,
-            "MAG": 20,
-            "SKL": 29,
-            "SPD": 30,
-            "LCK": 30,
-            "DEF": 22,
-            "RES": 25,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                70,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Eirika_Great_Lord",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Ephraim_Lord",
-        "name": "Lord",
-        "desc": "??",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [
-            "Ephraim_Great_Lord"
-        ],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "HP": 18,
-            "STR": 6,
-            "MAG": 3,
-            "SKL": 6,
-            "SPD": 7,
-            "LCK": 0,
-            "DEF": 6,
-            "RES": 0,
-            "CON": 8,
             "MOV": 5
         },
         "growths": {
-            "HP": 90,
-            "STR": 45,
-            "MAG": 22,
+            "HP": 70,
+            "STR": 35,
+            "MAG": 10,
             "SKL": 40,
-            "SPD": 45,
-            "LCK": 40,
+            "SPD": 32,
             "DEF": 15,
-            "RES": 15,
+            "RES": 20,
+            "LCK": 35,
             "CON": 0,
             "MOV": 0
         },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
+        "growth_bonus": {},
+        "promotion": {},
         "max_stats": {
             "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "STR": 30,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "DEF": 30,
+            "RES": 30,
             "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
+            "CON": 25,
             "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
+            "Lance": [
                 false,
                 0,
-                121
+                null
             ],
-            "Lance": [
+            "Sword": [
                 true,
-                31,
-                121
+                1,
+                null
             ],
             "Axe": [
                 false,
                 0,
-                121
+                null
             ],
             "Bow": [
                 false,
                 0,
-                121
+                null
             ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Ephraim_Lord",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Ephraim_Great_Lord",
-        "name": "Great Lord",
-        "desc": "??",
-        "tier": 2,
-        "movement_group": "Heavy Cav",
-        "promotes_from": "Ephraim_Lord",
-        "turns_into": [],
-        "tags": [
-            "Horse",
-            "Mounted"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 18,
-            "STR": 3,
-            "MAG": 2,
-            "SKL": 3,
-            "SPD": 4,
-            "LCK": 0,
-            "DEF": 5,
-            "RES": 0,
-            "CON": 10,
-            "MOV": 7
-        },
-        "growths": {
-            "HP": 90,
-            "STR": 45,
-            "MAG": 22,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 40,
-            "DEF": 15,
-            "RES": 15,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 4,
-            "STR": 2,
-            "MAG": 1,
-            "SKL": 3,
-            "SPD": 2,
-            "LCK": 0,
-            "DEF": 2,
-            "RES": 5,
-            "CON": 2,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 27,
-            "MAG": 20,
-            "SKL": 26,
-            "SPD": 27,
-            "LCK": 30,
-            "DEF": 23,
-            "RES": 23,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
+            "Air": [
                 true,
-                40,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Ephraim_Great_Lord",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Dancer",
-        "name": "Dancer",
-        "desc": "??",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "HP": 14,
-            "STR": 1,
-            "MAG": 1,
-            "SKL": 2,
-            "SPD": 7,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 1,
-            "CON": 4,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 45,
-            "STR": 45,
-            "MAG": 45,
-            "SKL": 30,
-            "SPD": 60,
-            "LCK": 70,
-            "DEF": 0,
-            "RES": 13,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
                 1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
+                null
             ],
-            "Lance": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Axe": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Bow": [
+            "Fire": [
                 false,
                 0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
             ]
         },
-        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_nid": null,
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Dancer",
-        "combat_anim_nid": null,
+        "map_sprite_nid": "MyrmidonFemale",
+        "combat_anim_nid": "Airbender",
         "fields": []
     },
     {
         "nid": "Myrmidon",
         "name": "Myrmidon",
-        "desc": "Swordfighters with superior speed and skill.",
+        "desc": "Lightly armored but mobile troops, common in raiding parties.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -1515,25 +973,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                true,
-                31,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                true,
+                31,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -1558,27 +1016,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Myrmidon",
@@ -1588,6 +1046,1805 @@
         ],
         "map_sprite_nid": "Myrmidon",
         "combat_anim_nid": "Myrmidon",
+        "fields": []
+    },
+    {
+        "nid": "Soldier",
+        "name": "Soldier",
+        "desc": "Infantry soldiers possessing balanced abilities. The backbone of the Fire Nation army.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 5,
+            "MAG": 2,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 6,
+            "RES": 1,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 50,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 25,
+            "DEF": 12,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                true,
+                1,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Soldier",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Soldier",
+        "combat_anim_nid": "Soldier",
+        "fields": []
+    },
+    {
+        "nid": "Knight",
+        "name": "Knight",
+        "desc": "Heavily armored knights with poor movement.",
+        "tier": 1,
+        "movement_group": "Armors",
+        "promotes_from": null,
+        "turns_into": [
+            "WindStrider",
+            "General"
+        ],
+        "tags": [
+            "Armor"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 17,
+            "STR": 5,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 9,
+            "CON": 13,
+            "MOV": 4,
+            "RES": 1
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 15,
+            "LCK": 25,
+            "DEF": 28,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15,
+            "RES": 20
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                true,
+                31,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Knight",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Knight",
+        "combat_anim_nid": "Knight",
+        "fields": []
+    },
+    {
+        "nid": "Brigand",
+        "name": "Brigand",
+        "desc": "Ruffians good for nothing else besides pillaging.",
+        "tier": 1,
+        "movement_group": "Bandits",
+        "promotes_from": null,
+        "turns_into": [
+            "Berserker"
+        ],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 10,
+            "STR": 3,
+            "MAG": 0,
+            "SKL": 1,
+            "SPD": 4,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 0,
+            "CON": 12,
+            "MOV": 4
+        },
+        "growths": {
+            "HP": 82,
+            "STR": 50,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 15,
+            "DEF": 10,
+            "RES": 13,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                true,
+                31,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Brigand",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Brigand",
+        "combat_anim_nid": "Brigand",
+        "fields": []
+    },
+    {
+        "nid": "Archer",
+        "name": "Archer",
+        "desc": "Main ranged infantry of the Fire Nation army. ",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "WindStrider",
+            "Sniper"
+        ],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 18,
+            "STR": 4,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 4,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 0,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 35,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 32,
+            "LCK": 35,
+            "DEF": 15,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                true,
+                31,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Archer",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Archer",
+        "combat_anim_nid": "Archer",
+        "fields": []
+    },
+    {
+        "nid": "Monk",
+        "name": "Waterbender",
+        "desc": "Valiant guardian of the sacred relics. Prefers to fight as a team.",
+        "tier": 1,
+        "movement_group": "Water",
+        "promotes_from": null,
+        "turns_into": [
+            "Bishop"
+        ],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 18,
+            "STR": 0,
+            "MAG": 1,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "RES": 5,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 0,
+            "MAG": 30,
+            "SKL": 35,
+            "SPD": 32,
+            "LCK": 45,
+            "DEF": 8,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                true,
+                21,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                1,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                1,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Monk",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Monk",
+        "combat_anim_nid": "Tactician",
+        "fields": []
+    },
+    {
+        "nid": "Monk_evil",
+        "name": "Waterbender",
+        "desc": "Turncoat Water Tribe member. Prefers to fight as a team.",
+        "tier": 1,
+        "movement_group": "Water",
+        "promotes_from": null,
+        "turns_into": [
+            "Bishop"
+        ],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 18,
+            "STR": 0,
+            "MAG": 1,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "RES": 5,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 0,
+            "MAG": 30,
+            "SKL": 35,
+            "SPD": 32,
+            "LCK": 45,
+            "DEF": 8,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                true,
+                21,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                1,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                1,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Monk",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Monk",
+        "combat_anim_nid": "Tactician",
+        "fields": []
+    },
+    {
+        "nid": "Mage",
+        "name": "Firebender",
+        "desc": "Novice bender in service of the Royal Army.",
+        "tier": 1,
+        "movement_group": "Fire",
+        "promotes_from": null,
+        "turns_into": [
+            "WindStrider",
+            "Sage"
+        ],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 16,
+            "STR": 0,
+            "MAG": 1,
+            "SKL": 3,
+            "SPD": 3,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 4,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 0,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 35,
+            "LCK": 20,
+            "DEF": 5,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                true,
+                21,
+                null
+            ],
+            "Default": [
+                false,
+                31,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                31,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Mage (1)",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Mage",
+        "combat_anim_nid": "Mage",
+        "fields": []
+    },
+    {
+        "nid": "Shaman",
+        "name": "Earthbender",
+        "desc": "A traitor to the Earth Kingdom, dangerous in close range.",
+        "tier": 1,
+        "movement_group": "Earth",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 16,
+            "STR": 0,
+            "MAG": 3,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 5,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 0,
+            "MAG": 50,
+            "SKL": 32,
+            "SPD": 30,
+            "LCK": 20,
+            "DEF": 10,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 2,
+            "SKL": 0,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 1,
+            "RES": 2,
+            "CON": 2,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                true,
+                21,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                31,
+                81
+            ],
+            "Dark": [
+                false,
+                31,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Shaman",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Shaman",
+        "combat_anim_nid": "Shaman",
+        "fields": []
+    },
+    {
+        "nid": "Valkyrie",
+        "name": "Valkyrie",
+        "desc": "Cruel-hearted healers.",
+        "tier": 1,
+        "movement_group": "Heavy Cav",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "MAG": 4,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 4,
+            "RES": 8,
+            "CON": 6,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 0,
+            "MAG": 35,
+            "SKL": 25,
+            "SPD": 45,
+            "LCK": 40,
+            "DEF": 10,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 25,
+            "SKL": 24,
+            "SPD": 25,
+            "LCK": 30,
+            "DEF": 24,
+            "RES": 28,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                true,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                31,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                31,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Valkyrie",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Valkyrie",
+        "combat_anim_nid": null,
+        "fields": []
+    },
+    {
+        "nid": "Warrior",
+        "name": "Warrior",
+        "desc": "Determined fighters who relish battle.",
+        "tier": 1,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 28,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 5,
+            "SPD": 6,
+            "LCK": 0,
+            "DEF": 5,
+            "RES": 0,
+            "CON": 13,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 45,
+            "MAG": 0,
+            "SKL": 25,
+            "SPD": 20,
+            "LCK": 15,
+            "DEF": 16,
+            "RES": 17,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 3,
+            "STR": 1,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 3,
+            "CON": 2,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 20,
+            "SKL": 28,
+            "SPD": 26,
+            "LCK": 30,
+            "DEF": 26,
+            "RES": 22,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
+            ],
+            "Axe": [
+                true,
+                40,
+                81
+            ],
+            "Bow": [
+                true,
+                1,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Warrior",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Warrior",
+        "combat_anim_nid": "Warrior",
+        "fields": []
+    },
+    {
+        "nid": "Thief",
+        "name": "Thief",
+        "desc": "Expert in stealth and subterfuge. Possess weak attacks but many other skills.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Assassin",
+            "Rogue"
+        ],
+        "tags": [
+            "Sword"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 16,
+            "STR": 3,
+            "MAG": 3,
+            "SKL": 1,
+            "SPD": 9,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 0,
+            "CON": 6,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 5,
+            "MAG": 5,
+            "SKL": 45,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 5,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                true,
+                1,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Thief",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Thief",
+        "combat_anim_nid": "Thief",
+        "fields": []
+    },
+    {
+        "nid": "Mercenary",
+        "name": "Vanguard",
+        "desc": "Frontliner sword wielders. Well-balanced, with superior abilities all around.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "WindStrider",
+            "Hero"
+        ],
+        "tags": [
+            "Sword"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 18,
+            "STR": 4,
+            "MAG": 2,
+            "SKL": 8,
+            "SPD": 8,
+            "LCK": 0,
+            "DEF": 4,
+            "RES": 0,
+            "CON": 9,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 40,
+            "MAG": 20,
+            "SKL": 40,
+            "SPD": 32,
+            "LCK": 30,
+            "DEF": 18,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                81
+            ],
+            "Sword": [
+                true,
+                31,
+                81
+            ],
+            "Axe": [
+                false,
+                0,
+                81
+            ],
+            "Bow": [
+                false,
+                0,
+                81
+            ],
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Mercenary",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Mercenary",
+        "combat_anim_nid": "Mercenary",
         "fields": []
     },
     {
@@ -1669,25 +2926,25 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                2,
-                40,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                2,
+                40,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -1712,27 +2969,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Swordmaster",
@@ -1742,158 +2999,6 @@
         ],
         "map_sprite_nid": "Swordmaster",
         "combat_anim_nid": "Swordmaster",
-        "fields": []
-    },
-    {
-        "nid": "Mercenary",
-        "name": "Mercenary",
-        "desc": "Professional soldiers for hire. Well-balanced, with superior abilities all around.",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [
-            "Hero",
-            "Ranger"
-        ],
-        "tags": [
-            "Sword"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 18,
-            "STR": 4,
-            "MAG": 2,
-            "SKL": 8,
-            "SPD": 8,
-            "LCK": 0,
-            "DEF": 4,
-            "RES": 0,
-            "CON": 9,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 80,
-            "STR": 40,
-            "MAG": 20,
-            "SKL": 40,
-            "SPD": 32,
-            "LCK": 30,
-            "DEF": 18,
-            "RES": 30,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                31,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Air": [
-                false,
-                0,
-                null
-            ],
-            "Water": [
-                false,
-                0,
-                null
-            ],
-            "Earth": [
-                false,
-                0,
-                null
-            ],
-            "Fire": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Mercenary",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Mercenary",
-        "combat_anim_nid": "Mercenary",
         "fields": []
     },
     {
@@ -1970,162 +3075,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                2,
-                40,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                2,
+                40,
+                81
             ],
             "Axe": [
                 2,
                 31,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Vanguard",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Hero",
-        "combat_anim_nid": "Vanguard",
-        "fields": []
-    },
-    {
-        "nid": "Thief",
-        "name": "Thief",
-        "desc": "Expert in stealth and subterfuge. Possess weak attacks but many other skills.",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [
-            "Assassin",
-            "Rogue"
-        ],
-        "tags": [
-            "Sword"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 16,
-            "STR": 3,
-            "MAG": 3,
-            "SKL": 1,
-            "SPD": 9,
-            "LCK": 0,
-            "DEF": 2,
-            "RES": 0,
-            "CON": 6,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 50,
-            "STR": 5,
-            "MAG": 5,
-            "SKL": 45,
-            "SPD": 40,
-            "LCK": 40,
-            "DEF": 5,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Steal"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                1,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -2150,36 +3118,36 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
-        "icon_nid": "Generic_Portrait_Thief",
+        "icon_nid": "Generic_Portrait_Vanguard",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Thief",
-        "combat_anim_nid": "Thief",
+        "map_sprite_nid": "Hero",
+        "combat_anim_nid": "Vanguard",
         "fields": []
     },
     {
@@ -2256,25 +3224,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                2,
-                30,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                2,
+                30,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -2299,27 +3267,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -2405,25 +3373,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                2,
-                1,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                2,
+                1,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -2448,27 +3416,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -2556,152 +3524,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 true,
                 1,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Recruit",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Soldier",
-        "name": "Soldier",
-        "desc": "Average soldiers possessing\nno special abilities.",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "HP": 20,
-            "STR": 3,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 1,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 6,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 80,
-            "STR": 50,
-            "MAG": 0,
-            "SKL": 30,
-            "SPD": 20,
-            "LCK": 25,
-            "DEF": 12,
-            "RES": 15,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 20,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                true,
-                1,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -2726,36 +3567,36 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
-        "icon_nid": "Generic_Portrait_Soldier",
+        "icon_nid": "Generic_Portrait_Citizen",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Soldier",
-        "combat_anim_nid": "Soldier",
+        "map_sprite_nid": "Recruit",
+        "combat_anim_nid": null,
         "fields": []
     },
     {
@@ -2766,8 +3607,8 @@
         "movement_group": "Heavy Cav",
         "promotes_from": null,
         "turns_into": [
-            "Paladin",
-            "Great_Knight"
+            "WindStrider",
+            "Paladin"
         ],
         "tags": [
             "Horse",
@@ -2841,50 +3682,70 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                true,
-                1,
-                121
-            ],
             "Lance": [
                 true,
                 31,
-                121
+                81
+            ],
+            "Sword": [
+                true,
+                1,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Dark": [
+            "Fire": [
                 false,
                 0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Cavalier",
@@ -2976,50 +3837,70 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                true,
-                30,
-                121
-            ],
             "Lance": [
                 true,
                 30,
-                121
+                81
+            ],
+            "Sword": [
+                true,
+                30,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Dark": [
+            "Fire": [
                 false,
                 0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Paladin",
@@ -3032,142 +3913,6 @@
         "fields": []
     },
     {
-        "nid": "Great_Knight",
-        "name": "Great Knight",
-        "desc": "Veteran horse knights.",
-        "tier": 1,
-        "movement_group": "Armors",
-        "promotes_from": "Cavalier",
-        "turns_into": [],
-        "tags": [
-            "Horse",
-            "Mounted",
-            "Armor"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 21,
-            "STR": 8,
-            "MAG": 4,
-            "SKL": 6,
-            "SPD": 7,
-            "LCK": 0,
-            "DEF": 11,
-            "RES": 3,
-            "CON": 13,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 70,
-            "STR": 30,
-            "MAG": 15,
-            "SKL": 25,
-            "SPD": 20,
-            "LCK": 20,
-            "DEF": 21,
-            "RES": 22,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 3,
-            "STR": 2,
-            "MAG": 1,
-            "SKL": 1,
-            "SPD": 2,
-            "LCK": 0,
-            "DEF": 2,
-            "RES": 2,
-            "CON": 4,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 28,
-            "MAG": 20,
-            "SKL": 26,
-            "SPD": 25,
-            "LCK": 30,
-            "DEF": 29,
-            "RES": 26,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                1,
-                121
-            ],
-            "Lance": [
-                true,
-                1,
-                121
-            ],
-            "Axe": [
-                true,
-                31,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Great_Knight",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Great_Knight",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
         "nid": "Pegasus_Knight",
         "name": "Peg. Knight",
         "desc": "Knights who soar through the skies.",
@@ -3175,8 +3920,8 @@
         "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [
-            "Falcoknight",
-            "Wyvern Knight"
+            "WindStrider",
+            "Falcoknight"
         ],
         "tags": [
             "Mounted",
@@ -3254,50 +3999,70 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 true,
                 31,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Dark": [
+            "Fire": [
                 false,
                 0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Pegasus_Knight",
@@ -3393,50 +4158,70 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                true,
-                1,
-                121
-            ],
             "Lance": [
                 true,
                 40,
-                121
+                81
+            ],
+            "Sword": [
+                true,
+                1,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Dark": [
+            "Fire": [
                 false,
                 0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Falcoknight",
@@ -3446,138 +4231,6 @@
         ],
         "map_sprite_nid": "Falcoknight",
         "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Knight",
-        "name": "Knight",
-        "desc": "Heavily armored knights with poor movement.",
-        "tier": 1,
-        "movement_group": "Armors",
-        "promotes_from": null,
-        "turns_into": [
-            "Great_Knight",
-            "General"
-        ],
-        "tags": [
-            "Armor"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 17,
-            "STR": 5,
-            "MAG": 0,
-            "SKL": 3,
-            "SPD": 1,
-            "LCK": 0,
-            "DEF": 9,
-            "CON": 13,
-            "MOV": 4,
-            "RES": 1
-        },
-        "growths": {
-            "HP": 80,
-            "STR": 40,
-            "MAG": 0,
-            "SKL": 30,
-            "SPD": 15,
-            "LCK": 25,
-            "DEF": 28,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 20
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "CON": 20,
-            "MOV": 15,
-            "RES": 20
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                true,
-                31,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Knight",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Knight",
-        "combat_anim_nid": "Knight",
         "fields": []
     },
     {
@@ -3654,50 +4307,70 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                2,
-                1,
-                121
-            ],
             "Lance": [
                 2,
                 40,
-                121
+                81
+            ],
+            "Sword": [
+                2,
+                1,
+                81
             ],
             "Axe": [
                 2,
                 1,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Dark": [
+            "Fire": [
                 false,
                 0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_General",
@@ -3784,50 +4457,70 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 true,
                 1,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Dark": [
+            "Fire": [
                 false,
                 0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -3914,25 +4607,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 true,
                 31,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -3957,27 +4650,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Fighter",
@@ -3987,133 +4680,6 @@
         ],
         "map_sprite_nid": "Fighter",
         "combat_anim_nid": "Fighter",
-        "fields": []
-    },
-    {
-        "nid": "Warrior",
-        "name": "Warrior",
-        "desc": "Determined fighters who relish battle.",
-        "tier": 2,
-        "movement_group": "Regular",
-        "promotes_from": "Fighter",
-        "turns_into": [],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "HP": 28,
-            "STR": 8,
-            "MAG": 0,
-            "SKL": 5,
-            "SPD": 6,
-            "LCK": 0,
-            "DEF": 5,
-            "RES": 0,
-            "CON": 13,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 80,
-            "STR": 45,
-            "MAG": 0,
-            "SKL": 25,
-            "SPD": 20,
-            "LCK": 15,
-            "DEF": 16,
-            "RES": 17,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 3,
-            "STR": 1,
-            "MAG": 0,
-            "SKL": 2,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 3,
-            "CON": 2,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 30,
-            "MAG": 20,
-            "SKL": 28,
-            "SPD": 26,
-            "LCK": 30,
-            "DEF": 26,
-            "RES": 22,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                true,
-                40,
-                121
-            ],
-            "Bow": [
-                true,
-                1,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Warrior",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Warrior",
-        "combat_anim_nid": "Warrior",
         "fields": []
     },
     {
@@ -4190,50 +4756,70 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 true,
                 31,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Dark": [
+            "Fire": [
                 false,
                 0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Pirate",
@@ -4322,50 +4908,70 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 true,
                 40,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Dark": [
+            "Fire": [
                 false,
                 0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
             ]
         },
         "icon_nid": "Berserker",
@@ -4375,305 +4981,6 @@
         ],
         "map_sprite_nid": "Berserker",
         "combat_anim_nid": "Berserker",
-        "fields": []
-    },
-    {
-        "nid": "Brigand",
-        "name": "Brigand",
-        "desc": "Ruffians with a strong offense but poor defense.",
-        "tier": 1,
-        "movement_group": "Bandits",
-        "promotes_from": null,
-        "turns_into": [
-            "Berserker"
-        ],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "HP": 20,
-            "STR": 5,
-            "MAG": 0,
-            "SKL": 1,
-            "SPD": 5,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 0,
-            "CON": 12,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 82,
-            "STR": 50,
-            "MAG": 0,
-            "SKL": 30,
-            "SPD": 20,
-            "LCK": 15,
-            "DEF": 10,
-            "RES": 13,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                true,
-                31,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Air": [
-                false,
-                0,
-                null
-            ],
-            "Water": [
-                false,
-                0,
-                null
-            ],
-            "Earth": [
-                false,
-                0,
-                null
-            ],
-            "Fire": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Brigand",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Brigand",
-        "combat_anim_nid": "Brigand",
-        "fields": []
-    },
-    {
-        "nid": "Archer",
-        "name": "Archer",
-        "desc": "Lightly armored soldiers armed with bows. Can attack from a distance.",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [
-            "Sniper",
-            "Ranger"
-        ],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "HP": 18,
-            "STR": 4,
-            "MAG": 0,
-            "SKL": 3,
-            "SPD": 4,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 0,
-            "CON": 7,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 70,
-            "STR": 35,
-            "MAG": 0,
-            "SKL": 40,
-            "SPD": 32,
-            "LCK": 35,
-            "DEF": 15,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                true,
-                31,
-                121
-            ],
-            "Air": [
-                false,
-                0,
-                null
-            ],
-            "Water": [
-                false,
-                0,
-                null
-            ],
-            "Earth": [
-                false,
-                0,
-                null
-            ],
-            "Fire": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Archer",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Archer",
-        "combat_anim_nid": "Archer",
         "fields": []
     },
     {
@@ -4748,50 +5055,70 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 true,
                 40,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Light": [
+            "Water": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Earth": [
                 false,
                 0,
-                121
+                null
             ],
-            "Dark": [
+            "Fire": [
                 false,
                 0,
-                121
+                null
             ],
             "Default": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Dark": [
+                false,
+                0,
+                81
+            ],
+            "Anima": [
+                false,
+                0,
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                false,
+                0,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Sniper",
@@ -4801,270 +5128,6 @@
         ],
         "map_sprite_nid": "Sniper",
         "combat_anim_nid": "Sniper",
-        "fields": []
-    },
-    {
-        "nid": "Ranger",
-        "name": "Ranger",
-        "desc": "Devotees of the bow. Possess incredible range.",
-        "tier": 2,
-        "movement_group": "Light Cav",
-        "promotes_from": "Archer",
-        "turns_into": [],
-        "tags": [
-            "Horse",
-            "Mounted"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 21,
-            "STR": 7,
-            "MAG": 0,
-            "SKL": 6,
-            "SPD": 7,
-            "LCK": 0,
-            "DEF": 6,
-            "RES": 4,
-            "CON": 9,
-            "MOV": 7
-        },
-        "growths": {
-            "HP": 60,
-            "STR": 25,
-            "MAG": 0,
-            "SKL": 30,
-            "SPD": 35,
-            "LCK": 25,
-            "DEF": 15,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 3,
-            "STR": 2,
-            "MAG": 0,
-            "SKL": 2,
-            "SPD": 1,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 3,
-            "CON": 3,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 25,
-            "MAG": 20,
-            "SKL": 28,
-            "SPD": 30,
-            "LCK": 30,
-            "DEF": 24,
-            "RES": 25,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                31,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                true,
-                1,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Ranger",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Ranger",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Monk",
-        "name": "Monk",
-        "desc": "Kind-hearted healers.",
-        "tier": 1,
-        "movement_group": "Mages",
-        "promotes_from": null,
-        "turns_into": [
-            "Bishop"
-        ],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "HP": 18,
-            "STR": 0,
-            "MAG": 1,
-            "SKL": 1,
-            "SPD": 2,
-            "LCK": 0,
-            "DEF": 1,
-            "RES": 5,
-            "CON": 6,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 50,
-            "STR": 0,
-            "MAG": 30,
-            "SKL": 35,
-            "SPD": 32,
-            "LCK": 45,
-            "DEF": 8,
-            "RES": 40,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 1,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 2,
-            "SPD": 2,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 2,
-            "CON": 1,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                true,
-                1,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Monk",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Monk",
-        "combat_anim_nid": "Tactician",
         "fields": []
     },
     {
@@ -5141,50 +5204,70 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 true,
                 31,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
-            "Default": [
+            "Anima": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                true,
+                31,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Cleric",
@@ -5273,50 +5356,70 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
-                true,
-                1,
-                121
-            ],
-            "Light": [
-                true,
-                16,
-                121
-            ],
-            "Anima": [
+            "Air": [
                 false,
                 0,
-                121
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                true,
+                17,
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
-            "Default": [
+            "Anima": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Light": [
+                true,
+                16,
+                81
+            ],
+            "Staff": [
+                true,
+                1,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Bishop",
@@ -5326,136 +5429,6 @@
         ],
         "map_sprite_nid": "Bishop",
         "combat_anim_nid": "Bishop",
-        "fields": []
-    },
-    {
-        "nid": "Mage",
-        "name": "Mage",
-        "desc": "Curious practioners of anima magic.",
-        "tier": 1,
-        "movement_group": "Mages",
-        "promotes_from": null,
-        "turns_into": [
-            "Sage",
-            "Mage Knight"
-        ],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "HP": 16,
-            "STR": 0,
-            "MAG": 1,
-            "SKL": 3,
-            "SPD": 3,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 4,
-            "CON": 5,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 55,
-            "STR": 0,
-            "MAG": 55,
-            "SKL": 40,
-            "SPD": 35,
-            "LCK": 20,
-            "DEF": 5,
-            "RES": 40,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 1,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 1,
-            "SPD": 2,
-            "LCK": 0,
-            "DEF": 1,
-            "RES": 2,
-            "CON": 1,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                true,
-                31,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Mage (1)",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Mage",
-        "combat_anim_nid": "Mage",
         "fields": []
     },
     {
@@ -5530,50 +5503,70 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
-                true,
-                31,
-                121
+            "Air": [
+                false,
+                0,
+                null
             ],
-            "Light": [
-                true,
-                31,
-                121
+            "Water": [
+                false,
+                0,
+                null
             ],
-            "Anima": [
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 true,
-                31,
-                121
+                93,
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
-            "Default": [
-                false,
-                0,
-                121
+            "Anima": [
+                true,
+                31,
+                81
+            ],
+            "Light": [
+                true,
+                31,
+                81
+            ],
+            "Staff": [
+                true,
+                31,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Sage",
@@ -5583,267 +5576,6 @@
         ],
         "map_sprite_nid": "Sage",
         "combat_anim_nid": "Sage",
-        "fields": []
-    },
-    {
-        "nid": "Shaman",
-        "name": "Shaman",
-        "desc": "Impulsive mages with a tenous grasp on their magic.",
-        "tier": 1,
-        "movement_group": "Mages",
-        "promotes_from": null,
-        "turns_into": [],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "HP": 16,
-            "STR": 0,
-            "MAG": 3,
-            "SKL": 1,
-            "SPD": 2,
-            "LCK": 0,
-            "DEF": 2,
-            "RES": 5,
-            "CON": 7,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 50,
-            "STR": 0,
-            "MAG": 50,
-            "SKL": 32,
-            "SPD": 30,
-            "LCK": 20,
-            "DEF": 10,
-            "RES": 40,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 1,
-            "STR": 0,
-            "MAG": 2,
-            "SKL": 0,
-            "SPD": 1,
-            "LCK": 0,
-            "DEF": 1,
-            "RES": 2,
-            "CON": 2,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                true,
-                31,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Shaman",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Shaman",
-        "combat_anim_nid": "Shaman",
-        "fields": []
-    },
-    {
-        "nid": "Mage Knight",
-        "name": "Mage Knight",
-        "desc": "",
-        "tier": 2,
-        "movement_group": "Light Cav",
-        "promotes_from": "Mage",
-        "turns_into": [],
-        "tags": [
-            "Mounted"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 20,
-            "STR": 0,
-            "MAG": 4,
-            "SKL": 5,
-            "SPD": 6,
-            "LCK": 0,
-            "DEF": 5,
-            "RES": 6,
-            "CON": 8,
-            "MOV": 7
-        },
-        "growths": {
-            "HP": 45,
-            "STR": 5,
-            "MAG": 45,
-            "SKL": 30,
-            "SPD": 25,
-            "LCK": 15,
-            "DEF": 10,
-            "RES": 40,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 4,
-            "STR": 0,
-            "MAG": 2,
-            "SKL": 1,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 2,
-            "RES": 2,
-            "CON": 3,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 25,
-            "SKL": 26,
-            "SPD": 25,
-            "LCK": 30,
-            "DEF": 24,
-            "RES": 28,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                0,
-                0,
-                121
-            ],
-            "Staff": [
-                2,
-                31,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                2,
-                71,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Mage_Knight",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "MageKnight",
-        "combat_anim_nid": "Strategist",
         "fields": []
     },
     {
@@ -5928,50 +5660,70 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
+            "Air": [
+                false,
+                0,
+                null
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 true,
                 31,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
-            "Default": [
+            "Anima": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                true,
+                31,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Troubadour",
@@ -5980,564 +5732,6 @@
             0
         ],
         "map_sprite_nid": "Troubadour",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Valkyrie",
-        "name": "Valkyrie",
-        "desc": "Kind-hearted healers.",
-        "tier": 2,
-        "movement_group": "Heavy Cav",
-        "promotes_from": "Troubadour",
-        "turns_into": [],
-        "tags": [
-            "Horse",
-            "Mounted"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 20,
-            "STR": 0,
-            "MAG": 4,
-            "SKL": 3,
-            "SPD": 5,
-            "LCK": 0,
-            "DEF": 4,
-            "RES": 8,
-            "CON": 6,
-            "MOV": 7
-        },
-        "growths": {
-            "HP": 45,
-            "STR": 0,
-            "MAG": 35,
-            "SKL": 25,
-            "SPD": 45,
-            "LCK": 40,
-            "DEF": 10,
-            "RES": 40,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 25,
-            "SKL": 24,
-            "SPD": 25,
-            "LCK": 30,
-            "DEF": 24,
-            "RES": 28,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                false,
-                0,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                true,
-                31,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Valkyrie",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Valkyrie",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Wyvern Rider",
-        "name": "Wyvern Rider",
-        "desc": "",
-        "tier": 1,
-        "movement_group": "Fliers",
-        "promotes_from": null,
-        "turns_into": [
-            "Wyvern Lord",
-            "Wyvern Knight"
-        ],
-        "tags": [
-            "Mounted",
-            "Dragon",
-            "Flying"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 20,
-            "STR": 7,
-            "MAG": 0,
-            "SKL": 5,
-            "SPD": 5,
-            "LCK": 0,
-            "DEF": 8,
-            "RES": 0,
-            "CON": 10,
-            "MOV": 7
-        },
-        "growths": {
-            "HP": 80,
-            "STR": 45,
-            "MAG": 5,
-            "SKL": 35,
-            "SPD": 30,
-            "LCK": 25,
-            "DEF": 25,
-            "RES": 17,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Flying"
-            ],
-            [
-                1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                2,
-                31,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Wyvern_Rider",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "WyvernRider",
-        "combat_anim_nid": "Wyvern Knight",
-        "fields": []
-    },
-    {
-        "nid": "Wyvern Lord",
-        "name": "Wyvern Lord",
-        "desc": "",
-        "tier": 2,
-        "movement_group": "Fliers",
-        "promotes_from": "Wyvern Rider",
-        "turns_into": [],
-        "tags": [
-            "Mounted",
-            "Dragon",
-            "Flying"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 20,
-            "STR": 9,
-            "MAG": 0,
-            "SKL": 7,
-            "SPD": 7,
-            "LCK": 0,
-            "DEF": 10,
-            "RES": 2,
-            "CON": 11,
-            "MOV": 8
-        },
-        "growths": {
-            "HP": 75,
-            "STR": 40,
-            "MAG": 10,
-            "SKL": 30,
-            "SPD": 20,
-            "LCK": 20,
-            "DEF": 20,
-            "RES": 17,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 4,
-            "STR": 2,
-            "MAG": 0,
-            "SKL": 2,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 2,
-            "RES": 0,
-            "CON": 1,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 27,
-            "MAG": 22,
-            "SKL": 26,
-            "SPD": 24,
-            "LCK": 30,
-            "DEF": 28,
-            "RES": 23,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Flying"
-            ],
-            [
-                1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                2,
-                31,
-                121
-            ],
-            "Lance": [
-                2,
-                40,
-                121
-            ],
-            "Axe": [
-                0,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Wyvern_Lord",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "WyvernLord",
-        "combat_anim_nid": "Wyvern Lord",
-        "fields": []
-    },
-    {
-        "nid": "Wyvern Knight",
-        "name": "Wyvern Knight",
-        "desc": "",
-        "tier": 2,
-        "movement_group": "Fliers",
-        "promotes_from": "Wyvern Rider",
-        "turns_into": [],
-        "tags": [
-            "Mounted",
-            "Dragon",
-            "Flying"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 20,
-            "STR": 7,
-            "MAG": 0,
-            "SKL": 8,
-            "SPD": 9,
-            "LCK": 0,
-            "DEF": 7,
-            "RES": 2,
-            "CON": 9,
-            "MOV": 8
-        },
-        "growths": {
-            "HP": 65,
-            "STR": 35,
-            "MAG": 5,
-            "SKL": 30,
-            "SPD": 30,
-            "LCK": 25,
-            "DEF": 15,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 3,
-            "STR": 1,
-            "MAG": 0,
-            "SKL": 2,
-            "SPD": 3,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 1,
-            "CON": 0,
-            "MOV": -99
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 25,
-            "MAG": 20,
-            "SKL": 27,
-            "SPD": 29,
-            "LCK": 30,
-            "DEF": 24,
-            "RES": 23,
-            "CON": 25,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "Flying"
-            ],
-            [
-                1,
-                "Canto"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
-            "Lance": [
-                2,
-                40,
-                121
-            ],
-            "Axe": [
-                false,
-                0,
-                121
-            ],
-            "Bow": [
-                false,
-                0,
-                121
-            ],
-            "Staff": [
-                false,
-                0,
-                121
-            ],
-            "Light": [
-                false,
-                0,
-                121
-            ],
-            "Anima": [
-                false,
-                0,
-                121
-            ],
-            "Dark": [
-                false,
-                0,
-                121
-            ],
-            "Default": [
-                false,
-                0,
-                121
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Wyvern_Rider",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "WyvernKnight",
         "combat_anim_nid": null,
         "fields": []
     },
@@ -6613,50 +5807,70 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
-            "Staff": [
-                2,
-                251,
-                121
-            ],
-            "Light": [
+            "Air": [
                 false,
                 0,
-                121
+                null
             ],
-            "Anima": [
+            "Water": [
                 false,
                 0,
-                121
+                null
+            ],
+            "Earth": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                true,
+                502,
+                81
             ],
             "Dark": [
                 2,
                 251,
-                121
+                81
             ],
-            "Default": [
+            "Anima": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Light": [
+                false,
+                0,
+                81
+            ],
+            "Staff": [
+                2,
+                251,
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -6744,25 +5958,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -6787,27 +6001,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Revenant",
@@ -6896,22 +6110,22 @@
             "Sword": [
                 false,
                 0,
-                121
+                81
             ],
             "Lance": [
                 false,
                 0,
-                121
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -6936,27 +6150,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Entombed",
@@ -7047,22 +6261,22 @@
             "Sword": [
                 true,
                 71,
-                121
+                81
             ],
             "Lance": [
                 true,
                 71,
-                121
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -7087,27 +6301,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -7193,25 +6407,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                true,
-                181,
-                121
-            ],
             "Lance": [
                 true,
                 181,
-                121
+                81
+            ],
+            "Sword": [
+                true,
+                181,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -7236,27 +6450,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Wight",
@@ -7344,25 +6558,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 true,
                 71,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -7387,27 +6601,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -7493,25 +6707,25 @@
         },
         "learned_skills": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 true,
                 181,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -7536,27 +6750,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Wight",
@@ -7647,28 +6861,32 @@
             [
                 1,
                 "Flying"
+            ],
+            [
+                1,
+                "SpiritBody_S"
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -7691,29 +6909,29 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                121
+                true,
+                71,
+                81
             ],
             "Dark": [
                 true,
                 71,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Mogall",
@@ -7803,22 +7021,22 @@
             "Sword": [
                 false,
                 0,
-                121
+                81
             ],
             "Lance": [
                 false,
                 0,
-                121
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -7841,29 +7059,29 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                121
+                true,
+                181,
+                81
             ],
             "Dark": [
                 true,
                 181,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Arch_Mogall",
@@ -7958,25 +7176,25 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -8001,27 +7219,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -8116,25 +7334,25 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                121
-            ],
             "Lance": [
                 false,
                 0,
-                121
+                81
+            ],
+            "Sword": [
+                false,
+                0,
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -8159,27 +7377,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -8268,22 +7486,22 @@
             "Sword": [
                 false,
                 0,
-                121
+                81
             ],
             "Lance": [
                 false,
                 0,
-                121
+                81
             ],
             "Axe": [
                 false,
                 0,
-                121
+                81
             ],
             "Bow": [
                 false,
                 0,
-                121
+                81
             ],
             "Air": [
                 false,
@@ -8308,27 +7526,27 @@
             "Default": [
                 false,
                 0,
-                121
+                81
             ],
             "Dark": [
                 false,
                 0,
-                121
+                81
             ],
             "Anima": [
                 false,
                 0,
-                121
+                81
             ],
             "Light": [
                 false,
                 0,
-                121
+                81
             ],
             "Staff": [
                 false,
                 0,
-                121
+                81
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -8429,12 +7647,12 @@
             ]
         ],
         "wexp_gain": {
-            "Sword": [
+            "Lance": [
                 false,
                 0,
                 null
             ],
-            "Lance": [
+            "Sword": [
                 false,
                 0,
                 null
@@ -8470,8 +7688,8 @@
                 null
             ],
             "Default": [
-                false,
-                0,
+                true,
+                121,
                 null
             ],
             "Dark": [

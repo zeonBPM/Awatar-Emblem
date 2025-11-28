@@ -125,3 +125,45 @@ same as the armory, whoever enters will get a copy of their starting accesory wi
 party arrives at the temple, and meet folre, this was described in detail over discord
 
 
+
+
+
+# ch3		template
+## intro
+
+## turn dialogues
+
+## fight dialogues
+
+## death quotes
+
+## events
+
+## outro
+
+
+
+
+
+# ch4		template
+## intro
+
+## turn dialogues
+
+## fight dialogues
+
+## death quotes
+
+## events
+talk nelad/yora	
+	you are a nomad, why do you carry a blade?	
+	Why do you carry a bow?
+	right, that was a dumb question
+## outro
+
+
+
+
+
+
+
