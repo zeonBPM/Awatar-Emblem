@@ -2,7 +2,7 @@
     {
         "nid": "Knight",
         "name": "Knight",
-        "desc": "Heavily armored knights with poor movement.",
+        "desc": "Heavily armored knights with poor agility.",
         "tier": 1,
         "movement_group": "Armors",
         "promotes_from": null,
@@ -23,7 +23,7 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 13,
-            "MOV": 4,
+            "MOV": 5,
             "RES": 1
         },
         "growths": {

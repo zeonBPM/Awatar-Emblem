@@ -167,10 +167,12 @@
                     ],
                     [
                         "MoonstoneAmulet",
-                        false
+                        true
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Harmless"
+                ],
                 "team": "other",
                 "ai": "Pursue",
                 "roam_ai": null,
@@ -190,18 +192,18 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "1",
                 "starting_position": [
                     12,
-                    4
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -214,18 +216,18 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Lance",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "1",
                 "starting_position": [
                     11,
-                    3
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -248,7 +250,7 @@
                 "roam_ai": null,
                 "ai_group": "1",
                 "starting_position": [
-                    9,
+                    12,
                     4
                 ],
                 "starting_traveler": null,
@@ -257,18 +259,18 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 1,
+                "level": 2,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Axereaver",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "2",
                 "starting_position": [
@@ -281,18 +283,18 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 1,
+                "level": 3,
                 "klass": "Mercenary",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Lancereaver",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "2",
                 "starting_position": [
@@ -305,18 +307,18 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Brave_Lance",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -334,7 +336,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Blade",
                         false
                     ]
                 ],
@@ -412,12 +414,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    11
+                    7,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -436,12 +438,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    10
+                    8,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -458,6 +460,121 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Poison_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag20",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Longbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    23,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -725,6 +842,10 @@
             {
                 "nid": "2",
                 "trigger_threshold": 2
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }

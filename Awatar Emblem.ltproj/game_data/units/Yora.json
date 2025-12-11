@@ -4,7 +4,7 @@
         "name": "Yora",
         "desc": "sound based airbender",
         "variant": null,
-        "level": 1,
+        "level": 6,
         "klass": "Airbender",
         "tags": [],
         "bases": {

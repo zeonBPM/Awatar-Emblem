@@ -4,8 +4,8 @@
         "name": "Zoran",
         "desc": "",
         "variant": "Folre",
-        "level": 1,
-        "klass": "FlameDuelist",
+        "level": 9,
+        "klass": "Prince",
         "tags": [],
         "bases": {
             "SPD": 10,

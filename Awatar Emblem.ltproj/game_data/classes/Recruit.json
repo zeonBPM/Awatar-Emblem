@@ -1,15 +1,15 @@
 [
     {
         "nid": "Recruit",
-        "name": "Recruit",
-        "desc": "Mounted knights with superior movement.",
+        "name": "Milita",
+        "desc": "Armed commoner with no fighting experience.",
         "tier": 1,
         "movement_group": "Regular",
         "promotes_from": null,
         "turns_into": [
+            "Knight",
             "Cavalier",
-            "Pegasus_Knight",
-            "Knight"
+            "Pegasus_Knight"
         ],
         "tags": [],
         "max_level": 10,
@@ -23,7 +23,7 @@
             "DEF": 0,
             "RES": 1,
             "CON": 6,
-            "MOV": 4
+            "MOV": 3
         },
         "growths": {
             "HP": 75,

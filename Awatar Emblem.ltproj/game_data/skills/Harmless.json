@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Harmless",
+        "name": "Harmless",
+        "desc": "Enemies dont think this unit is a threat, and will not attack it except by counters.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            34
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                0.0
+            ]
+        ]
+    }
+]
