@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Pub",
+        "trigger": "Visit",
+        "level_nid": "A1",
+        "condition": "Region.nid == 'Pub'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "speak;{unit};I came too late... poor innfolk."
+        ],
+        "nid": "A1 Pub"
+    }
+]

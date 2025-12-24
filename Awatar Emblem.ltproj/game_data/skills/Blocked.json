@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Blocked",
+        "name": "Blocked",
+        "desc": "Unit cannot bend.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "cannot_use_magic_items",
+                null
+            ],
+            [
+                "time",
+                5
+            ]
+        ]
+    }
+]

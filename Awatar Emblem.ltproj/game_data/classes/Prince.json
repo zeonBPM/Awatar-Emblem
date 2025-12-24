@@ -39,7 +39,18 @@
         },
         "growth_bonus": {},
         "promotion": {},
-        "max_stats": {},
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "DEF": 30,
+            "RES": 30,
+            "LCK": 30,
+            "CON": 25,
+            "MOV": 15
+        },
         "learned_skills": [],
         "wexp_gain": {
             "Lance": [

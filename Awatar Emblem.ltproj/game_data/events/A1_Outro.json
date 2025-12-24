@@ -39,7 +39,8 @@
             "multi_remove_portrait;Bramar;Nelad",
             "transition;Close",
             "wait;1500",
-            "win_game"
+            "",
+            ""
         ],
         "nid": "A1 Outro"
     }

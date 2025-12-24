@@ -142,8 +142,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Soldier",
-        "combat_anim_nid": "Soldier",
+        "map_sprite_nid": "Deserter (M) {Alusq}",
+        "combat_anim_nid": "Lancer",
         "fields": []
     }
 ]

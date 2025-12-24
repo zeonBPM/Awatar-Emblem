@@ -100,8 +100,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    7
+                    4,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -124,8 +124,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    8
+                    2,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -489,7 +489,7 @@
                 "nid": "117",
                 "variant": null,
                 "level": 1,
-                "klass": "Snag20",
+                "klass": "Snag10",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -572,6 +572,48 @@
                 "starting_position": [
                     14,
                     7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "snagl",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag10",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "Harmless"
+                ],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "snagr",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag10",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "Harmless"
+                ],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -842,10 +884,6 @@
             {
                 "nid": "2",
                 "trigger_threshold": 2
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     }

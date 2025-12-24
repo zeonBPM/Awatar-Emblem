@@ -11,9 +11,9 @@
             "# First battle Nelad vs Fire Nation Soldiers",
             "",
             "",
-            "add_portrait;SoldierR;RightCorner",
+            "add_portrait;SoldierR;LeftCorner",
             "speak;SoldierR;An Airbender?! You should be dead! The Fire Lord wiped you out!;top",
-            "add_portrait;Nelad;LeftCorner",
+            "add_portrait;Nelad;RightCorner",
             "speak;Nelad;... Apparently he didn't do a good enough job."
         ],
         "nid": "A1 FirstFight"

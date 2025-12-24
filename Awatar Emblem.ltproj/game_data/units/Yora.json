@@ -3,7 +3,7 @@
         "nid": "Yora",
         "name": "Yora",
         "desc": "sound based airbender",
-        "variant": null,
+        "variant": "",
         "level": 6,
         "klass": "Airbender",
         "tags": [],

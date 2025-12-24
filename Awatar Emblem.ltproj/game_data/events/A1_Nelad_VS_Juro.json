@@ -11,7 +11,7 @@
             "#Pre-Fight Quotes",
             "",
             "multi_add_portrait;Juro;Left;Nelad;Right",
-            "speak;Juro;You think a leaf in the wind can stop a raging inferno? Your kind is dead, Airbender. Give up!",
+            "speak;Juro;You think a leaf in the wind can stop a raging inferno?| Your kind is dead, Airbender. Give up!",
             "",
             "speak;Nelad;...",
             "",

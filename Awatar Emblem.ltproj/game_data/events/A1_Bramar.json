@@ -3,7 +3,7 @@
         "name": "Bramar",
         "trigger": "Visit",
         "level_nid": "A1",
-        "condition": "True",
+        "condition": "Region.nid == 'BramarHouse'",
         "commands": [],
         "only_once": true,
         "priority": 20,

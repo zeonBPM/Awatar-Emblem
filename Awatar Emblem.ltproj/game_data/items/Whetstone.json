@@ -3,16 +3,12 @@
         "nid": "Whetstone",
         "name": "Whetstone",
         "desc": "+2 SKL\nUsed to sharpen weapons for better accuracy.",
-        "icon_nid": "Boosters",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
-            0,
-            2
+            10,
+            9
         ],
         "components": [
-            [
-                "equippable_accessory",
-                null
-            ],
             [
                 "stat_change",
                 [
@@ -21,6 +17,10 @@
                         2
                     ]
                 ]
+            ],
+            [
+                "accessory",
+                null
             ]
         ]
     }

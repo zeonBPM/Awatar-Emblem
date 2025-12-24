@@ -1,0 +1,16 @@
+[
+    {
+        "name": "SnagLeft",
+        "trigger": "unit_death",
+        "level_nid": "A2",
+        "condition": "unit.nid == \"snagl\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;{unit}",
+            "show_layer;snagleft"
+        ],
+        "nid": "A2 SnagLeft"
+    }
+]

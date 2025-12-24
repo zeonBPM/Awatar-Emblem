@@ -8,12 +8,15 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "If Nelad",
-            "    give    steel bow",
-            "   Bramar",
-            "    give    steel  axe",
-            "   Anael",
-            "    give    steel lance"
+            "",
+            "speak;{nuit};\"Need to be quick and grab what looks useful.\"",
+            "",
+            "if;{unit} == 'Nelad'",
+            "    give_item;{unit};Steel_Bow",
+            "elif;{unit} == 'Bramar'",
+            "    give_item;{unit};Steel_Axe",
+            "elif;{unit} == 'Anael'",
+            "    give_item;{unit};Steel_Lance"
         ],
         "nid": "A2 Armory"
     }

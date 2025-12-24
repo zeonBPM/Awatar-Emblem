@@ -16,6 +16,9 @@
     "Mage",
     "Shaman",
     "Valkyrie",
+    "Wally",
+    "Chi_Blocker",
+    "Fire_Sage",
     "Warrior",
     "Thief",
     "Mercenary",
@@ -48,7 +51,6 @@
     "Mogall",
     "Arch_Mogall",
     "Wall25",
-    "Snag20",
-    "Manakete",
-    "Wally"
+    "Snag10",
+    "Manakete"
 ]

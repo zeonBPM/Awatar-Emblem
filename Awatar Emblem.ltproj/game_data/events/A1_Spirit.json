@@ -19,6 +19,8 @@
             "\u2028sound;Gust",
             "sound;Gust",
             "",
+            "add_unit;eye;snag;immediate;closest",
+            "",
             "speak;Bramar;What is that sound? Can't place it.",
             "",
             "speak;Nelad;I think I know what it is,{w} but I am still hoping to be wrong,{w} it sounds like an angry <green>spirit</green>.",

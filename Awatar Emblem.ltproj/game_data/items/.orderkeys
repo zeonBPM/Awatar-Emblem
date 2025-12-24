@@ -40,6 +40,7 @@
     "MoonstoneAmulet",
     "DragonEyeTalisman",
     "CursedFang",
+    "new_2",
     "Airbending",
     "AirE",
     "AirD",
@@ -245,5 +246,6 @@
     "Refresh",
     "Summon",
     "Summon_Soldier",
-    "StrongVSMagic"
+    "StrongVSMagic",
+    "Piece_of_Something_Else"
 ]

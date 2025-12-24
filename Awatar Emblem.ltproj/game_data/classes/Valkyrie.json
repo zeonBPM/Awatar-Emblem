@@ -9,7 +9,8 @@
         "turns_into": [],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "Fire"
         ],
         "max_level": 20,
         "bases": {
@@ -151,7 +152,7 @@
             0
         ],
         "map_sprite_nid": "Valkyrie",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Valkyrie",
         "fields": []
     }
 ]

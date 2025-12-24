@@ -1,0 +1,16 @@
+[
+    {
+        "name": "SnagDown",
+        "trigger": "unit_death",
+        "level_nid": "A2",
+        "condition": "unit.nid == \"snagd\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;{unit}",
+            "show_layer;snagdown"
+        ],
+        "nid": "A2 SnagDown"
+    }
+]

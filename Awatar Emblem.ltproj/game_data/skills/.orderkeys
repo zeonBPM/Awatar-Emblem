@@ -130,6 +130,7 @@
     "Demon_Light",
     "Ravager",
     "Silence",
+    "Blocked",
     "Berserk",
     "Sword_Hit_Plus10",
     "Torch",
@@ -140,5 +141,6 @@
     "Eclipse_Helper",
     "AWorldAblaze",
     "Ablaze",
-    "iceonmiss"
+    "iceonmiss",
+    "Chi_Block"
 ]

@@ -8,14 +8,16 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "If Nelad",
-            "    give    fanstaff",
-            "   Bramar",
-            "    give    whetstone",
-            "   Anael",
-            "    give    spiritcharm",
-            "    ",
-            "    \"hey, its just like mine\""
+            "",
+            "speak;{unit};\"Hey, it's just like mine.\"",
+            "",
+            "",
+            "if;{unit} == 'Nelad'",
+            "    give_item;{unit};Fanstaff",
+            "elif;{unit} == 'Bramar'",
+            "    give_item;{unit};Whetstone",
+            "elif;{unit} == 'Anael'",
+            "    give_item;{unit};SpiritCharm"
         ],
         "nid": "A2 Vendor"
     }

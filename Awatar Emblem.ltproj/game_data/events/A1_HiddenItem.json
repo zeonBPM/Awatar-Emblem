@@ -1,0 +1,19 @@
+[
+    {
+        "name": "HiddenItem",
+        "trigger": "Search",
+        "level_nid": "A1",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "",
+            "",
+            "speak;{unit};hm? what's this?",
+            "",
+            "give_item;{unit};Vulnerary"
+        ],
+        "nid": "A1 HiddenItem"
+    }
+]

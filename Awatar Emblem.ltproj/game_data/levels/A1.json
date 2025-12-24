@@ -18,19 +18,6 @@
         "tags": [],
         "units": [
             {
-                "nid": "Nelad",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    0,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "101",
                 "variant": null,
                 "level": 1,
@@ -42,7 +29,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Newbie"
+                ],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -66,7 +55,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Newbie"
+                ],
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
@@ -90,7 +81,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Newbie"
+                ],
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
@@ -114,7 +107,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Newbie"
+                ],
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
@@ -227,10 +222,7 @@
                 "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    17,
-                    1
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -387,7 +379,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Newbie"
+                ],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -395,6 +389,42 @@
                 "starting_position": [
                     10,
                     9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Nelad",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "snag",
+                "variant": null,
+                "level": 3,
+                "klass": "Snag10",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Piece_of_Something_Else",
+                        true
+                    ]
+                ],
+                "starting_skills": [
+                    "Harmless"
+                ],
+                "team": "enemy2",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -466,10 +496,28 @@
                     1,
                     1
                 ],
-                "sub_nid": "",
+                "sub_nid": "Search",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Pub",
+                "region_type": "event",
+                "position": [
+                    6,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
                 "interrupt_move": false,
                 "hide_time": false
             }
@@ -483,6 +531,10 @@
             {
                 "nid": "2",
                 "trigger_threshold": 2
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }

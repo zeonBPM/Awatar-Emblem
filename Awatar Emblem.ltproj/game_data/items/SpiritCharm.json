@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "equippable_accessory",
-                null
-            ],
-            [
                 "stat_change",
                 [
                     [
@@ -21,6 +17,10 @@
                         2
                     ]
                 ]
+            ],
+            [
+                "accessory",
+                null
             ]
         ]
     }

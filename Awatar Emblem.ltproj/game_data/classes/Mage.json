@@ -7,10 +7,12 @@
         "movement_group": "Fire",
         "promotes_from": null,
         "turns_into": [
-            "WindStrider",
+            "Fire_Sage",
             "Sage"
         ],
-        "tags": [],
+        "tags": [
+            "Fire"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 16,

@@ -132,5 +132,10 @@
     "A2_Village2",
     "A2_Intro",
     "Global_Rock_Pillar",
-    "Global_New_Event"
+    "Global_New_Event",
+    "A2_SnagLeft",
+    "A2_SnagDown",
+    "A2_SnagRight",
+    "A1_HiddenItem",
+    "A1_Pub"
 ]

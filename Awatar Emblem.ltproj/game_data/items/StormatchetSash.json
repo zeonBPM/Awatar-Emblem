@@ -10,12 +10,12 @@
         ],
         "components": [
             [
-                "equippable_accessory",
-                null
-            ],
-            [
                 "status_on_hold",
                 "StormatcherSashSkill"
+            ],
+            [
+                "accessory",
+                null
             ]
         ]
     }

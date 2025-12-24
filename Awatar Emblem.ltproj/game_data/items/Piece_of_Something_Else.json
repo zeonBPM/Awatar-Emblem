@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Piece_of_Something_Else",
+        "name": "Piece of Something Else",
+        "desc": "Feels strangely alive for a chunk of wood.\nWhat use could this have?",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": []
+    }
+]

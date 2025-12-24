@@ -1,0 +1,16 @@
+[
+    {
+        "name": "SnagRight",
+        "trigger": "unit_death",
+        "level_nid": "A2",
+        "condition": "unit.nid == \"snagr\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;{unit}",
+            "show_layer;snagright"
+        ],
+        "nid": "A2 SnagRight"
+    }
+]

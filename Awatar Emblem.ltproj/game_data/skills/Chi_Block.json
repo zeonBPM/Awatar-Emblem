@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Chi_Block",
+        "name": "Chi Block",
+        "desc": "Enemies hit by this unit lose the ability to bend the elements.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            10,
+            50
+        ],
+        "components": [
+            [
+                "give_status_after_hit",
+                "Blocked"
+            ]
+        ]
+    }
+]
