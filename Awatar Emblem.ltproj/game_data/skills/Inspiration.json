@@ -2,7 +2,7 @@
     {
         "nid": "Inspiration",
         "name": "Inspiration",
-        "desc": "Aura - Grants +1 damage and +1 resist to allies.",
+        "desc": "Aura - Grants +2 damage and +2 resist to allies.",
         "icon_nid": "Skills",
         "icon_index": [
             10,

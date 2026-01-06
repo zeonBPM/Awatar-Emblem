@@ -8,7 +8,10 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            ""
+            "",
+            "",
+            "",
+            "give_item;{unit};FeatherlightAnklets"
         ],
         "nid": "A2 Village1"
     }

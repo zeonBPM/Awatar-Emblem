@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "",
-            "speak;{nuit};\"Need to be quick and grab what looks useful.\"",
+            "speak;{unit};\"Need to be quick and grab whathever looks useful.\"",
             "",
             "if;{unit} == 'Nelad'",
             "    give_item;{unit};Steel_Bow",

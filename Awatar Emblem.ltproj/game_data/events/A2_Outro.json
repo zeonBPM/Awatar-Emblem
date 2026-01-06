@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Outro",
+        "trigger": null,
+        "level_nid": "A2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "",
+            "",
+            "give item based on surviving NPCs"
+        ],
+        "nid": "A2 Outro"
+    }
+]

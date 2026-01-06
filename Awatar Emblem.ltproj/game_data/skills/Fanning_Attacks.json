@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Fanning_Attacks",
+        "name": "Fanning Attacks",
+        "desc": "Reduce enemy hp by 20% after battle",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

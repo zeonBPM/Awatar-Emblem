@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Agni",
+        "name": "Agni",
+        "desc": "Adds (Magic)/2 to Strength when dealing physical damage and (Strength)/2 to Magic when dealing magical damage\nRoyal Guard skill",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            10,
+            32
+        ],
+        "components": []
+    }
+]

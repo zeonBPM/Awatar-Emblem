@@ -51,7 +51,32 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Dragon_Ward"
+            ],
+            [
+                1,
+                "Agni"
+            ],
+            [
+                1,
+                "Dragons_Army"
+            ],
+            [
+                1,
+                "Inspiration"
+            ],
+            [
+                1,
+                "SupremeMasteryofCombat_T2"
+            ],
+            [
+                1,
+                "Sol"
+            ]
+        ],
         "wexp_gain": {
             "Lance": [
                 false,

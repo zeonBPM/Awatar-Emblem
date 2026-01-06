@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Death_Blow",
+        "name": "Death Blow",
+        "desc": "+20 crit when attacking\nbrigand, except ch1",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

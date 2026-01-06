@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Dragon_Ward",
+        "name": "Dragon Ward",
+        "desc": "Allies adjacent to the user receive half damage from enemy attacks",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            15,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

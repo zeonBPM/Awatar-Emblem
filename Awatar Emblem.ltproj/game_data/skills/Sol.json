@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Sol",
+        "name": "Sol",
+        "desc": "Recover HP equal to half the damage dealt to the enemy",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

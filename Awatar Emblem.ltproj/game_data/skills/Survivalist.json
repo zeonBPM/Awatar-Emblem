@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Survivalist",
+        "name": "Survivalist",
+        "desc": "+20 avoid after being hit, lasts 2 rounds",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "gain_skill_after_take_damage",
+                "Survivalist_s"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

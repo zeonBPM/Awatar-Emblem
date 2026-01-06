@@ -2,7 +2,7 @@
     {
         "nid": "SpiritBody_S",
         "name": "Spirit Body",
-        "desc": "Reduce damage taken by 75%, except from bending.",
+        "desc": "Reduce damage taken by 75% except from bending.",
         "icon_nid": "Skills",
         "icon_index": [
             5,

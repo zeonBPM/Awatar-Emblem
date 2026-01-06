@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Inevitable",
+        "name": "Inevitable",
+        "desc": "All attacks from and against this unit will always hit",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hit",
+                999
+            ],
+            [
+                "avoid",
+                -999
+            ]
+        ]
+    }
+]

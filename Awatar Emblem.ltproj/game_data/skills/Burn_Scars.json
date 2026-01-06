@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Burn_Scars",
+        "name": "Burn Scars",
+        "desc": "Burn scars\nreduce enemy  STR and SKL by 2 after hit",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

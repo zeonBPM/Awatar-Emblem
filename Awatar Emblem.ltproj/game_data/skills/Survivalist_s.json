@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Survivalist_s",
+        "name": "Survivalist s",
+        "desc": "+20 avoid, stacks",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "avoid",
+                20
+            ],
+            [
+                "stack",
+                9
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    }
+]

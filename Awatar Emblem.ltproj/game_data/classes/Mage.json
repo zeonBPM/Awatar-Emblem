@@ -74,7 +74,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Fanning_Attacks"
+            ]
+        ],
         "wexp_gain": {
             "Lance": [
                 false,

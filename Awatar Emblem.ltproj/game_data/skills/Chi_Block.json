@@ -12,6 +12,10 @@
             [
                 "give_status_after_hit",
                 "Blocked"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

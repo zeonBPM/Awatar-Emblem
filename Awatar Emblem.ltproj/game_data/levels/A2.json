@@ -25,7 +25,7 @@
                 "ai_group": "",
                 "starting_position": [
                     0,
-                    12
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -38,7 +38,7 @@
                 "ai_group": "",
                 "starting_position": [
                     0,
-                    13
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -51,7 +51,7 @@
                 "ai_group": "",
                 "starting_position": [
                     0,
-                    11
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -85,7 +85,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 1,
+                "level": 2,
                 "klass": "Monk",
                 "faction": "Soldier",
                 "starting_items": [
@@ -486,7 +486,7 @@
                 "generic": true
             },
             {
-                "nid": "117",
+                "nid": "snagd",
                 "variant": null,
                 "level": 1,
                 "klass": "Snag10",

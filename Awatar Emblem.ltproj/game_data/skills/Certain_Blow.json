@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Certain_Blow",
+        "name": "Certain Blow",
+        "desc": "+20 hit when attacking\narcher skill",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

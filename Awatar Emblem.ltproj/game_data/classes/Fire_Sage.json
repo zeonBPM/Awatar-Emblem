@@ -2,7 +2,7 @@
     {
         "nid": "Fire_Sage",
         "name": "Fire Sage",
-        "desc": "",
+        "desc": "Elite Firebender in direct service to the royal family.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": "Mage",
@@ -60,7 +60,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Ash_Maker"
+            ]
+        ],
         "wexp_gain": {
             "Lance": [
                 false,

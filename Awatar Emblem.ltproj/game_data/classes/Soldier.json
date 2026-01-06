@@ -69,7 +69,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                4,
+                "Dragons_Army"
+            ]
+        ],
         "wexp_gain": {
             "Lance": [
                 true,

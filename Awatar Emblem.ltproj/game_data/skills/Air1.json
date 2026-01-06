@@ -2,7 +2,7 @@
     {
         "nid": "Air1",
         "name": "Airdancing",
-        "desc": "Ancient dance that allows you to travel unburdened.\nUnit ignores terrain and can pass enemies.",
+        "desc": "Ancient dance that allows you to travel unburdened.\nUnit  gains +50 crit avoid and can pass enemies.",
         "icon_nid": "Skills",
         "icon_index": [
             3,

@@ -73,7 +73,16 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Underdog"
+            ],
+            [
+                1,
+                "Inspiration"
+            ]
+        ],
         "wexp_gain": {
             "Lance": [
                 true,

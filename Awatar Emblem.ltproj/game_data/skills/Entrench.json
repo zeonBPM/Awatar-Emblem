@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Entrench",
+        "name": "Entrench",
+        "desc": "+3 damage and defense while defending, but -3 SPD",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            8,
+            44
+        ],
+        "components": [
+            [
+                "condition",
+                "mode == 'defense'"
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "resist",
+                3
+            ],
+            [
+                "defense_speed",
+                -3
+            ]
+        ]
+    }
+]

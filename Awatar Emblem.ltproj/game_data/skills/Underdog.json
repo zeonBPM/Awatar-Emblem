@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Underdog",
+        "name": "Underdog",
+        "desc": "Hit rate and Avoid +15 when the user's level is lower than the enemy.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

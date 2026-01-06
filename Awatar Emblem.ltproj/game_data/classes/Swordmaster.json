@@ -75,6 +75,10 @@
             [
                 1,
                 "Crit_Plus15"
+            ],
+            [
+                1,
+                "Death_Blow"
             ]
         ],
         "wexp_gain": {

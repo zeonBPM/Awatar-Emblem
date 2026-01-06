@@ -44,12 +44,7 @@
             "MAG": 0
         },
         "starting_items": [],
-        "learned_skills": [
-            [
-                1,
-                "SupremeMasteryofCombat_T2"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

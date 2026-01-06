@@ -47,7 +47,12 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                8,
+                "Death_Blow"
+            ]
+        ],
         "wexp_gain": {
             "Lance": [
                 false,
