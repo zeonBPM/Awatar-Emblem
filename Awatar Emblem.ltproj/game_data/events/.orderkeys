@@ -138,5 +138,9 @@
     "A2_SnagRight",
     "A1_HiddenItem",
     "A1_Pub",
-    "A2_Outro"
+    "A2_Outro",
+    "A2_VS_Ol",
+    "A2_Death_Ol",
+    "A2_VS_Null",
+    "A2_Death_Null"
 ]

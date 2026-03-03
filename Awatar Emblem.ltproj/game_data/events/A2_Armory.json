@@ -16,7 +16,17 @@
             "elif;{unit} == 'Bramar'",
             "    give_item;{unit};Steel_Axe",
             "elif;{unit} == 'Anael'",
-            "    give_item;{unit};Steel_Lance"
+            "    give_item;{unit};Steel_Lance",
+            "",
+            "",
+            "- Nelad dialogue",
+            "Nelad;Hello?|...Empty...{w}{clear}...Hm? What's this?|Oh! This bow looks better than my own...|I hope no-one minds if I borrow it.",
+            "",
+            "- Anael dialogue",
+            "Anael;Empty, as expected. While I'm here, I might as well make use of this stuff. I'm sure the old man won't mind if I forget to pay. I'm doing it for a good cause, after all.",
+            "",
+            "- Bramar dialogue",
+            "Bramar;HEY!! ...Nobody in here...|Hm? What's that?|Oooh, this is a nice axe! Right amount ta' heft to it too, just how I like it. It would be a shame t' just let ya collect dust, now would it? It's decided: you're coming with me!"
         ],
         "nid": "A2 Armory"
     }

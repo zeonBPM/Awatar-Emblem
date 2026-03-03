@@ -1,0 +1,30 @@
+[
+    {
+        "name": "VS Ol",
+        "trigger": null,
+        "level_nid": "A2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "- Anael dialogue",
+            "Ol;Are you part of this resistance too, young lady?",
+            "Anael;Of course. I can't just stand by and watch you do this to my home.",
+            "Ol;I understand, my sincerest appologies. I'd avoid razing this place if I could, but any kind of rebellion can't be allowed to fester. You know how it is.",
+            "Anael;...",
+            "",
+            "- Nelad dialogue",
+            "Ol;Another one? Just a reminder of that damn traitor. When I catch him...",
+            "Nelad;Traitor? What are you talking about?",
+            "Ol;Did I say that out loud? Well, it doesn't consern you. Ready yourself airbender!",
+            "",
+            "- Bramar dialogue",
+            "Ol;Say, you there! I'm looking for someone, a royal guard. If you would be so kind as to point me in the right direction, I'll be sure to put in a good word for you if you decide to join us. It would be a pity if your strength were wasted on aiding some rebels.",
+            "Bramar;After all you've done, you have the gall to ask me for help? The only thing I'll tell ya for sure is that they'll have to clean the brains off the tombstone I'm gonna drop on ya!",
+            "Ol;Hm, shame. We could've used more men like you.",
+            ""
+        ],
+        "nid": "A2 VS Ol"
+    }
+]

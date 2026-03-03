@@ -1,7 +1,7 @@
 [
     {
         "nid": "FireS",
-        "name": "Rebellion Blade",
+        "name": "Rebellious Blade",
         "desc": "Enchants an ally's blades to deal magical fire damage when attacking. <green>CD:6</>\n<pink>Effect:</>Adds MAG/2 to damage, only works with melee weapons, this is a free action.",
         "icon_nid": "skill_icons",
         "icon_index": [

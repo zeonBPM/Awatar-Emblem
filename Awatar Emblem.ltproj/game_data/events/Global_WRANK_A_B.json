@@ -8,7 +8,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;{unit};FarRight",
+            "add_portrait;{unit};Left",
             "speak;{unit};A thousand years mastering the blade.",
             "",
             "D",

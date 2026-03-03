@@ -3,7 +3,7 @@
         "nid": "FireD2",
         "name": "Warmth",
         "desc": "Restores an ally's HP from afar.",
-        "icon_nid": "Staff",
+        "icon_nid": "Neutral",
         "icon_index": [
             0,
             3

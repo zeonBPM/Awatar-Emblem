@@ -17,7 +17,18 @@
             "elif;{unit} == 'Bramar'",
             "    give_item;{unit};Whetstone",
             "elif;{unit} == 'Anael'",
-            "    give_item;{unit};SpiritCharm"
+            "    give_item;{unit};SpiritCharm",
+            "",
+            "",
+            "- Nelad dialogue",
+            "Nelad;Anyone there?|...Guess not. Wait, is that-? I never thought I would see a staff like mine without an airbender to accompany it. Who was here before me? ...Might as well take it with me. I'm the only one around who can make use of it now...",
+            "A/N: im going with the assumption that the fan staff accessory is the airbender staff",
+            "",
+            "- Anael dialogue",
+            "Anael;Hm, a little messy but thankfully not ransacked. Maybe there's something here- Oh! Another spirit charm, Lucky me! One of the boys might appretiate it's help! ...Sorry auntie, I'll pay you back later.",
+            "",
+            "- Bramar dialogue",
+            "Bramar;"
         ],
         "nid": "A2 Vendor"
     }

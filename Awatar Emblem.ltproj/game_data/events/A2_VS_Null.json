@@ -1,0 +1,16 @@
+[
+    {
+        "name": "VS Null",
+        "trigger": null,
+        "level_nid": "A2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "Null;I'll show you... I''ll show ALL OF YOU!! TAKE THIS!! GET BENT!!!!",
+            "{unit};Huh?- Woah!"
+        ],
+        "nid": "A2 VS Null"
+    }
+]

@@ -56,6 +56,11 @@
                 false,
                 101,
                 null
+            ],
+            "Sword": [
+                false,
+                81,
+                null
             ]
         },
         "alternate_classes": [],

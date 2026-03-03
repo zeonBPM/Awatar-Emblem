@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Death Ol",
+        "trigger": null,
+        "level_nid": "A2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "Ol;Ah... An honerable death fighting for the homeland... I couldn't have asked... for better...",
+            ""
+        ],
+        "nid": "A2 Death Ol"
+    }
+]

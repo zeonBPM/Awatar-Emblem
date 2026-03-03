@@ -263,11 +263,13 @@
                     [
                         "Thunder",
                         false
+                    ],
+                    [
+                        "Reposition",
+                        false
                     ]
                 ],
-                "starting_skills": [
-                    "iceonmiss"
-                ],
+                "starting_skills": [],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,

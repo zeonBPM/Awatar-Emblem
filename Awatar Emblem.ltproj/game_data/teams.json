@@ -27,11 +27,22 @@
             "combat_variant_palette": "GenericGreen",
             "combat_color": "green",
             "phase_change_sound_effect": null
+        },
+        {
+            "nid": "Inquisition",
+            "map_sprite_palette": "Bishop5_Prim",
+            "combat_variant_palette": "GenericYellow",
+            "combat_color": "Yellow",
+            "phase_change_sound_effect": null
         }
     ],
     [
         [
             "other",
+            "player"
+        ],
+        [
+            "Inquisition",
             "player"
         ]
     ]
