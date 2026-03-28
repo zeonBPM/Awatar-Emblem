@@ -485,6 +485,7 @@
                     1
                 ],
                 "sub_nid": "Chest",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -503,6 +504,7 @@
                     1
                 ],
                 "sub_nid": "Chest",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -521,6 +523,7 @@
                     1
                 ],
                 "sub_nid": "Chest",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -539,6 +542,7 @@
                     1
                 ],
                 "sub_nid": "Chest",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -557,6 +561,7 @@
                     3
                 ],
                 "sub_nid": "Door",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -575,6 +580,7 @@
                     3
                 ],
                 "sub_nid": "Door",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -593,6 +599,7 @@
                     3
                 ],
                 "sub_nid": "Door",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -611,6 +618,7 @@
                     1
                 ],
                 "sub_nid": "Seize",
+                "highlight": null,
                 "condition": "'Lord' in unit.tags",
                 "time_left": null,
                 "only_once": true,

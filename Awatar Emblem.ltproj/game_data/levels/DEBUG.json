@@ -349,7 +349,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "levelbonus"
+                ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -375,6 +377,7 @@
                     1
                 ],
                 "sub_nid": "Armory",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -393,6 +396,7 @@
                     1
                 ],
                 "sub_nid": "Door",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,

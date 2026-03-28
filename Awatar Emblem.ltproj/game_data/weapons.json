@@ -4,6 +4,7 @@
         "name": "Lance",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -44,6 +45,7 @@
         "name": "Sword",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -84,6 +86,7 @@
         "name": "Axe",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -124,6 +127,7 @@
         "name": "Bow",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -138,6 +142,7 @@
         "name": "Air",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": true,
         "rank_bonus": [],
         "advantage": [
             {
@@ -178,6 +183,7 @@
         "name": "Water",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": true,
         "rank_bonus": [],
         "advantage": [
             {
@@ -218,6 +224,7 @@
         "name": "Earth",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": true,
         "rank_bonus": [],
         "advantage": [
             {
@@ -258,6 +265,7 @@
         "name": "Fire",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": true,
         "rank_bonus": [],
         "advantage": [
             {
@@ -298,6 +306,7 @@
         "name": "Consumable",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],

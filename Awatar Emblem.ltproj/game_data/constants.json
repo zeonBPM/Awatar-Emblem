@@ -212,6 +212,10 @@
         false
     ],
     [
+        "enable_rating",
+        true
+    ],
+    [
         "show_abilities",
         true
     ],
@@ -281,6 +285,10 @@
     ],
     [
         "title_sound",
+        false
+    ],
+    [
+        "title_full_support",
         false
     ],
     [

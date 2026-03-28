@@ -632,6 +632,7 @@
                     3
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -650,6 +651,7 @@
                     1
                 ],
                 "sub_nid": "Armory",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -668,6 +670,7 @@
                     1
                 ],
                 "sub_nid": "Vendor",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -686,6 +689,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -704,6 +708,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -722,6 +727,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -740,6 +746,7 @@
                     1
                 ],
                 "sub_nid": null,
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -758,6 +765,7 @@
                     1
                 ],
                 "sub_nid": "Fort",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -776,6 +784,7 @@
                     1
                 ],
                 "sub_nid": "Fort",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -794,6 +803,7 @@
                     1
                 ],
                 "sub_nid": "Fort",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -812,6 +822,7 @@
                     1
                 ],
                 "sub_nid": "Fort",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -830,6 +841,7 @@
                     1
                 ],
                 "sub_nid": "Escape",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -845,6 +857,7 @@
                     1
                 ],
                 "sub_nid": null,
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,

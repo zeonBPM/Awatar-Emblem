@@ -54,6 +54,10 @@
             [
                 "Heatstone",
                 false
+            ],
+            [
+                "Fire_1",
+                false
             ]
         ],
         "learned_skills": [
@@ -95,7 +99,7 @@
             ],
             "Fire": [
                 false,
-                41,
+                101,
                 null
             ],
             "Default": [

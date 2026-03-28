@@ -426,6 +426,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,

@@ -75,9 +75,9 @@
             [
                 "weapon_types",
                 [
-                    "Earth",
                     "Bow",
-                    "Lance"
+                    "Lance",
+                    "Earth"
                 ]
             ],
             [

@@ -443,6 +443,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -461,6 +462,7 @@
                     2
                 ],
                 "sub_nid": "Spirit",
+                "highlight": null,
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
@@ -479,6 +481,7 @@
                     2
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -497,6 +500,7 @@
                     1
                 ],
                 "sub_nid": "Search",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -515,6 +519,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
